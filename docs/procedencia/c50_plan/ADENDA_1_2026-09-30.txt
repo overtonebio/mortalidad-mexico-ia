@@ -1,0 +1,8 @@
+ADENDA 1 AL PLAN DEL 30-sep-2026 (escrita 2026-09-30 13:19 CST, después de validar datos, catálogos y reproducir la ITS previa, y antes de ajustar cualquier modelo nuevo).
+Hallazgos de validación que modifican la ejecución (no los resultados previstos):
+ - Catálogo oficial: códigos 1-12 y 99 con el mismo significado 2012-2024; cambian solo nombres de programa (código 2: IMSS Oportunidades -> IMSS PROSPERA -> IMSS BIENESTAR; códigos 6 y 7: capitalización y siglas). El archivo 2024 agrega el código 13 (OPD Servicios de Salud IMSS BIENESTAR), que no aparece en los registros C50. Se asigna 13 a unidad pública. No se requiere la sensibilidad (g) por cambio de catálogo; se conserva como sensibilidad una agrupación alternativa con vía pública (10) y otro lugar (12) separados de no especificado (99).
+ - ent_resid fuera de 1-32 en el conjunto analítico: 33 (Estados Unidos), 34 (otros países de Latinoamérica), 35 (otros países) y 99 (no especificada); 325 registros.
+ - Registro tardío residual esperado para 2023 (>= 2 años): 0.25 % (media 2015-2021; máximo 0.32 %).
+Análisis añadido (no estaba en el plan original; se declara como adición):
+ - Sensibilidad de la tendencia con modelo de conteos: regresión cuasi-Poisson de defunciones por mes x grupo quinquenal de edad, con desplazamiento log(mujeres-año), edad (14 niveles), mes calendario, tiempo, nivel y pendiente posteriores a marzo de 2020 comunes a todas las edades; covarianza Driscoll-Kraay (12 rezagos). Estima una razón de tasas ajustada por edad; no es idéntica a la TEE directa porque pondera por defunciones observadas.
+ - Sensibilidad de la tendencia con 2023 inflado por el registro tardío residual esperado (media y máximo).

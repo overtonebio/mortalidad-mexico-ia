@@ -1,0 +1,11 @@
+modelo,k
+Chronos-2,1.14
+Chronos-Bolt,1.135
+ETS amortiguado,1.06
+Ensamble (mediana),1.085
+Ingenuo estacional,1.06
+LightGBM global,1.08
+Log-lineal,0.925
+N-HiTS global,1.025
+SARIMA,0.855
+TimesFM-2.5,1.105

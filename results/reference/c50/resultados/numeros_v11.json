@@ -1,0 +1,3916 @@
+{
+ "tendencia": {
+  "principal": {
+   "pendiente_pre": [
+    1.52,
+    1.04,
+    1.99
+   ],
+   "pendiente_post": [
+    -2.18,
+    -2.85,
+    -1.51
+   ],
+   "cambio_pendiente": [
+    -3.64,
+    -4.44,
+    -2.84
+   ],
+   "salto_nivel": [
+    1.21,
+    -0.91,
+    3.37
+   ]
+  },
+  "HAC6": {
+   "pendiente_pre": [
+    1.52,
+    1.06,
+    1.98
+   ],
+   "pendiente_post": [
+    -2.18,
+    -3.13,
+    -1.22
+   ],
+   "cambio_pendiente": [
+    -3.64,
+    -4.69,
+    -2.58
+   ],
+   "salto_nivel": [
+    1.21,
+    -1.53,
+    4.02
+   ]
+  },
+  "sin_2020": {
+   "pendiente_pre": [
+    1.55,
+    1.05,
+    2.05
+   ],
+   "pendiente_post": [
+    -1.37,
+    -2.78,
+    0.06
+   ],
+   "cambio_pendiente": [
+    -2.88,
+    -4.3,
+    -1.43
+   ],
+   "salto_nivel": [
+    -3.55,
+    -6.96,
+    -0.01
+   ]
+  },
+  "incluye_2024_corregido": {
+   "pendiente_pre": [
+    1.51,
+    1.04,
+    1.99
+   ],
+   "pendiente_post": [
+    -1.24,
+    -2.09,
+    -0.39
+   ],
+   "cambio_pendiente": [
+    -2.71,
+    -3.64,
+    -1.78
+   ],
+   "salto_nivel": [
+    -0.1,
+    -2.95,
+    2.83
+   ]
+  },
+  "principal_diag": {
+   "n": 144,
+   "n_pre": 98,
+   "n_post": 46,
+   "LB12_p": 0.443,
+   "LB24_p": 0.172,
+   "DW": 1.86,
+   "curvatura_p": 0.904
+  }
+ },
+ "edad_conjunto": {
+  "20-39": {
+   "pendiente_pre": [
+    1.14,
+    0.05,
+    2.24
+   ],
+   "pendiente_post": [
+    0.21,
+    -1.14,
+    1.58
+   ],
+   "cambio_pendiente": [
+    -0.92,
+    -2.59,
+    0.78
+   ],
+   "salto_nivel": [
+    -4.31,
+    -8.24,
+    -0.21
+   ]
+  },
+  "40-59": {
+   "pendiente_pre": [
+    0.99,
+    0.29,
+    1.7
+   ],
+   "pendiente_post": [
+    -3.62,
+    -4.71,
+    -2.52
+   ],
+   "cambio_pendiente": [
+    -4.57,
+    -5.84,
+    -3.28
+   ],
+   "salto_nivel": [
+    2.41,
+    -1.41,
+    6.39
+   ]
+  },
+  "60+": {
+   "pendiente_pre": [
+    2.07,
+    1.65,
+    2.49
+   ],
+   "pendiente_post": [
+    -1.26,
+    -2.4,
+    -0.1
+   ],
+   "cambio_pendiente": [
+    -3.26,
+    -4.51,
+    -2.0
+   ],
+   "salto_nivel": [
+    0.79,
+    -1.74,
+    3.4
+   ]
+  }
+ },
+ "heterogeneidad_edad": {
+  "tiempo_post": [
+   12.52,
+   0.00191
+  ],
+  "post": [
+   9.07,
+   0.0107
+  ],
+  "tiempo": [
+   8.07,
+   0.0177
+  ]
+ },
+ "pares_holm": {
+  "20-39 vs 40-59": 0.00122,
+  "20-39 vs 60+": 0.0718,
+  "40-59 vs 60+": 0.193
+ },
+ "solo_residentes": {
+  "pendiente_pre": [
+   1.44,
+   1.0,
+   1.87
+  ],
+  "pendiente_post": [
+   -2.15,
+   -2.86,
+   -1.45
+  ],
+  "cambio_pendiente": [
+   -3.54,
+   -4.34,
+   -2.73
+  ],
+  "salto_nivel": [
+   1.51,
+   -0.56,
+   3.63
+  ]
+ },
+ "registro_tardio_2023_media": {
+  "pendiente_pre": [
+   1.52,
+   1.04,
+   1.99
+  ],
+  "pendiente_post": [
+   -2.11,
+   -2.8,
+   -1.41
+  ],
+  "cambio_pendiente": [
+   -3.57,
+   -4.38,
+   -2.75
+  ],
+  "salto_nivel": [
+   1.13,
+   -1.03,
+   3.33
+  ]
+ },
+ "registro_tardio_2023_maximo": {
+  "pendiente_pre": [
+   1.52,
+   1.04,
+   1.99
+  ],
+  "pendiente_post": [
+   -2.09,
+   -2.78,
+   -1.39
+  ],
+  "cambio_pendiente": [
+   -3.55,
+   -4.37,
+   -2.72
+  ],
+  "salto_nivel": [
+   1.11,
+   -1.06,
+   3.32
+  ]
+ },
+ "cuasi_poisson_edad": {
+  "pendiente_pre": [
+   1.49,
+   1.06,
+   1.92
+  ],
+  "pendiente_post": [
+   -2.21,
+   -2.83,
+   -1.58
+  ],
+  "cambio_pendiente": [
+   -3.64,
+   -4.36,
+   -2.91
+  ],
+  "salto_nivel": [
+   1.24,
+   -0.79,
+   3.31
+  ]
+ },
+ "lugar": {
+  "Hogar": {
+   "OR": {
+    "pendiente_pre_anual": [
+     1.006,
+     0.999,
+     1.013
+    ],
+    "cambio_nivel": [
+     1.727,
+     1.623,
+     1.838
+    ],
+    "cambio_pendiente_anual": [
+     0.855,
+     0.836,
+     0.875
+    ],
+    "pendiente_post_anual": [
+     0.861,
+     0.843,
+     0.879
+    ]
+   },
+   "periodos": {
+    "2019": {
+     "ajustado_pct": [
+      55.17,
+      54.41,
+      55.92
+     ],
+     "contrafactual_pct": [
+      55.17,
+      54.41,
+      55.92
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      66.44,
+      65.45,
+      67.42
+     ],
+     "contrafactual_pct": [
+      55.44,
+      54.49,
+      56.38
+     ],
+     "diferencia_pp": [
+      11.0,
+      9.72,
+      12.3
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      63.34,
+      62.67,
+      64.01
+     ],
+     "contrafactual_pct": [
+      55.46,
+      54.39,
+      56.51
+     ],
+     "diferencia_pp": [
+      7.88,
+      6.7,
+      9.07
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      59.96,
+      59.59,
+      60.33
+     ],
+     "contrafactual_pct": [
+      55.6,
+      54.37,
+      56.82
+     ],
+     "diferencia_pp": [
+      4.36,
+      3.09,
+      5.61
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      56.49,
+      55.97,
+      57.0
+     ],
+     "contrafactual_pct": [
+      55.75,
+      54.35,
+      57.12
+     ],
+     "diferencia_pp": [
+      0.74,
+      -0.75,
+      2.26
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      1.32,
+      0.39,
+      2.26
+     ]
+    }
+   },
+   "anual_post": {
+    "2019": {
+     "ajustado_pct": [
+      55.12,
+      54.4,
+      55.85
+     ],
+     "contrafactual_pct": [
+      55.12,
+      54.4,
+      55.85
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      66.58,
+      65.47,
+      67.65
+     ],
+     "contrafactual_pct": [
+      55.29,
+      54.34,
+      56.23
+     ],
+     "diferencia_pp": [
+      11.29,
+      9.92,
+      12.61
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      63.1,
+      61.53,
+      64.58
+     ],
+     "contrafactual_pct": [
+      55.37,
+      54.36,
+      56.4
+     ],
+     "diferencia_pp": [
+      7.72,
+      5.82,
+      9.55
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      59.74,
+      58.61,
+      60.85
+     ],
+     "contrafactual_pct": [
+      55.5,
+      54.33,
+      56.69
+     ],
+     "diferencia_pp": [
+      4.24,
+      2.6,
+      5.81
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      56.78,
+      56.19,
+      57.35
+     ],
+     "contrafactual_pct": [
+      55.63,
+      54.3,
+      56.96
+     ],
+     "diferencia_pp": [
+      1.15,
+      -0.32,
+      2.59
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      1.66,
+      0.72,
+      2.58
+     ]
+    }
+   },
+   "anios_2023_menos_2019": {
+    "diferencia_pp": [
+     2.15,
+     0.73,
+     3.56
+    ]
+   },
+   "anual_ajustado": {
+    "2012": [
+     54.29,
+     53.86,
+     54.73
+    ],
+    "2013": [
+     53.94,
+     53.31,
+     54.57
+    ],
+    "2014": [
+     54.41,
+     53.71,
+     55.1
+    ],
+    "2015": [
+     54.43,
+     53.89,
+     54.96
+    ],
+    "2016": [
+     54.76,
+     54.15,
+     55.36
+    ],
+    "2017": [
+     55.41,
+     54.88,
+     55.92
+    ],
+    "2018": [
+     55.73,
+     55.29,
+     56.16
+    ],
+    "2019": [
+     54.63,
+     53.44,
+     55.84
+    ],
+    "2020": [
+     64.4,
+     61.15,
+     67.46
+    ],
+    "2021": [
+     63.09,
+     61.33,
+     64.79
+    ],
+    "2022": [
+     59.73,
+     58.42,
+     61.05
+    ],
+    "2023": [
+     56.78,
+     55.98,
+     57.56
+    ]
+   },
+   "n_evento": 47310.0,
+   "n_total": 82859.0
+  },
+  "Unidad pública": {
+   "OR": {
+    "pendiente_pre_anual": [
+     0.985,
+     0.976,
+     0.994
+    ],
+    "cambio_nivel": [
+     0.471,
+     0.415,
+     0.535
+    ],
+    "cambio_pendiente_anual": [
+     1.254,
+     1.194,
+     1.318
+    ],
+    "pendiente_post_anual": [
+     1.236,
+     1.178,
+     1.297
+    ]
+   },
+   "periodos": {
+    "2019": {
+     "ajustado_pct": [
+      34.24,
+      33.38,
+      35.14
+     ],
+     "contrafactual_pct": [
+      34.24,
+      33.38,
+      35.14
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      21.22,
+      19.68,
+      22.91
+     ],
+     "contrafactual_pct": [
+      33.83,
+      32.76,
+      34.92
+     ],
+     "diferencia_pp": [
+      -12.61,
+      -14.48,
+      -10.62
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      24.58,
+      23.41,
+      25.85
+     ],
+     "contrafactual_pct": [
+      33.61,
+      32.42,
+      34.86
+     ],
+     "diferencia_pp": [
+      -9.03,
+      -10.67,
+      -7.34
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      28.54,
+      27.62,
+      29.55
+     ],
+     "contrafactual_pct": [
+      33.3,
+      31.93,
+      34.73
+     ],
+     "diferencia_pp": [
+      -4.75,
+      -6.45,
+      -3.05
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      32.85,
+      31.43,
+      34.32
+     ],
+     "contrafactual_pct": [
+      32.98,
+      31.45,
+      34.59
+     ],
+     "diferencia_pp": [
+      -0.13,
+      -2.31,
+      2.06
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      -1.39,
+      -3.11,
+      0.35
+     ]
+    }
+   },
+   "anual_post": {
+    "2019": {
+     "ajustado_pct": [
+      34.29,
+      33.49,
+      35.17
+     ],
+     "contrafactual_pct": [
+      34.29,
+      33.49,
+      35.17
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      20.83,
+      19.46,
+      22.28
+     ],
+     "contrafactual_pct": [
+      34.0,
+      32.96,
+      35.12
+     ],
+     "diferencia_pp": [
+      -13.17,
+      -14.9,
+      -11.42
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      24.54,
+      22.63,
+      26.56
+     ],
+     "contrafactual_pct": [
+      33.69,
+      32.55,
+      34.9
+     ],
+     "diferencia_pp": [
+      -9.15,
+      -11.44,
+      -6.83
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      29.88,
+      28.46,
+      31.41
+     ],
+     "contrafactual_pct": [
+      33.39,
+      32.09,
+      34.78
+     ],
+     "diferencia_pp": [
+      -3.5,
+      -5.51,
+      -1.51
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      31.98,
+      31.47,
+      32.53
+     ],
+     "contrafactual_pct": [
+      33.09,
+      31.63,
+      34.66
+     ],
+     "diferencia_pp": [
+      -1.11,
+      -2.75,
+      0.48
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      -2.31,
+      -3.33,
+      -1.32
+     ]
+    }
+   },
+   "anios_2023_menos_2019": {
+    "diferencia_pp": [
+     -3.06,
+     -4.42,
+     -1.73
+    ]
+   },
+   "anual_ajustado": {
+    "2012": [
+     36.19,
+     35.67,
+     36.72
+    ],
+    "2013": [
+     36.96,
+     36.42,
+     37.52
+    ],
+    "2014": [
+     35.71,
+     35.09,
+     36.34
+    ],
+    "2015": [
+     35.62,
+     35.21,
+     36.07
+    ],
+    "2016": [
+     35.34,
+     34.92,
+     35.79
+    ],
+    "2017": [
+     34.09,
+     33.37,
+     34.84
+    ],
+    "2018": [
+     33.75,
+     33.22,
+     34.3
+    ],
+    "2019": [
+     35.03,
+     33.94,
+     36.19
+    ],
+    "2020": [
+     23.21,
+     19.53,
+     27.31
+    ],
+    "2021": [
+     24.55,
+     22.45,
+     26.79
+    ],
+    "2022": [
+     29.9,
+     28.27,
+     31.67
+    ],
+    "2023": [
+     31.97,
+     31.21,
+     32.77
+    ]
+   },
+   "n_evento": 26763.0,
+   "n_total": 82859.0
+  },
+  "Unidad privada": {
+   "OR": {
+    "pendiente_pre_anual": [
+     1.017,
+     1.002,
+     1.032
+    ],
+    "cambio_nivel": [
+     0.857,
+     0.767,
+     0.958
+    ],
+    "cambio_pendiente_anual": [
+     0.963,
+     0.925,
+     1.002
+    ],
+    "pendiente_post_anual": [
+     0.979,
+     0.942,
+     1.017
+    ]
+   },
+   "periodos": {
+    "2019": {
+     "ajustado_pct": [
+      5.95,
+      5.6,
+      6.39
+     ],
+     "contrafactual_pct": [
+      5.95,
+      5.6,
+      6.39
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      5.18,
+      4.91,
+      5.52
+     ],
+     "contrafactual_pct": [
+      6.06,
+      5.62,
+      6.6
+     ],
+     "diferencia_pp": [
+      -0.88,
+      -1.47,
+      -0.31
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      5.07,
+      4.89,
+      5.33
+     ],
+     "contrafactual_pct": [
+      6.13,
+      5.64,
+      6.75
+     ],
+     "diferencia_pp": [
+      -1.06,
+      -1.68,
+      -0.48
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      4.97,
+      4.76,
+      5.26
+     ],
+     "contrafactual_pct": [
+      6.23,
+      5.65,
+      6.94
+     ],
+     "diferencia_pp": [
+      -1.25,
+      -1.97,
+      -0.59
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      4.87,
+      4.55,
+      5.28
+     ],
+     "contrafactual_pct": [
+      6.32,
+      5.66,
+      7.14
+     ],
+     "diferencia_pp": [
+      -1.45,
+      -2.3,
+      -0.65
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      -1.08,
+      -1.62,
+      -0.54
+     ]
+    }
+   },
+   "anual_post": {
+    "2019": {
+     "ajustado_pct": [
+      5.95,
+      5.61,
+      6.41
+     ],
+     "contrafactual_pct": [
+      5.95,
+      5.61,
+      6.41
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      5.47,
+      5.28,
+      5.73
+     ],
+     "contrafactual_pct": [
+      6.06,
+      5.63,
+      6.61
+     ],
+     "diferencia_pp": [
+      -0.59,
+      -1.15,
+      -0.07
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      4.99,
+      4.72,
+      5.34
+     ],
+     "contrafactual_pct": [
+      6.15,
+      5.66,
+      6.77
+     ],
+     "diferencia_pp": [
+      -1.15,
+      -1.82,
+      -0.56
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      4.5,
+      4.37,
+      4.7
+     ],
+     "contrafactual_pct": [
+      6.24,
+      5.68,
+      6.96
+     ],
+     "diferencia_pp": [
+      -1.74,
+      -2.45,
+      -1.12
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      5.16,
+      4.98,
+      5.42
+     ],
+     "contrafactual_pct": [
+      6.34,
+      5.7,
+      7.16
+     ],
+     "diferencia_pp": [
+      -1.18,
+      -1.99,
+      -0.46
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      -0.79,
+      -1.27,
+      -0.36
+     ]
+    }
+   },
+   "anios_2023_menos_2019": {
+    "diferencia_pp": [
+     -0.31,
+     -0.61,
+     -0.01
+    ]
+   },
+   "anual_ajustado": {
+    "2012": [
+     5.26,
+     4.95,
+     5.65
+    ],
+    "2013": [
+     5.05,
+     4.73,
+     5.45
+    ],
+    "2014": [
+     5.75,
+     5.4,
+     6.18
+    ],
+    "2015": [
+     5.5,
+     5.35,
+     5.72
+    ],
+    "2016": [
+     5.91,
+     5.66,
+     6.23
+    ],
+    "2017": [
+     6.27,
+     5.63,
+     7.05
+    ],
+    "2018": [
+     5.76,
+     5.62,
+     5.97
+    ],
+    "2019": [
+     5.48,
+     5.29,
+     5.73
+    ],
+    "2020": [
+     5.65,
+     5.38,
+     6.0
+    ],
+    "2021": [
+     4.99,
+     4.71,
+     5.35
+    ],
+    "2022": [
+     4.5,
+     4.36,
+     4.71
+    ],
+    "2023": [
+     5.16,
+     4.98,
+     5.41
+    ]
+   },
+   "n_evento": 4502.0,
+   "n_total": 82859.0
+  },
+  "Otro/NE": {
+   "OR": {
+    "pendiente_pre_anual": [
+     1.023,
+     1.005,
+     1.042
+    ],
+    "cambio_nivel": [
+     1.654,
+     1.387,
+     1.971
+    ],
+    "cambio_pendiente_anual": [
+     0.9,
+     0.846,
+     0.958
+    ],
+    "pendiente_post_anual": [
+     0.921,
+     0.866,
+     0.979
+    ]
+   },
+   "periodos": {
+    "2019": {
+     "ajustado_pct": [
+      4.67,
+      4.41,
+      5.0
+     ],
+     "contrafactual_pct": [
+      4.67,
+      4.41,
+      5.0
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      7.29,
+      6.59,
+      8.19
+     ],
+     "contrafactual_pct": [
+      4.72,
+      4.37,
+      5.17
+     ],
+     "diferencia_pp": [
+      2.56,
+      1.66,
+      3.57
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      6.87,
+      6.4,
+      7.51
+     ],
+     "contrafactual_pct": [
+      4.87,
+      4.47,
+      5.38
+     ],
+     "diferencia_pp": [
+      2.0,
+      1.27,
+      2.79
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      6.37,
+      5.99,
+      6.87
+     ],
+     "contrafactual_pct": [
+      4.98,
+      4.5,
+      5.58
+     ],
+     "diferencia_pp": [
+      1.39,
+      0.67,
+      2.1
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      5.9,
+      5.4,
+      6.55
+     ],
+     "contrafactual_pct": [
+      5.09,
+      4.53,
+      5.79
+     ],
+     "diferencia_pp": [
+      0.8,
+      -0.03,
+      1.65
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      1.23,
+      0.64,
+      1.9
+     ]
+    }
+   },
+   "anual_post": {
+    "2019": {
+     "ajustado_pct": [
+      4.66,
+      4.41,
+      5.0
+     ],
+     "contrafactual_pct": [
+      4.66,
+      4.41,
+      5.0
+     ],
+     "diferencia_pp": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "mar-dic 2020": {
+     "ajustado_pct": [
+      7.11,
+      6.5,
+      7.88
+     ],
+     "contrafactual_pct": [
+      4.7,
+      4.36,
+      5.16
+     ],
+     "diferencia_pp": [
+      2.41,
+      1.53,
+      3.33
+     ]
+    },
+    "2021": {
+     "ajustado_pct": [
+      7.33,
+      6.71,
+      8.08
+     ],
+     "contrafactual_pct": [
+      4.86,
+      4.48,
+      5.37
+     ],
+     "diferencia_pp": [
+      2.46,
+      1.64,
+      3.31
+     ]
+    },
+    "2022": {
+     "ajustado_pct": [
+      5.86,
+      5.41,
+      6.45
+     ],
+     "contrafactual_pct": [
+      4.97,
+      4.51,
+      5.57
+     ],
+     "diferencia_pp": [
+      0.89,
+      0.13,
+      1.65
+     ]
+    },
+    "2023": {
+     "ajustado_pct": [
+      6.08,
+      5.87,
+      6.39
+     ],
+     "contrafactual_pct": [
+      5.08,
+      4.54,
+      5.78
+     ],
+     "diferencia_pp": [
+      1.01,
+      0.3,
+      1.64
+     ]
+    },
+    "2023 menos 2019 (ajustado)": {
+     "diferencia_pp": [
+      1.42,
+      1.04,
+      1.8
+     ]
+    }
+   },
+   "anios_2023_menos_2019": {
+    "diferencia_pp": [
+     1.2,
+     0.95,
+     1.48
+    ]
+   },
+   "anual_ajustado": {
+    "2012": [
+     4.25,
+     3.96,
+     4.62
+    ],
+    "2013": [
+     4.03,
+     3.51,
+     4.7
+    ],
+    "2014": [
+     4.1,
+     3.98,
+     4.28
+    ],
+    "2015": [
+     4.42,
+     4.18,
+     4.75
+    ],
+    "2016": [
+     3.97,
+     3.78,
+     4.24
+    ],
+    "2017": [
+     4.22,
+     4.04,
+     4.47
+    ],
+    "2018": [
+     4.75,
+     4.49,
+     5.08
+    ],
+    "2019": [
+     4.88,
+     4.74,
+     5.09
+    ],
+    "2020": [
+     6.73,
+     5.82,
+     7.89
+    ],
+    "2021": [
+     7.32,
+     6.65,
+     8.16
+    ],
+    "2022": [
+     5.86,
+     5.36,
+     6.51
+    ],
+    "2023": [
+     6.08,
+     5.91,
+     6.34
+    ]
+   },
+   "n_evento": 4284.0,
+   "n_total": 82859.0
+  }
+ },
+ "lugar_sens_2023": {
+  "abril2020_Hogar": {
+   "ajustado_pct": [
+    56.31,
+    55.59,
+    57.04
+   ],
+   "contrafactual_pct": [
+    56.08,
+    54.7,
+    57.43
+   ],
+   "diferencia_pp": [
+    0.23,
+    -1.33,
+    1.8
+   ]
+  },
+  "HAC6_Hogar": {
+   "ajustado_pct": [
+    56.49,
+    55.91,
+    57.06
+   ],
+   "contrafactual_pct": [
+    55.75,
+    54.27,
+    57.2
+   ],
+   "diferencia_pp": [
+    0.74,
+    -0.8,
+    2.29
+   ]
+  },
+  "lugar_conocido_Hogar": {
+   "ajustado_pct": [
+    56.83,
+    56.27,
+    57.39
+   ],
+   "contrafactual_pct": [
+    56.02,
+    54.65,
+    57.36
+   ],
+   "diferencia_pp": [
+    0.81,
+    -0.68,
+    2.32
+   ]
+  },
+  "region_Hogar": {
+   "ajustado_pct": [
+    56.5,
+    55.96,
+    57.04
+   ],
+   "contrafactual_pct": [
+    55.89,
+    54.5,
+    57.27
+   ],
+   "diferencia_pp": [
+    0.61,
+    -0.9,
+    2.12
+   ]
+  },
+  "no_residentes_Hogar": {
+   "ajustado_pct": [
+    56.37,
+    55.85,
+    56.88
+   ],
+   "contrafactual_pct": [
+    55.68,
+    54.29,
+    57.02
+   ],
+   "diferencia_pp": [
+    0.69,
+    -0.79,
+    2.19
+   ]
+  },
+  "2024_sin_ponderar_Hogar": {
+   "ajustado_pct": [
+    57.16,
+    56.53,
+    57.79
+   ],
+   "contrafactual_pct": [
+    55.74,
+    54.35,
+    57.08
+   ],
+   "diferencia_pp": [
+    1.43,
+    -0.09,
+    2.96
+   ]
+  },
+  "2024_ponderado_completitud_Hogar": {
+   "ajustado_pct": [
+    57.13,
+    56.52,
+    57.73
+   ],
+   "contrafactual_pct": [
+    55.74,
+    54.35,
+    57.08
+   ],
+   "diferencia_pp": [
+    1.39,
+    -0.11,
+    2.91
+   ]
+  },
+  "abril2020_Unidad pública": {
+   "ajustado_pct": [
+    33.09,
+    31.38,
+    34.86
+   ],
+   "contrafactual_pct": [
+    32.67,
+    31.16,
+    34.23
+   ],
+   "diferencia_pp": [
+    0.42,
+    -1.88,
+    2.76
+   ]
+  },
+  "HAC6_Unidad pública": {
+   "ajustado_pct": [
+    32.85,
+    31.47,
+    34.29
+   ],
+   "contrafactual_pct": [
+    32.98,
+    31.44,
+    34.58
+   ],
+   "diferencia_pp": [
+    -0.13,
+    -2.24,
+    1.97
+   ]
+  },
+  "lugar_conocido_Unidad pública": {
+   "ajustado_pct": [
+    33.07,
+    31.66,
+    34.53
+   ],
+   "contrafactual_pct": [
+    33.06,
+    31.47,
+    34.74
+   ],
+   "diferencia_pp": [
+    0.0,
+    -2.21,
+    2.22
+   ]
+  },
+  "region_Unidad pública": {
+   "ajustado_pct": [
+    32.81,
+    31.36,
+    34.27
+   ],
+   "contrafactual_pct": [
+    32.89,
+    31.35,
+    34.53
+   ],
+   "diferencia_pp": [
+    -0.09,
+    -2.31,
+    2.11
+   ]
+  },
+  "no_residentes_Unidad pública": {
+   "ajustado_pct": [
+    32.82,
+    31.41,
+    34.3
+   ],
+   "contrafactual_pct": [
+    33.07,
+    31.52,
+    34.64
+   ],
+   "diferencia_pp": [
+    -0.25,
+    -2.38,
+    1.91
+   ]
+  },
+  "2024_sin_ponderar_Unidad pública": {
+   "ajustado_pct": [
+    31.39,
+    30.12,
+    32.74
+   ],
+   "contrafactual_pct": [
+    32.99,
+    31.44,
+    34.62
+   ],
+   "diferencia_pp": [
+    -1.61,
+    -3.69,
+    0.47
+   ]
+  },
+  "2024_ponderado_completitud_Unidad pública": {
+   "ajustado_pct": [
+    31.43,
+    30.19,
+    32.74
+   ],
+   "contrafactual_pct": [
+    32.99,
+    31.44,
+    34.62
+   ],
+   "diferencia_pp": [
+    -1.56,
+    -3.61,
+    0.49
+   ]
+  },
+  "abril2020_Unidad privada": {
+   "ajustado_pct": [
+    4.87,
+    4.55,
+    5.28
+   ],
+   "contrafactual_pct": [
+    6.27,
+    5.64,
+    7.06
+   ],
+   "diferencia_pp": [
+    -1.4,
+    -2.21,
+    -0.62
+   ]
+  },
+  "HAC6_Unidad privada": {
+   "ajustado_pct": [
+    4.87,
+    4.54,
+    5.29
+   ],
+   "contrafactual_pct": [
+    6.32,
+    5.66,
+    7.13
+   ],
+   "diferencia_pp": [
+    -1.45,
+    -2.3,
+    -0.65
+   ]
+  },
+  "lugar_conocido_Unidad privada": {
+   "ajustado_pct": [
+    4.9,
+    4.57,
+    5.32
+   ],
+   "contrafactual_pct": [
+    6.34,
+    5.7,
+    7.15
+   ],
+   "diferencia_pp": [
+    -1.44,
+    -2.28,
+    -0.65
+   ]
+  },
+  "region_Unidad privada": {
+   "ajustado_pct": [
+    4.88,
+    4.55,
+    5.26
+   ],
+   "contrafactual_pct": [
+    6.23,
+    5.56,
+    7.04
+   ],
+   "diferencia_pp": [
+    -1.36,
+    -2.22,
+    -0.58
+   ]
+  },
+  "no_residentes_Unidad privada": {
+   "ajustado_pct": [
+    4.98,
+    4.66,
+    5.39
+   ],
+   "contrafactual_pct": [
+    6.26,
+    5.62,
+    7.04
+   ],
+   "diferencia_pp": [
+    -1.28,
+    -2.11,
+    -0.52
+   ]
+  },
+  "2024_sin_ponderar_Unidad privada": {
+   "ajustado_pct": [
+    4.99,
+    4.85,
+    5.21
+   ],
+   "contrafactual_pct": [
+    6.32,
+    5.66,
+    7.14
+   ],
+   "diferencia_pp": [
+    -1.33,
+    -2.13,
+    -0.6
+   ]
+  },
+  "2024_ponderado_completitud_Unidad privada": {
+   "ajustado_pct": [
+    4.99,
+    4.85,
+    5.2
+   ],
+   "contrafactual_pct": [
+    6.32,
+    5.66,
+    7.14
+   ],
+   "diferencia_pp": [
+    -1.33,
+    -2.14,
+    -0.6
+   ]
+  },
+  "catalogo_alt_Vía pública/otro": {
+   "ajustado_pct": [
+    5.24,
+    4.76,
+    5.88
+   ],
+   "contrafactual_pct": [
+    4.91,
+    4.49,
+    5.46
+   ],
+   "diferencia_pp": [
+    0.33,
+    -0.42,
+    1.12
+   ]
+  }
+ },
+ "lugar_sens_2020": {
+  "abril2020_Hogar": {
+   "ajustado_pct": [
+    65.74,
+    64.84,
+    66.62
+   ],
+   "contrafactual_pct": [
+    55.68,
+    54.72,
+    56.62
+   ],
+   "diferencia_pp": [
+    10.06,
+    9.0,
+    11.13
+   ]
+  },
+  "HAC6_Hogar": {
+   "ajustado_pct": [
+    66.44,
+    65.32,
+    67.57
+   ],
+   "contrafactual_pct": [
+    55.44,
+    54.39,
+    56.46
+   ],
+   "diferencia_pp": [
+    11.0,
+    9.42,
+    12.57
+   ]
+  },
+  "lugar_conocido_Hogar": {
+   "ajustado_pct": [
+    67.43,
+    66.34,
+    68.51
+   ],
+   "contrafactual_pct": [
+    55.82,
+    54.87,
+    56.74
+   ],
+   "diferencia_pp": [
+    11.62,
+    10.25,
+    12.99
+   ]
+  },
+  "region_Hogar": {
+   "ajustado_pct": [
+    66.48,
+    65.43,
+    67.5
+   ],
+   "contrafactual_pct": [
+    55.53,
+    54.56,
+    56.48
+   ],
+   "diferencia_pp": [
+    10.95,
+    9.61,
+    12.28
+   ]
+  },
+  "no_residentes_Hogar": {
+   "ajustado_pct": [
+    66.27,
+    65.24,
+    67.24
+   ],
+   "contrafactual_pct": [
+    55.34,
+    54.37,
+    56.28
+   ],
+   "diferencia_pp": [
+    10.93,
+    9.61,
+    12.19
+   ]
+  },
+  "2024_sin_ponderar_Hogar": {
+   "ajustado_pct": [
+    66.09,
+    64.96,
+    67.21
+   ],
+   "contrafactual_pct": [
+    55.44,
+    54.48,
+    56.37
+   ],
+   "diferencia_pp": [
+    10.65,
+    9.23,
+    12.06
+   ]
+  },
+  "2024_ponderado_completitud_Hogar": {
+   "ajustado_pct": [
+    66.11,
+    64.99,
+    67.21
+   ],
+   "contrafactual_pct": [
+    55.44,
+    54.49,
+    56.37
+   ],
+   "diferencia_pp": [
+    10.66,
+    9.26,
+    12.06
+   ]
+  },
+  "abril2020_Unidad pública": {
+   "ajustado_pct": [
+    21.97,
+    20.73,
+    23.31
+   ],
+   "contrafactual_pct": [
+    33.6,
+    32.56,
+    34.64
+   ],
+   "diferencia_pp": [
+    -11.63,
+    -13.13,
+    -10.06
+   ]
+  },
+  "HAC6_Unidad pública": {
+   "ajustado_pct": [
+    21.22,
+    19.52,
+    23.08
+   ],
+   "contrafactual_pct": [
+    33.83,
+    32.75,
+    34.92
+   ],
+   "diferencia_pp": [
+    -12.61,
+    -14.69,
+    -10.41
+   ]
+  },
+  "lugar_conocido_Unidad pública": {
+   "ajustado_pct": [
+    21.53,
+    19.98,
+    23.22
+   ],
+   "contrafactual_pct": [
+    34.01,
+    32.9,
+    35.14
+   ],
+   "diferencia_pp": [
+    -12.48,
+    -14.36,
+    -10.49
+   ]
+  },
+  "region_Unidad pública": {
+   "ajustado_pct": [
+    21.19,
+    19.58,
+    22.91
+   ],
+   "contrafactual_pct": [
+    33.78,
+    32.71,
+    34.88
+   ],
+   "diferencia_pp": [
+    -12.59,
+    -14.52,
+    -10.59
+   ]
+  },
+  "no_residentes_Unidad pública": {
+   "ajustado_pct": [
+    21.18,
+    19.57,
+    22.85
+   ],
+   "contrafactual_pct": [
+    33.85,
+    32.8,
+    34.92
+   ],
+   "diferencia_pp": [
+    -12.68,
+    -14.62,
+    -10.71
+   ]
+  },
+  "2024_sin_ponderar_Unidad pública": {
+   "ajustado_pct": [
+    21.92,
+    19.98,
+    24.07
+   ],
+   "contrafactual_pct": [
+    33.83,
+    32.76,
+    34.91
+   ],
+   "diferencia_pp": [
+    -11.91,
+    -14.16,
+    -9.51
+   ]
+  },
+  "2024_ponderado_completitud_Unidad pública": {
+   "ajustado_pct": [
+    21.9,
+    19.99,
+    24.02
+   ],
+   "contrafactual_pct": [
+    33.83,
+    32.75,
+    34.91
+   ],
+   "diferencia_pp": [
+    -11.93,
+    -14.16,
+    -9.55
+   ]
+  },
+  "abril2020_Unidad privada": {
+   "ajustado_pct": [
+    5.25,
+    5.0,
+    5.57
+   ],
+   "contrafactual_pct": [
+    6.02,
+    5.6,
+    6.55
+   ],
+   "diferencia_pp": [
+    -0.78,
+    -1.32,
+    -0.26
+   ]
+  },
+  "HAC6_Unidad privada": {
+   "ajustado_pct": [
+    5.18,
+    4.9,
+    5.54
+   ],
+   "contrafactual_pct": [
+    6.06,
+    5.61,
+    6.61
+   ],
+   "diferencia_pp": [
+    -0.88,
+    -1.45,
+    -0.33
+   ]
+  },
+  "lugar_conocido_Unidad privada": {
+   "ajustado_pct": [
+    5.26,
+    4.99,
+    5.61
+   ],
+   "contrafactual_pct": [
+    6.09,
+    5.66,
+    6.63
+   ],
+   "diferencia_pp": [
+    -0.84,
+    -1.42,
+    -0.28
+   ]
+  },
+  "region_Unidad privada": {
+   "ajustado_pct": [
+    5.16,
+    4.88,
+    5.49
+   ],
+   "contrafactual_pct": [
+    6.0,
+    5.54,
+    6.55
+   ],
+   "diferencia_pp": [
+    -0.84,
+    -1.44,
+    -0.27
+   ]
+  },
+  "no_residentes_Unidad privada": {
+   "ajustado_pct": [
+    5.34,
+    5.05,
+    5.7
+   ],
+   "contrafactual_pct": [
+    6.1,
+    5.68,
+    6.62
+   ],
+   "diferencia_pp": [
+    -0.76,
+    -1.35,
+    -0.21
+   ]
+  },
+  "2024_sin_ponderar_Unidad privada": {
+   "ajustado_pct": [
+    5.11,
+    4.8,
+    5.49
+   ],
+   "contrafactual_pct": [
+    6.06,
+    5.62,
+    6.6
+   ],
+   "diferencia_pp": [
+    -0.95,
+    -1.56,
+    -0.36
+   ]
+  },
+  "2024_ponderado_completitud_Unidad privada": {
+   "ajustado_pct": [
+    5.11,
+    4.8,
+    5.49
+   ],
+   "contrafactual_pct": [
+    6.06,
+    5.62,
+    6.6
+   ],
+   "diferencia_pp": [
+    -0.95,
+    -1.56,
+    -0.36
+   ]
+  },
+  "catalogo_alt_Vía pública/otro": {
+   "ajustado_pct": [
+    5.81,
+    5.22,
+    6.61
+   ],
+   "contrafactual_pct": [
+    4.16,
+    3.94,
+    4.47
+   ],
+   "diferencia_pp": [
+    1.65,
+    0.98,
+    2.44
+   ]
+  }
+ },
+ "tasas_anuales": {
+  "Hogar": {
+   "2012": 8.95,
+   "2013": 8.57,
+   "2014": 8.97,
+   "2015": 9.16,
+   "2016": 9.51,
+   "2017": 9.67,
+   "2018": 9.91,
+   "2019": 9.85,
+   "2020": 11.84,
+   "2021": 11.34,
+   "2022": 10.42,
+   "2023": 9.79,
+   "2024": 9.53
+  },
+  "Unidad médica (pública + privada)": {
+   "2012": 6.9,
+   "2013": 6.72,
+   "2014": 6.95,
+   "2015": 7.03,
+   "2016": 7.21,
+   "2017": 7.11,
+   "2018": 7.11,
+   "2019": 7.21,
+   "2020": 5.3,
+   "2021": 5.21,
+   "2022": 5.87,
+   "2023": 6.3,
+   "2024": 6.51
+  },
+  "Otro/NE": {
+   "2012": 0.7,
+   "2013": 0.64,
+   "2014": 0.67,
+   "2015": 0.74,
+   "2016": 0.69,
+   "2017": 0.75,
+   "2018": 0.85,
+   "2019": 0.89,
+   "2020": 1.24,
+   "2021": 1.33,
+   "2022": 1.02,
+   "2023": 1.05,
+   "2024": 1.14
+  },
+  "Total": {
+   "2012": 16.56,
+   "2013": 15.94,
+   "2014": 16.59,
+   "2015": 16.93,
+   "2016": 17.41,
+   "2017": 17.54,
+   "2018": 17.86,
+   "2019": 17.94,
+   "2020": 18.39,
+   "2021": 17.88,
+   "2022": 17.31,
+   "2023": 17.14,
+   "2024": 17.17
+  }
+ },
+ "tasas_ITS": {
+  "Hogar": {
+   "pendiente_pre": [
+    1.89,
+    1.27,
+    2.51
+   ],
+   "salto_nivel": [
+    24.04,
+    19.74,
+    28.49
+   ],
+   "cambio_pendiente": [
+    -8.91,
+    -10.26,
+    -7.55
+   ],
+   "pendiente_post": [
+    -7.19,
+    -8.4,
+    -5.96
+   ]
+  },
+  "Unidad médica (pública + privada)": {
+   "pendiente_pre": [
+    0.79,
+    0.46,
+    1.12
+   ],
+   "salto_nivel": [
+    -36.86,
+    -42.01,
+    -31.26
+   ],
+   "cambio_pendiente": [
+    9.75,
+    6.57,
+    13.02
+   ],
+   "pendiente_post": [
+    10.62,
+    7.38,
+    13.94
+   ]
+  },
+  "Otro/NE": {
+   "pendiente_pre": [
+    4.2,
+    1.99,
+    6.45
+   ],
+   "salto_nivel": [
+    58.91,
+    31.76,
+    91.65
+   ],
+   "cambio_pendiente": [
+    -12.45,
+    -18.08,
+    -6.43
+   ],
+   "pendiente_post": [
+    -8.78,
+    -14.53,
+    -2.63
+   ]
+  },
+  "Total": {
+   "pendiente_pre": [
+    1.52,
+    1.04,
+    1.99
+   ],
+   "salto_nivel": [
+    1.21,
+    -0.91,
+    3.37
+   ],
+   "cambio_pendiente": [
+    -3.64,
+    -4.44,
+    -2.84
+   ],
+   "pendiente_post": [
+    -2.18,
+    -2.85,
+    -1.51
+   ]
+  }
+ },
+ "multinomial": {
+  "Unidad pública": {
+   "tiempo": [
+    0.988,
+    0.98,
+    0.996
+   ],
+   "post": [
+    0.466,
+    0.412,
+    0.526
+   ],
+   "tiempo_post": [
+    1.254,
+    1.198,
+    1.312
+   ]
+  },
+  "Unidad privada": {
+   "tiempo": [
+    1.012,
+    0.993,
+    1.032
+   ],
+   "post": [
+    0.681,
+    0.581,
+    0.797
+   ],
+   "tiempo_post": [
+    1.032,
+    0.977,
+    1.09
+   ]
+  },
+  "Otro/NE": {
+   "tiempo": [
+    1.019,
+    1.002,
+    1.038
+   ],
+   "post": [
+    1.297,
+    1.127,
+    1.492
+   ],
+   "tiempo_post": [
+    0.962,
+    0.914,
+    1.012
+   ]
+  }
+ },
+ "validacion": {
+  "flujo": [
+   {
+    "paso": "registros C50 en archivos 2012-2024",
+    "n_restante": 92218
+   },
+   {
+    "paso": "sexo = mujer",
+    "n_restante": 91582
+   },
+   {
+    "paso": "edad válida ≥ 20 años",
+    "n_restante": 91551
+   },
+   {
+    "paso": "mes de ocurrencia válido",
+    "n_restante": 91544
+   },
+   {
+    "paso": "año de ocurrencia 2012-2024",
+    "n_restante": 91362
+   }
+  ],
+  "duplicadas": 19,
+  "no_residentes": {
+   "33": 148,
+   "34": 9,
+   "35": 22,
+   "99": 146
+  },
+  "residual_2023": {
+   "ventana_historica": "2015-2021",
+   "proporcion_ge2_media": 0.0025013937282792817,
+   "proporcion_ge2_max": 0.0031882671767894145,
+   "defunciones_2023_observadas": 7935,
+   "faltantes_esperadas_media": 19.898332798762137,
+   "faltantes_esperadas_max": 25.379817687509995,
+   "efecto_TEE_2023_pct_media": 0.25076663892579887
+  },
+  "completitud_por_sitio": {
+   "Hogar": 0.9806,
+   "Otro/NE": 0.9826,
+   "Unidad privada": 0.9789,
+   "Unidad pública": 0.9749
+  },
+  "completitud_por_edad": {
+   "20-39": 0.9791,
+   "40-59": 0.9802,
+   "60+": 0.9778
+  },
+  "reconstruccion": {
+   "deaths": 0.0,
+   "deaths_adj": 0.0,
+   "pop20": 2.220446049250313e-16,
+   "asmr": 6.661338147750939e-16,
+   "asmr_20-39": 2.220446049250313e-16,
+   "asmr_40-59": 2.220446049250313e-16,
+   "asmr_60+": 2.220446049250313e-16
+  }
+ },
+ "pares_holm_nivel": {
+  "20-39 vs 40-59": 0.0122,
+  "20-39 vs 60+": 0.069,
+  "40-59 vs 60+": 0.526
+ },
+ "pares_cambio_nivel": {
+  "20-39 vs 40-59": {
+   "log": -0.06785023327195638,
+   "se": 0.023621545929482898,
+   "pct": -6.559959481022999,
+   "ic_inf": -10.787374287187241,
+   "ic_sup": -2.132225092281893,
+   "p": 0.004073830973845736,
+   "p_holm": 0.012221492921537208
+  },
+  "20-39 vs 60+": {
+   "log": -0.051905003029030956,
+   "se": 0.02455101451984935,
+   "pct": -5.0580945506597885,
+   "ic_inf": -9.518439486273635,
+   "ic_sup": -0.37787413067431663,
+   "p": 0.03450080352986811,
+   "p_holm": 0.06900160705973622
+  },
+  "40-59 vs 60+": {
+   "log": 0.015945230242925434,
+   "se": 0.02515340480361887,
+   "pct": 1.6073033808864774,
+   "ic_inf": -3.2804408080528327,
+   "ic_sup": 6.742050797054093,
+   "p": 0.5261334510864986,
+   "p_holm": 0.5261334510864986
+  }
+ },
+ "covarianza_edades": {
+  "metodo": "Scores apilados sumados por mes, Bartlett12",
+  "correccion": "T/(T-1)",
+  "factor": 1.006993006993007,
+  "T": 144,
+  "k_por_ecuacion": 15,
+  "eleccion": "Se conserva la convención explícita de Claude v10; no es la opción cluster completa de statsmodels.",
+  "sensibilidad_correccion_n_nk": {
+   "factor": 1.1162790697674418,
+   "chi2_cambio_pendiente": 11.298133186784458,
+   "p_cambio_pendiente": 0.00352080158110419
+  },
+  "interpretacion": "Heterogeneidad de cambio de pendiente; no prueba diferencias de todas las pendientes posteriores."
+ },
+ "metodo_poisson": {
+  "nombre": "Poisson con covarianza robusta de scores por mes (Bartlett12)",
+  "clave_heredada": "cuasi_poisson_edad",
+  "correccion": "T/(T-1)",
+  "exposicion": "Población femenina WPP del quinquenio /12, mujeres-año",
+  "n_celdas": 2016,
+  "n_defunciones": 83174,
+  "n_edades": 14,
+  "convergencia": true,
+  "H_condicion": 589406.2991677324,
+  "score_max_abs": 1.3007485222260584e-07,
+  "dispersion_Pearson": 1.0052843313524682,
+  "limite": "Términos temporales comunes a todas las edades; efecto ajustado distinto de la TEE directa. No se multiplica de nuevo por dispersión."
+ },
+ "registro_2023_escenario": {
+  "fracciones": {
+   "ventana_historica": "2015-2021",
+   "proporcion_ge2_media": 0.0025013937282792817,
+   "proporcion_ge2_max": 0.0031882671767894145,
+   "defunciones_2023_observadas": 7935,
+   "faltantes_esperadas_media": 19.898332798762137,
+   "faltantes_esperadas_max": 25.379817687509995,
+   "efecto_TEE_2023_pct_media": 0.25076663892579887
+  },
+  "alcance": "Escenario con fracciones históricas observadas hasta2024; no estimación validada de todo el faltante.",
+  "supuestos": "Cola histórica con seguimiento desigual; retrasos transportables; factor uniforme por edad y mes; incertidumbre del factor no propagada."
+ },
+ "diagnosticos_ITS_tasas": {
+  "Hogar": {
+   "n_meses": 144,
+   "k": 15,
+   "correccion": "n/(n-k)",
+   "ljung_box": {
+    "6": {
+     "lb_stat": 11.471898504213353,
+     "lb_pvalue": 0.07484179648424562
+    },
+    "12": {
+     "lb_stat": 16.413843002637773,
+     "lb_pvalue": 0.17300787959724598
+    },
+    "24": {
+     "lb_stat": 30.367982068141472,
+     "lb_pvalue": 0.1728531033762395
+    }
+   },
+   "autocorrelacion_1": 0.21315503729794605,
+   "residuo_sd_log": 0.06371944751636135,
+   "nota": "Diagnóstico aproximado; dependencia residual no corregida en la media por usar HAC."
+  },
+  "Unidad médica (pública + privada)": {
+   "n_meses": 144,
+   "k": 15,
+   "correccion": "n/(n-k)",
+   "ljung_box": {
+    "6": {
+     "lb_stat": 11.00190533761946,
+     "lb_pvalue": 0.08831756344094545
+    },
+    "12": {
+     "lb_stat": 32.035252037271036,
+     "lb_pvalue": 0.0013665571369338057
+    },
+    "24": {
+     "lb_stat": 46.565325627997495,
+     "lb_pvalue": 0.003783443075824379
+    }
+   },
+   "autocorrelacion_1": 0.10592582004243203,
+   "residuo_sd_log": 0.08244652340778379,
+   "nota": "Diagnóstico aproximado; dependencia residual no corregida en la media por usar HAC."
+  },
+  "Otro/NE": {
+   "n_meses": 144,
+   "k": 15,
+   "correccion": "n/(n-k)",
+   "ljung_box": {
+    "6": {
+     "lb_stat": 20.082077767830423,
+     "lb_pvalue": 0.0026777507454203296
+    },
+    "12": {
+     "lb_stat": 21.54927058885859,
+     "lb_pvalue": 0.04289306429234203
+    },
+    "24": {
+     "lb_stat": 36.63168154296318,
+     "lb_pvalue": 0.04760333554669285
+    }
+   },
+   "autocorrelacion_1": 0.21694412686584422,
+   "residuo_sd_log": 0.19582181633130452,
+   "nota": "Diagnóstico aproximado; dependencia residual no corregida en la media por usar HAC."
+  },
+  "Total": {
+   "n_meses": 144,
+   "k": 15,
+   "correccion": "n/(n-k)",
+   "ljung_box": {
+    "6": {
+     "lb_stat": 4.440339914418304,
+     "lb_pvalue": 0.6173104103420635
+    },
+    "12": {
+     "lb_stat": 12.029920220864964,
+     "lb_pvalue": 0.4432797070455863
+    },
+    "24": {
+     "lb_stat": 30.39320171344762,
+     "lb_pvalue": 0.17205928669501927
+    }
+   },
+   "autocorrelacion_1": 0.0633595661987697,
+   "residuo_sd_log": 0.046306980575645036,
+   "nota": "Diagnóstico aproximado; dependencia residual no corregida en la media por usar HAC."
+  }
+ },
+ "tasas_metadata": {
+  "2024": "Observado, sin corrección por registro tardío; no se aplica factor global a sitios.",
+  "periodo_ITS": "2012–2023",
+  "residencia": "Todas, mismas WPP y pesos OMS del principal nacional",
+  "sensibilidad_nacional_2024": "La ITS nacional original conserva su corrección; análisis diferente."
+ },
+ "diagnostico_multinomial": {
+  "convergencia": true,
+  "H_condicion": 2926083.4752850123,
+  "score_max_abs": 5.383573089309544e-12,
+  "covarianza": "Agrupada por mes; sensibilidad multinomial sin HAC temporal",
+  "n_defunciones": 82859,
+  "n_parametros": 177,
+  "rango_diseno": 59,
+  "cov_eigen_min": -2.883558883311031e-14,
+  "inferencial": true
+ },
+ "metadatos_v11": {
+  "lugar_conocido": "Solo excluye código99; conserva10 y12",
+  "n_principal": 82859,
+  "n_lugar_conocido": 81981,
+  "n_excluido_99": 878,
+  "estandarizacion_principal": "Distribución conjunta edad×entidad de residentes1–32,2012–2023, conservada de Claudev10",
+  "inferencia_99": "Separación estructural; solo descriptivos y diagnósticos, sin OR/IC/p."
+ },
+ "modelos_no_inferenciales": {
+  "sens_catalogo_alt_No especificado": {
+   "n_celdas": 34005,
+   "n_defunciones": 82859.0,
+   "n_evento": 878.0,
+   "convergencia": false,
+   "inferencial": false,
+   "diagnosticos": {
+    "n_parametros": 59,
+    "n_meses": 144,
+    "rango_diseno": 59,
+    "correccion_covarianza": "T/(T-1)",
+    "rezagos": 12,
+    "separacion_estructural": [
+     {
+      "variable": "ent_resid",
+      "nivel": 3,
+      "eventos": 0.0,
+      "resto": 559.0
+     }
+    ],
+    "inferencial": false,
+    "estado": "No estimable: separación estructural o diseño sin rango completo; sin OR/IC/p.",
+    "intento": "Validación previa al ajuste; no se publica una MLE sin existencia finita."
+   },
+   "descriptivos_anuales": {
+    "2012": {
+     "eventos": 92.0,
+     "total": 5592.0,
+     "porcentaje": 1.6452074391988556
+    },
+    "2013": {
+     "eventos": 82.0,
+     "total": 5556.0,
+     "porcentaje": 1.4758819294456444
+    },
+    "2014": {
+     "eventos": 57.0,
+     "total": 5975.0,
+     "porcentaje": 0.9539748953974896
+    },
+    "2015": {
+     "eventos": 64.0,
+     "total": 6263.0,
+     "porcentaje": 1.0218745010378414
+    },
+    "2016": {
+     "eventos": 45.0,
+     "total": 6623.0,
+     "porcentaje": 0.6794504001207912
+    },
+    "2017": {
+     "eventos": 66.0,
+     "total": 6871.0,
+     "porcentaje": 0.9605588706156309
+    },
+    "2018": {
+     "eventos": 74.0,
+     "total": 7185.0,
+     "porcentaje": 1.0299234516353515
+    },
+    "2019": {
+     "eventos": 64.0,
+     "total": 7443.0,
+     "porcentaje": 0.8598683326615612
+    },
+    "2020": {
+     "eventos": 115.0,
+     "total": 7864.0,
+     "porcentaje": 1.4623601220752798
+    },
+    "2021": {
+     "eventos": 96.0,
+     "total": 7807.0,
+     "porcentaje": 1.229665684641988
+    },
+    "2022": {
+     "eventos": 72.0,
+     "total": 7765.0,
+     "porcentaje": 0.927237604636188
+    },
+    "2023": {
+     "eventos": 51.0,
+     "total": 7915.0,
+     "porcentaje": 0.6443461781427668
+    }
+   }
+  }
+ },
+ "diagnosticos_lugar": {
+  "principal_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 556647.6763846911,
+   "score_max_abs": 1.6910917111090384e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.2569273525727665e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 19.874251006867418,
+      "lb_pvalue": 0.002915769092757151
+     },
+     "12": {
+      "lb_stat": 42.26826300393376,
+      "lb_pvalue": 3.0014924692515864e-05
+     },
+     "24": {
+      "lb_stat": 55.808151541290734,
+      "lb_pvalue": 0.00024335670240741388
+     }
+    },
+    "autocorrelacion_1": 0.08343289401847559,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anual_post_Hogar": {
+   "n_parametros": 61,
+   "n_meses": 144,
+   "rango_diseno": 61,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 544311.5977368128,
+   "score_max_abs": 2.034994395216927e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 6.500343809801196e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 24.97168052523037,
+      "lb_pvalue": 0.00034560174329456274
+     },
+     "12": {
+      "lb_stat": 47.201198233036,
+      "lb_pvalue": 4.302122706848365e-06
+     },
+     "24": {
+      "lb_stat": 57.736433644418504,
+      "lb_pvalue": 0.0001323706803258375
+     }
+    },
+    "autocorrelacion_1": 0.10411452856668713,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anios_Hogar": {
+   "n_parametros": 67,
+   "n_meses": 144,
+   "rango_diseno": 67,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 13582.521179726027,
+   "score_max_abs": 8.540723683836404e-12,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.126451678509368e-06,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 29.67700230892895,
+      "lb_pvalue": 4.527378336710346e-05
+     },
+     "12": {
+      "lb_stat": 51.23885441490715,
+      "lb_pvalue": 8.453102317055911e-07
+     },
+     "24": {
+      "lb_stat": 65.90119297422288,
+      "lb_pvalue": 8.969541018918682e-06
+     }
+    },
+    "autocorrelacion_1": 0.26501046910949483,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "principal_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 507482.4499400165,
+   "score_max_abs": 2.0020252122776583e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 8.407755509486228e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 18.006532541205168,
+      "lb_pvalue": 0.006215890688486409
+     },
+     "12": {
+      "lb_stat": 34.99155398884078,
+      "lb_pvalue": 0.00046976151483988905
+     },
+     "24": {
+      "lb_stat": 61.43727185768096,
+      "lb_pvalue": 3.992390821870143e-05
+     }
+    },
+    "autocorrelacion_1": 0.27930375720114253,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anual_post_Unidad pública": {
+   "n_parametros": 61,
+   "n_meses": 144,
+   "rango_diseno": 61,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 496539.25113155786,
+   "score_max_abs": 5.223341759119648e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.133531518972793e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 24.066265223099652,
+      "lb_pvalue": 0.0005078012712052787
+     },
+     "12": {
+      "lb_stat": 39.52000902142259,
+      "lb_pvalue": 8.635988570550645e-05
+     },
+     "24": {
+      "lb_stat": 51.78051993346348,
+      "lb_pvalue": 0.0008356106862969931
+     }
+    },
+    "autocorrelacion_1": 0.26818315042669916,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anios_Unidad pública": {
+   "n_parametros": 67,
+   "n_meses": 144,
+   "rango_diseno": 67,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 12782.984401495116,
+   "score_max_abs": 1.8598456108520622e-12,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 1.8083810504555222e-06,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 39.404684700814954,
+      "lb_pvalue": 5.962145220582969e-07
+     },
+     "12": {
+      "lb_stat": 52.9494500205119,
+      "lb_pvalue": 4.2055444786420763e-07
+     },
+     "24": {
+      "lb_stat": 64.91624735558806,
+      "lb_pvalue": 1.2521365928657426e-05
+     }
+    },
+    "autocorrelacion_1": 0.4320354664213277,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "principal_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 480459.6301102433,
+   "score_max_abs": 8.469669410260394e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.7194683885262836e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.538542668525525,
+      "lb_pvalue": 0.8641294340306
+     },
+     "12": {
+      "lb_stat": 3.0772849558060535,
+      "lb_pvalue": 0.9949733529419188
+     },
+     "24": {
+      "lb_stat": 16.562141467333173,
+      "lb_pvalue": 0.8667262844279011
+     }
+    },
+    "autocorrelacion_1": -0.0830828063672864,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anual_post_Unidad privada": {
+   "n_parametros": 61,
+   "n_meses": 144,
+   "rango_diseno": 61,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 470697.5456690047,
+   "score_max_abs": 5.995701712890877e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.0728825510978833e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 3.404441041849493,
+      "lb_pvalue": 0.7566369246805933
+     },
+     "12": {
+      "lb_stat": 3.779754001136196,
+      "lb_pvalue": 0.9870906675612882
+     },
+     "24": {
+      "lb_stat": 16.308944028952165,
+      "lb_pvalue": 0.8766032021816019
+     }
+    },
+    "autocorrelacion_1": -0.10952863899691302,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anios_Unidad privada": {
+   "n_parametros": 67,
+   "n_meses": 144,
+   "rango_diseno": 67,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 12119.469880793762,
+   "score_max_abs": 2.305355906173645e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 6.196866403482595e-06,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 6.55408534443685,
+      "lb_pvalue": 0.3640577960106941
+     },
+     "12": {
+      "lb_stat": 7.268857621056471,
+      "lb_pvalue": 0.8393468604191879
+     },
+     "24": {
+      "lb_stat": 19.55563073932195,
+      "lb_pvalue": 0.721745230124091
+     }
+    },
+    "autocorrelacion_1": -0.1622666724643442,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "principal_Otro/NE": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 742621.8123753018,
+   "score_max_abs": 6.522213880089112e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 3.208544975661403e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 23.620332898221804,
+      "lb_pvalue": 0.0006132363881795077
+     },
+     "12": {
+      "lb_stat": 29.623794672959356,
+      "lb_pvalue": 0.0031803195871345094
+     },
+     "24": {
+      "lb_stat": 37.02422543563499,
+      "lb_pvalue": 0.04351705770334307
+     }
+    },
+    "autocorrelacion_1": 0.25369831555365946,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anual_post_Otro/NE": {
+   "n_parametros": 61,
+   "n_meses": 144,
+   "rango_diseno": 61,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 724576.1985475887,
+   "score_max_abs": 1.2812506611226127e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 1.8395703881529427e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 28.067067709828752,
+      "lb_pvalue": 9.126898211037787e-05
+     },
+     "12": {
+      "lb_stat": 33.68191290982821,
+      "lb_pvalue": 0.0007569831159330087
+     },
+     "24": {
+      "lb_stat": 37.834999069983084,
+      "lb_pvalue": 0.03604522311953738
+     }
+    },
+    "autocorrelacion_1": 0.2448668408007573,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "anios_Otro/NE": {
+   "n_parametros": 67,
+   "n_meses": 144,
+   "rango_diseno": 67,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 15977.208122541502,
+   "score_max_abs": 2.0975221559638157e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.111624887348523e-06,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 32.72155667469416,
+      "lb_pvalue": 1.1861816240597553e-05
+     },
+     "12": {
+      "lb_stat": 41.76260328976603,
+      "lb_pvalue": 3.651119779821128e-05
+     },
+     "24": {
+      "lb_stat": 45.0686906256851,
+      "lb_pvalue": 0.005717095307300888
+     }
+    },
+    "autocorrelacion_1": 0.2631015503359523,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_abril2020_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 555785.6585899243,
+   "score_max_abs": 5.205720299272798e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.2386217341665274e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 7.173508179076329,
+      "lb_pvalue": 0.305099041804866
+     },
+     "12": {
+      "lb_stat": 20.18062234573206,
+      "lb_pvalue": 0.06374541385557587
+     },
+     "24": {
+      "lb_stat": 34.73029052610811,
+      "lb_pvalue": 0.0725014559968171
+     }
+    },
+    "autocorrelacion_1": 0.003295042346735943,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_HAC6_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 6,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 556647.6763846911,
+   "score_max_abs": 1.6910917111090384e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 8.06415080624621e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 19.874251006867418,
+      "lb_pvalue": 0.002915769092757151
+     },
+     "12": {
+      "lb_stat": 42.26826300393376,
+      "lb_pvalue": 3.0014924692515864e-05
+     },
+     "24": {
+      "lb_stat": 55.808151541290734,
+      "lb_pvalue": 0.00024335670240741388
+     }
+    },
+    "autocorrelacion_1": 0.08343289401847559,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_lugar_conocido_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 564820.0696002677,
+   "score_max_abs": 1.5518253349000588e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.7748044516934635e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 19.790104986665753,
+      "lb_pvalue": 0.0030179033532503723
+     },
+     "12": {
+      "lb_stat": 44.183055618442474,
+      "lb_pvalue": 1.4212972567065088e-05
+     },
+     "24": {
+      "lb_stat": 59.328619536662615,
+      "lb_pvalue": 7.94066397079583e-05
+     }
+    },
+    "autocorrelacion_1": 0.10289905569317798,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_region_Hogar": {
+   "n_parametros": 31,
+   "n_meses": 144,
+   "rango_diseno": 31,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 555171.1021510011,
+   "score_max_abs": 7.349854058702476e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.168901280691485e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 19.59185107692929,
+      "lb_pvalue": 0.0032725301073438513
+     },
+     "12": {
+      "lb_stat": 44.67324462950425,
+      "lb_pvalue": 1.1721335316399508e-05
+     },
+     "24": {
+      "lb_stat": 59.67404123587937,
+      "lb_pvalue": 7.100652255198065e-05
+     }
+    },
+    "autocorrelacion_1": 0.09244150775966437,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_no_residentes_Hogar": {
+   "n_parametros": 60,
+   "n_meses": 144,
+   "rango_diseno": 60,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 558305.1094743162,
+   "score_max_abs": 9.549694368615746e-12,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.2791028949868354e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 19.85023723985042,
+      "lb_pvalue": 0.0029445674053441067
+     },
+     "12": {
+      "lb_stat": 41.90242641907198,
+      "lb_pvalue": 3.45880056111322e-05
+     },
+     "24": {
+      "lb_stat": 55.20513244834344,
+      "lb_pvalue": 0.00029371505169128846
+     }
+    },
+    "autocorrelacion_1": 0.08684572184663367,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_sin_ponderar_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 650402.6038014949,
+   "score_max_abs": 3.001332515850663e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 5.1634689422432955e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 16.299208739553283,
+      "lb_pvalue": 0.012234985121361154
+     },
+     "12": {
+      "lb_stat": 36.241005456215866,
+      "lb_pvalue": 0.0002963176341129253
+     },
+     "24": {
+      "lb_stat": 49.81945111122316,
+      "lb_pvalue": 0.0014927799137509825
+     }
+    },
+    "autocorrelacion_1": 0.11027277995198079,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_ponderado_completitud_Hogar": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 652444.0118823336,
+   "score_max_abs": 3.056470632145647e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 4.8792607630257664e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 16.73107174344645,
+      "lb_pvalue": 0.01032410675129383
+     },
+     "12": {
+      "lb_stat": 36.68689074641849,
+      "lb_pvalue": 0.0002510701179388065
+     },
+     "24": {
+      "lb_stat": 50.06168012228913,
+      "lb_pvalue": 0.0013906105053441572
+     }
+    },
+    "autocorrelacion_1": 0.10871834574965943,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_abril2020_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 506814.2493841569,
+   "score_max_abs": 1.736566446197685e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 1.0680862304855275e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 9.012018548120894,
+      "lb_pvalue": 0.1729032836487831
+     },
+     "12": {
+      "lb_stat": 21.129242445050423,
+      "lb_pvalue": 0.04851962717327655
+     },
+     "24": {
+      "lb_stat": 55.81210855741726,
+      "lb_pvalue": 0.00024305562386732542
+     }
+    },
+    "autocorrelacion_1": 0.2286810175575358,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_HAC6_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 6,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 507482.4499400165,
+   "score_max_abs": 2.0020252122776583e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 1.559318371010952e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 18.006532541205168,
+      "lb_pvalue": 0.006215890688486409
+     },
+     "12": {
+      "lb_stat": 34.99155398884078,
+      "lb_pvalue": 0.00046976151483988905
+     },
+     "24": {
+      "lb_stat": 61.43727185768096,
+      "lb_pvalue": 3.992390821870143e-05
+     }
+    },
+    "autocorrelacion_1": 0.27930375720114253,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_lugar_conocido_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 514648.1671244649,
+   "score_max_abs": 1.7621459846850485e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.677600191947998e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 17.858137302518266,
+      "lb_pvalue": 0.006596670811295662
+     },
+     "12": {
+      "lb_stat": 35.34693745080852,
+      "lb_pvalue": 0.0004122797707106613
+     },
+     "24": {
+      "lb_stat": 59.451518188809864,
+      "lb_pvalue": 7.631264043254955e-05
+     }
+    },
+    "autocorrelacion_1": 0.27545599383934793,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_region_Unidad pública": {
+   "n_parametros": 31,
+   "n_meses": 144,
+   "rango_diseno": 31,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 505879.4140047241,
+   "score_max_abs": 1.2076384336978663e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.3616847414580428e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 17.42772161746399,
+      "lb_pvalue": 0.007833402554379346
+     },
+     "12": {
+      "lb_stat": 35.819412698662674,
+      "lb_pvalue": 0.00034636860921637543
+     },
+     "24": {
+      "lb_stat": 61.683491018778206,
+      "lb_pvalue": 3.681531716972837e-05
+     }
+    },
+    "autocorrelacion_1": 0.27514222175869335,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_no_residentes_Unidad pública": {
+   "n_parametros": 60,
+   "n_meses": 144,
+   "rango_diseno": 60,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 509152.90231837274,
+   "score_max_abs": 1.318767317570746e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.96496316308671e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 18.28150982182891,
+      "lb_pvalue": 0.005565881779476233
+     },
+     "12": {
+      "lb_stat": 34.056272384720224,
+      "lb_pvalue": 0.0006608951106638392
+     },
+     "24": {
+      "lb_stat": 60.43079470854801,
+      "lb_pvalue": 5.55160234481468e-05
+     }
+    },
+    "autocorrelacion_1": 0.284727642714261,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_sin_ponderar_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 590394.8681271521,
+   "score_max_abs": 2.141860022675246e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 8.107338591832032e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 27.63282088114288,
+      "lb_pvalue": 0.00011016383003905075
+     },
+     "12": {
+      "lb_stat": 41.96932406003754,
+      "lb_pvalue": 3.3703440008912226e-05
+     },
+     "24": {
+      "lb_stat": 86.73036244225504,
+      "lb_pvalue": 4.977290826155152e-09
+     }
+    },
+    "autocorrelacion_1": 0.3415743396578585,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_ponderado_completitud_Unidad pública": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 591991.4458253289,
+   "score_max_abs": 6.730260793119669e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.788867079763513e-08,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 26.88528236991313,
+      "lb_pvalue": 0.00015215121810625506
+     },
+     "12": {
+      "lb_stat": 41.223402350396334,
+      "lb_pvalue": 4.4962327953636355e-05
+     },
+     "24": {
+      "lb_stat": 85.17510193072441,
+      "lb_pvalue": 8.928412993180804e-09
+     }
+    },
+    "autocorrelacion_1": 0.3375544364781602,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_abril2020_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 479753.0044872224,
+   "score_max_abs": 2.0985240212212375e-09,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.6342550442708647e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.521750579229074,
+      "lb_pvalue": 0.8660255312851804
+     },
+     "12": {
+      "lb_stat": 3.364808925658053,
+      "lb_pvalue": 0.9923744458739303
+     },
+     "24": {
+      "lb_stat": 16.905782137231284,
+      "lb_pvalue": 0.8526525053832925
+     }
+    },
+    "autocorrelacion_1": -0.09417360154830429,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_HAC6_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 6,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 480459.6301102433,
+   "score_max_abs": 8.469669410260394e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.316871895035268e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.538542668525525,
+      "lb_pvalue": 0.8641294340306
+     },
+     "12": {
+      "lb_stat": 3.0772849558060535,
+      "lb_pvalue": 0.9949733529419188
+     },
+     "24": {
+      "lb_stat": 16.562141467333173,
+      "lb_pvalue": 0.8667262844279011
+     }
+    },
+    "autocorrelacion_1": -0.0830828063672864,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_lugar_conocido_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 481205.5575239864,
+   "score_max_abs": 1.6420642623415915e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.7828427190279314e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.5591181455917282,
+      "lb_pvalue": 0.8617936182837469
+     },
+     "12": {
+      "lb_stat": 3.125874127874054,
+      "lb_pvalue": 0.9945882081013088
+     },
+     "24": {
+      "lb_stat": 16.776508795772866,
+      "lb_pvalue": 0.8580360497944324
+     }
+    },
+    "autocorrelacion_1": -0.08721707647638194,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_region_Unidad privada": {
+   "n_parametros": 31,
+   "n_meses": 144,
+   "rango_diseno": 31,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 480056.16721927613,
+   "score_max_abs": 6.423306331271306e-12,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 7.349900472559427e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.47210807957488,
+      "lb_pvalue": 0.8715760628922469
+     },
+     "12": {
+      "lb_stat": 2.9886889773444705,
+      "lb_pvalue": 0.9956233492695921
+     },
+     "24": {
+      "lb_stat": 16.336390684074782,
+      "lb_pvalue": 0.8755530460832578
+     }
+    },
+    "autocorrelacion_1": -0.06991729539515079,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_no_residentes_Unidad privada": {
+   "n_parametros": 60,
+   "n_meses": 144,
+   "rango_diseno": 60,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 488117.9654123322,
+   "score_max_abs": 6.568257049366366e-11,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.272764960680578e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 3.1509776967372845,
+      "lb_pvalue": 0.7896729812631024
+     },
+     "12": {
+      "lb_stat": 4.3943088479722565,
+      "lb_pvalue": 0.9752254157668506
+     },
+     "24": {
+      "lb_stat": 17.269467456382575,
+      "lb_pvalue": 0.8369439044313725
+     }
+    },
+    "autocorrelacion_1": -0.08494350457878008,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_sin_ponderar_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 616335.8051574702,
+   "score_max_abs": 2.9808688850607723e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.5023946682831396e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.881387806469383,
+      "lb_pvalue": 0.8235799533585104
+     },
+     "12": {
+      "lb_stat": 3.352552860143866,
+      "lb_pvalue": 0.9925016516216161
+     },
+     "24": {
+      "lb_stat": 18.72943718098768,
+      "lb_pvalue": 0.7662605535620849
+     }
+    },
+    "autocorrelacion_1": -0.07892171207433289,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_2024_ponderado_completitud_Unidad privada": {
+   "n_parametros": 59,
+   "n_meses": 156,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 619449.9268335456,
+   "score_max_abs": 2.6972202249453403e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 2.3878041570376134e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 2.8804699184685516,
+      "lb_pvalue": 0.8236927117889641
+     },
+     "12": {
+      "lb_stat": 3.3544341898008816,
+      "lb_pvalue": 0.9924822253610244
+     },
+     "24": {
+      "lb_stat": 18.678431933001562,
+      "lb_pvalue": 0.7689142608410456
+     }
+    },
+    "autocorrelacion_1": -0.07866729641521673,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  },
+  "sens_catalogo_alt_No especificado": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [
+    {
+     "variable": "ent_resid",
+     "nivel": 3,
+     "eventos": 0.0,
+     "resto": 559.0
+    }
+   ],
+   "inferencial": false,
+   "estado": "No estimable: separación estructural o diseño sin rango completo; sin OR/IC/p.",
+   "intento": "Validación previa al ajuste; no se publica una MLE sin existencia finita."
+  },
+  "sens_catalogo_alt_Vía pública/otro": {
+   "n_parametros": 59,
+   "n_meses": 144,
+   "rango_diseno": 59,
+   "correccion_covarianza": "T/(T-1)",
+   "rezagos": 12,
+   "separacion_estructural": [],
+   "inferencial": true,
+   "advertencias": [],
+   "convergencia": true,
+   "H_condicion": 1519017.691217303,
+   "score_max_abs": 6.545519681822043e-10,
+   "coeficientes_finitos": true,
+   "cov_eigen_min": 3.366247338796111e-07,
+   "estado": "Válido para inferencia exploratoria condicional al modelo",
+   "residuos_mensuales": {
+    "tipo": "Pearson agregado por mes",
+    "ljung_box": {
+     "6": {
+      "lb_stat": 15.128648764248325,
+      "lb_pvalue": 0.019279373811274675
+     },
+     "12": {
+      "lb_stat": 28.682790307733907,
+      "lb_pvalue": 0.004390205604780537
+     },
+     "24": {
+      "lb_stat": 38.79613625453297,
+      "lb_pvalue": 0.028684680359815036
+     }
+    },
+    "autocorrelacion_1": 0.16237936212716833,
+    "nota": "Diagnóstico aproximado; HAC no garantiza forma temporal correcta."
+   }
+  }
+ }
+}

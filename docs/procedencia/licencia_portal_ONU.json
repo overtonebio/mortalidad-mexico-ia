@@ -1,0 +1,19 @@
+{
+  "consulta": "2026-10-01",
+  "url": "https://population.un.org/dataportalapi/swagger/DataPortalOpenAPISpecificationv1.0/swagger.json",
+  "info": {
+    "title": "Data Portal API",
+    "description": "<h3 style=\"color:Tomato !important;\">IMPORTANT: Please note that our data endpoints require an authorization token for access. You can request the token by clicking on the green 'GENERATE TOKEN' button above, in the top right corner.</h3>",
+    "contact": {
+      "name": "Population Division",
+      "url": "http://unpopulation.org",
+      "email": "population@un.org"
+    },
+    "license": {
+      "name": "Creative Commons license CC BY 3.0 IGO",
+      "url": "http://creativecommons.org/licenses/by/3.0/igo/"
+    },
+    "version": "v1.0 · 2026.09.25.2881"
+  },
+  "alcance": "Portal API oficial; falta vincular el extracto de población a su archivo y ruta de obtención originales."
+}

@@ -1,0 +1,28 @@
+# Datos y pronósticos externos (se obtienen de Zenodo o de una carpeta local; véase docs/DATOS.md)
+data/external/
+*.npz
+# Ejecuciones (cada una en un --output-dir nuevo)
+ejecuciones/
+salidas/
+runs/
+# Entornos, cachés y temporales
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+~$*
+*.tmp
+.env
+.env.*
+# Pesos de modelos (no se distribuyen)
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+hf_cache/

@@ -1,0 +1,12 @@
+{
+  "Figura_6": {
+    "datos_antes_sha256": "f93adf53380dfb740d226242abbaf86501d453ca903810aa54824663ff4069a5",
+    "datos_despues_sha256": "f93adf53380dfb740d226242abbaf86501d453ca903810aa54824663ff4069a5",
+    "identicos": true
+  },
+  "Figura_S3": {
+    "datos_antes_sha256": "bee795751c440e4a0221ce71360b43f13e75b8e6648ba361168b091c6bd19f3f",
+    "datos_despues_sha256": "bee795751c440e4a0221ce71360b43f13e75b8e6648ba361168b091c6bd19f3f",
+    "identicos": true
+  }
+}

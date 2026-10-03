@@ -1,0 +1,92 @@
+{
+ "descripcion": "Pasos de los niveles 2 y 3. Los pasos y su orden reproducen benchmark/recalcular.py y c50/recalcular.py del archivo científico v13; solo cambia el directorio donde se ejecutan (copia de trabajo bajo --output-dir).",
+ "benchmark": {
+  "entorno": "environments/benchmark-recalculo.txt",
+  "python_historico": "3.11.16",
+  "pasos": [
+   {
+    "script": "codigo/auditoria/reproducir_benchmark.py",
+    "args": [
+     "pronosticos/publicados",
+     "resultados/benchmark"
+    ]
+   },
+   {
+    "script": "codigo/analisis/p1_intervalos_mama.py"
+   },
+   {
+    "script": "codigo/analisis/p1b_auditoria_intervalos.py"
+   },
+   {
+    "script": "codigo/analisis/p2_deteccion_temporal.py"
+   },
+   {
+    "script": "codigo/analisis/p3_cosecha_2021_2023.py"
+   },
+   {
+    "script": "codigo/analisis/p4_friedman_sensibilidad.py"
+   },
+   {
+    "script": "codigo/analisis/p4b_lora.py"
+   },
+   {
+    "script": "codigo/analisis/p5_derechohab.py"
+   },
+   {
+    "script": "codigo/analisis/p5_comparar_rerun.py"
+   },
+   {
+    "script": "codigo/analisis/p2_deteccion_temporal.py",
+    "env": {
+     "ESTRATOS": "2012-2019"
+    }
+   },
+   {
+    "script": "codigo/analisis/tablas_v9.py"
+   },
+   {
+    "script": "codigo/analisis/numeros_v9.py"
+   },
+   {
+    "script": "codigo/analisis/tabla1_y_S15.py",
+    "añadido": "paso nuevo: tabla 1 y S15 extraídas de generar_manuscrito.py (no estaban en el ejecutor original)"
+   }
+  ],
+  "salidas_comparables": [
+   "resultados",
+   "documentos/tablas"
+  ]
+ },
+ "c50": {
+  "entorno": "environments/c50-recalculo.txt",
+  "python_historico": "3.12.14",
+  "env": {
+   "OPENBLAS_NUM_THREADS": "2",
+   "OMP_NUM_THREADS": "2",
+   "NSIM": "10000"
+  },
+  "pasos": [
+   "tabla_catalogos",
+   "validacion_datos",
+   "reproducir_its_previa",
+   "tendencia_ampliaciones",
+   "lugar_defuncion",
+   "tablas_lugar",
+   "numeros_v11",
+   "registro_modelos",
+   "verificar_correcciones_v11",
+   "c50_apvp_localidad_v12"
+  ],
+  "paso_figuras": {
+   "despues_de": "registro_modelos",
+   "script": "figuras_c50"
+  },
+  "salidas_comparables": [
+   "resultados",
+   "tablas"
+  ],
+  "no_distribuidos": [
+   "resultados/c50_analitico.pkl"
+  ]
+ }
+}

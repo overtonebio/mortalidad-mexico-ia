@@ -1,0 +1,576 @@
+{
+ "diag": [
+  {
+   "target": "asmr",
+   "bloque": 1,
+   "n_errores": 9,
+   "rango_requerido": 9,
+   "rango_usado": 9,
+   "nivel_nominal_max": 90.0,
+   "solapamiento_consecutivo_meses": 9,
+   "autocorr_lag1": 0.5667,
+   "sesgo_medio_pct": 1.7404,
+   "max_abs": 0.0675
+  },
+  {
+   "target": "asmr",
+   "bloque": 2,
+   "n_errores": 9,
+   "rango_requerido": 9,
+   "rango_usado": 9,
+   "nivel_nominal_max": 90.0,
+   "solapamiento_consecutivo_meses": 9,
+   "autocorr_lag1": 0.3776,
+   "sesgo_medio_pct": 2.387,
+   "max_abs": 0.0555
+  },
+  {
+   "target": "asmr",
+   "bloque": 3,
+   "n_errores": 9,
+   "rango_requerido": 9,
+   "rango_usado": 9,
+   "nivel_nominal_max": 90.0,
+   "solapamiento_consecutivo_meses": 9,
+   "autocorr_lag1": 0.5505,
+   "sesgo_medio_pct": 4.1114,
+   "max_abs": 0.0796
+  },
+  {
+   "target": "asmr",
+   "bloque": 4,
+   "n_errores": 5,
+   "rango_requerido": 6,
+   "rango_usado": 5,
+   "nivel_nominal_max": 83.3333,
+   "solapamiento_consecutivo_meses": 9,
+   "autocorr_lag1": 0.9975,
+   "sesgo_medio_pct": 6.9373,
+   "max_abs": 0.0777
+  }
+ ],
+ "placebo_ens": [
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "0-10",
+   "n_cal": 1892,
+   "n_prueba": 946,
+   "FPR": 7.82,
+   "sesgo_prueba_pct": 7.54
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "10-25",
+   "n_cal": 1628,
+   "n_prueba": 814,
+   "FPR": 8.85,
+   "sesgo_prueba_pct": 3.83
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "100-300",
+   "n_cal": 486,
+   "n_prueba": 243,
+   "FPR": 9.88,
+   "sesgo_prueba_pct": 3.39
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "25-100",
+   "n_cal": 1370,
+   "n_prueba": 685,
+   "FPR": 8.61,
+   "sesgo_prueba_pct": 3.11
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "300-1000",
+   "n_cal": 262,
+   "n_prueba": 131,
+   "FPR": 3.05,
+   "sesgo_prueba_pct": 1.44
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": ">1000",
+   "n_cal": 102,
+   "n_prueba": 51,
+   "FPR": 7.84,
+   "sesgo_prueba_pct": 2.45
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 1,
+   "vol": "todos",
+   "n_cal": 5740,
+   "n_prueba": 2870,
+   "FPR": 8.26,
+   "sesgo_prueba_pct": 4.69
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "0-10",
+   "n_cal": 1892,
+   "n_prueba": 946,
+   "FPR": 8.35,
+   "sesgo_prueba_pct": 8.13
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "10-25",
+   "n_cal": 1628,
+   "n_prueba": 814,
+   "FPR": 12.16,
+   "sesgo_prueba_pct": 4.11
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "100-300",
+   "n_cal": 486,
+   "n_prueba": 243,
+   "FPR": 4.94,
+   "sesgo_prueba_pct": 2.56
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "25-100",
+   "n_cal": 1370,
+   "n_prueba": 685,
+   "FPR": 9.93,
+   "sesgo_prueba_pct": 2.64
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "300-1000",
+   "n_cal": 262,
+   "n_prueba": 131,
+   "FPR": 4.58,
+   "sesgo_prueba_pct": 1.8
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": ">1000",
+   "n_cal": 102,
+   "n_prueba": 51,
+   "FPR": 5.88,
+   "sesgo_prueba_pct": 3.01
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 2,
+   "vol": "todos",
+   "n_cal": 5740,
+   "n_prueba": 2870,
+   "FPR": 9.3,
+   "sesgo_prueba_pct": 4.8
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "0-10",
+   "n_cal": 1892,
+   "n_prueba": 946,
+   "FPR": 8.67,
+   "sesgo_prueba_pct": 11.12
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "10-25",
+   "n_cal": 1628,
+   "n_prueba": 814,
+   "FPR": 10.69,
+   "sesgo_prueba_pct": 6.54
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "100-300",
+   "n_cal": 486,
+   "n_prueba": 243,
+   "FPR": 4.53,
+   "sesgo_prueba_pct": 4.66
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "25-100",
+   "n_cal": 1370,
+   "n_prueba": 685,
+   "FPR": 8.47,
+   "sesgo_prueba_pct": 4.07
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "300-1000",
+   "n_cal": 262,
+   "n_prueba": 131,
+   "FPR": 6.87,
+   "sesgo_prueba_pct": 3.5
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": ">1000",
+   "n_cal": 102,
+   "n_prueba": 51,
+   "FPR": 5.88,
+   "sesgo_prueba_pct": 4.44
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 3,
+   "vol": "todos",
+   "n_cal": 5740,
+   "n_prueba": 2870,
+   "FPR": 8.71,
+   "sesgo_prueba_pct": 7.08
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "0-10",
+   "n_cal": 946,
+   "n_prueba": 946,
+   "FPR": 9.41,
+   "sesgo_prueba_pct": 14.78
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "10-25",
+   "n_cal": 814,
+   "n_prueba": 814,
+   "FPR": 10.57,
+   "sesgo_prueba_pct": 9.69
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "100-300",
+   "n_cal": 243,
+   "n_prueba": 243,
+   "FPR": 8.23,
+   "sesgo_prueba_pct": 10.78
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "25-100",
+   "n_cal": 685,
+   "n_prueba": 685,
+   "FPR": 10.51,
+   "sesgo_prueba_pct": 8.41
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "300-1000",
+   "n_cal": 131,
+   "n_prueba": 131,
+   "FPR": 7.63,
+   "sesgo_prueba_pct": 6.33
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": ">1000",
+   "n_cal": 51,
+   "n_prueba": 51,
+   "FPR": 3.92,
+   "sesgo_prueba_pct": 9.0
+  },
+  {
+   "variante": "Mondrian volumen (todas las series)",
+   "bloque": 4,
+   "vol": "todos",
+   "n_cal": 2870,
+   "n_prueba": 2870,
+   "FPR": 9.72,
+   "sesgo_prueba_pct": 10.95
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "0-10",
+   "n_cal": 12,
+   "n_prueba": 6,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": -7.44
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "10-25",
+   "n_cal": 24,
+   "n_prueba": 12,
+   "FPR": 25.0,
+   "sesgo_prueba_pct": -0.22
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "100-300",
+   "n_cal": 106,
+   "n_prueba": 53,
+   "FPR": 11.32,
+   "sesgo_prueba_pct": 2.84
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "25-100",
+   "n_cal": 130,
+   "n_prueba": 65,
+   "FPR": 10.77,
+   "sesgo_prueba_pct": 2.84
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "300-1000",
+   "n_cal": 76,
+   "n_prueba": 38,
+   "FPR": 2.63,
+   "sesgo_prueba_pct": 2.33
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": ">1000",
+   "n_cal": 54,
+   "n_prueba": 27,
+   "FPR": 7.41,
+   "sesgo_prueba_pct": 3.07
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 1,
+   "vol": "todos",
+   "n_cal": 402,
+   "n_prueba": 201,
+   "FPR": 9.45,
+   "sesgo_prueba_pct": 2.27
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "0-10",
+   "n_cal": 12,
+   "n_prueba": 6,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": -5.15
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "10-25",
+   "n_cal": 24,
+   "n_prueba": 12,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": 0.85
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "100-300",
+   "n_cal": 106,
+   "n_prueba": 53,
+   "FPR": 7.55,
+   "sesgo_prueba_pct": 4.4
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "25-100",
+   "n_cal": 130,
+   "n_prueba": 65,
+   "FPR": 1.54,
+   "sesgo_prueba_pct": 2.33
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "300-1000",
+   "n_cal": 76,
+   "n_prueba": 38,
+   "FPR": 13.16,
+   "sesgo_prueba_pct": 4.62
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": ">1000",
+   "n_cal": 54,
+   "n_prueba": 27,
+   "FPR": 7.41,
+   "sesgo_prueba_pct": 3.35
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 2,
+   "vol": "todos",
+   "n_cal": 402,
+   "n_prueba": 201,
+   "FPR": 5.97,
+   "sesgo_prueba_pct": 3.12
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "0-10",
+   "n_cal": 12,
+   "n_prueba": 6,
+   "FPR": 16.67,
+   "sesgo_prueba_pct": -9.3
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "10-25",
+   "n_cal": 24,
+   "n_prueba": 12,
+   "FPR": 8.33,
+   "sesgo_prueba_pct": 4.28
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "100-300",
+   "n_cal": 106,
+   "n_prueba": 53,
+   "FPR": 13.21,
+   "sesgo_prueba_pct": 7.68
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "25-100",
+   "n_cal": 130,
+   "n_prueba": 65,
+   "FPR": 3.08,
+   "sesgo_prueba_pct": 4.5
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "300-1000",
+   "n_cal": 76,
+   "n_prueba": 38,
+   "FPR": 13.16,
+   "sesgo_prueba_pct": 6.87
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": ">1000",
+   "n_cal": 54,
+   "n_prueba": 27,
+   "FPR": 7.41,
+   "sesgo_prueba_pct": 3.94
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 3,
+   "vol": "todos",
+   "n_cal": 402,
+   "n_prueba": 201,
+   "FPR": 8.96,
+   "sesgo_prueba_pct": 5.24
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "0-10",
+   "n_cal": 6,
+   "n_prueba": 6,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": 0.21
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "10-25",
+   "n_cal": 12,
+   "n_prueba": 12,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": 6.85
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "100-300",
+   "n_cal": 53,
+   "n_prueba": 53,
+   "FPR": 7.55,
+   "sesgo_prueba_pct": 11.39
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "25-100",
+   "n_cal": 65,
+   "n_prueba": 65,
+   "FPR": 9.23,
+   "sesgo_prueba_pct": 4.66
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "300-1000",
+   "n_cal": 38,
+   "n_prueba": 38,
+   "FPR": 10.53,
+   "sesgo_prueba_pct": 6.64
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": ">1000",
+   "n_cal": 27,
+   "n_prueba": 27,
+   "FPR": 0.0,
+   "sesgo_prueba_pct": 8.81
+  },
+  {
+   "variante": "Solo series nacionales, por volumen",
+   "bloque": 4,
+   "vol": "todos",
+   "n_cal": 201,
+   "n_prueba": 201,
+   "FPR": 6.97,
+   "sesgo_prueba_pct": 7.32
+  }
+ ],
+ "backtest_mama_supera_cuantil_entre_series": {
+  "n": 190,
+  "n_supera": 0
+ },
+ "mase_mama_tee_nacional": {
+  "media": {
+   "Chronos-2": 1.1394,
+   "Chronos-Bolt": 1.1388,
+   "ETS amortiguado": 1.2345,
+   "Ensamble (mediana)": 1.0493,
+   "Log-lineal (tendencia+mes)": 0.9398,
+   "Naive estacional": 1.1752,
+   "SARIMA": 1.6223,
+   "TimesFM-2.5": 1.1964
+  },
+  "n_origenes": 9,
+  "origenes_ensamble_menor_que_loglineal": 1
+ }
+}

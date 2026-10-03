@@ -1,0 +1,5 @@
+# Recálculo numérico desde pronósticos guardados. Entorno fuente: Python 3.11.16.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+statsmodels==0.15.0

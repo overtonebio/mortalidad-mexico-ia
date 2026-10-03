@@ -1,0 +1,11 @@
+Modelo,δ (ajuste 2016),δ (ajuste 2017),δ (ajuste 2018)
+LightGBM,+0.023,+0.005,+0.037
+Ensamble,+0.035,+0.014,+0.056
+TimesFM-2.5,+0.050,+0.022,+0.073
+Chronos-2,+0.054,+0.025,+0.079
+Chronos-Bolt,+0.043,+0.015,+0.082
+N-HiTS,+0.004,−0.001,+0.095
+Log-lineal,+0.023,−0.036,−0.080
+ETS amortiguado,+0.030,−0.011,+0.003
+SARIMA,+0.001,−0.073,−0.180
+Ingenuo estacional,+0.027,+0.026,+0.077

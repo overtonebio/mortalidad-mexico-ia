@@ -1,0 +1,78 @@
+{
+ "descripcion": "Correspondencia entre la numeración del manuscrito v13 y los generadores. Los nombres internos de archivo no indican la numeración del artículo (p. ej., Figura6_C50_tendencia_y_lugar es la figura 5).",
+ "figuras": {
+  "Figura_1": {
+   "generador": "src/figuras/figura_diseno_v11.py",
+   "archivo_generado": "fig1/figuras_principales/Figura_1_v11.pdf",
+   "datos": "ninguno (diagrama)",
+   "sha256_pdf_v13": "70d7882841c1d57f9f14f00813583f0ffcaf7d03fb41b61d1dc37c84a04f9ce1"
+  },
+  "Figura_2": {
+   "generador": "src/figuras/exportar_figuras_v13.py (fig1_desde_numeros)",
+   "archivo_generado": "benchmark_pdf/Figura_2.pdf",
+   "datos": "resultados/benchmark/numeros_repro.json, friedman_por_serie.json",
+   "sha256_pdf_v13": "3749d40b5e42c6f05bb3520d60b72ee1f15b3f9bd3575db75dedf80b5846255e"
+  },
+  "Figura_3": {
+   "generador": "src/figuras/exportar_figuras_v13.py (fig2b)",
+   "archivo_generado": "benchmark_pdf/Figura_3.pdf",
+   "datos": "numeros_repro.json, atlas_repro.csv.gz, resultados p2_*",
+   "sha256_pdf_v13": "87e7a1543f7f7cc39788f6be65cc18c56139078aca56228bf43ca5de70b4a4c4"
+  },
+  "Figura_4": {
+   "generador": "src/figuras/exportar_figuras_v13.py (fig4b)",
+   "archivo_generado": "benchmark_pdf/Figura_4.pdf",
+   "datos": "resultados p1_*, entradas/tsfm_*",
+   "sha256_pdf_v13": "028079245744e4829dc6dc1c32252bd5afd0bd064cc288d6290fdc5de5365825"
+  },
+  "Figura_5": {
+   "generador": "src/c50/figuras_c50.py",
+   "archivo_generado": "c50/figuras/Figura6_C50_tendencia_y_lugar.pdf",
+   "datos": "c50 resultados/ y tablas/, paquete_original/exploracion_previa",
+   "sha256_pdf_v13": "c085b90ffcaa4ba3819e83ac06fe2c0d9b36bb75ddab206a7ebf9027d8703a89"
+  },
+  "Figura_6": {
+   "generador": "src/figuras/actualizar_figuras.py (fig3b, rótulos v13)",
+   "archivo_generado": "v13/Figura_6.pdf",
+   "datos": "entradas/numeros_G.json, finetune*, resultados/p4b_lora_armonizado.csv",
+   "sha256_pdf_v13": "58e403a09ec541d6dfdddd06af4295fc0b792f79a90ef7e01a068e44b62cb71a"
+  },
+  "Figura_S1": {
+   "generador": "src/figuras/exportar_figuras_v13.py (figS1b)",
+   "archivo_generado": "benchmark_pdf/Figura_S1.pdf",
+   "datos": "resultados p1_*, p3_*, entradas/lugar_defuncion_C50.csv",
+   "sha256_pdf_v13": "beea255bbb75fdcd2bc98ce67b6cac1931f5ec08e89593cab0280939d204f878"
+  },
+  "Figura_S2": {
+   "generador": "src/figuras/exportar_figuras_v13.py (figS2b)",
+   "archivo_generado": "benchmark_pdf/Figura_S2.pdf",
+   "datos": "entradas/subregistro_*",
+   "sha256_pdf_v13": "67e48cd909c906a577915a66d4e31ab9e7cfd40ac34da9e7c62a1af5f22934ae"
+  },
+  "Figura_S3": {
+   "generador": "src/figuras/actualizar_figuras.py (figS3b, rótulos v13)",
+   "archivo_generado": "v13/Figura_S3.pdf",
+   "datos": "entradas/finetune_resultados.csv.gz, finetune_rel_por_volumen.csv (piloto histórico)",
+   "sha256_pdf_v13": "8d3f544607395fecda3b710213b5794f919075ca0bb60f2d71b3cdda8f838a02"
+  },
+  "Figura_S4": {
+   "generador": "src/c50/figuras_c50.py",
+   "archivo_generado": "c50/figuras/FiguraS_C50_variantes_tendencia.pdf",
+   "datos": "c50 tablas/tablaS_tendencia_ampliaciones.csv",
+   "sha256_pdf_v13": "d3e5ad5e215ebdf6cb9aa23b9d447952c638f652595b135f59fcaec0d409f1e6"
+  },
+  "Figura_S5": {
+   "generador": "src/c50/figuras_c50.py",
+   "archivo_generado": "c50/figuras/FiguraS_C50_lugar_anual_y_sensibilidades.pdf",
+   "datos": "c50 tablas/tablaS_lugar_proporcion_ajustada_anual.csv",
+   "sha256_pdf_v13": "2baf7ed8cc2707f6f8b88d7b6200e095cbf32824c90398d3d49e73033a65c6bb"
+  },
+  "Figura_S6": {
+   "generador": "src/c50/figuras_c50.py",
+   "archivo_generado": "c50/figuras/FiguraS_C50_residuos.pdf",
+   "datos": "c50 resultados/residuos_ITS_principal.csv",
+   "sha256_pdf_v13": "9540c503609ddf0e92d1de31bfee45cca24d153205bb9f6094c0c4b0073f8cb5"
+  }
+ },
+ "nota_sha256": "SHA-256 de los PDF entregados en Paquete_envio_GMM_v13_20261001 (03_ y 04_). Los PDF regenerados difieren en bytes por la fecha de creación; la comparación se hace por render y texto."
+}

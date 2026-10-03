@@ -1,0 +1,3 @@
+# Comparación de figuras por render (scripts/comparar_pdf.py). No es necesaria para generar resultados.
+numpy
+pypdfium2==5.9.0

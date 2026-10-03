@@ -1,0 +1,11 @@
+Modelo,Series-año,Series,Detección (%)
+LightGBM,396,198,81.1
+Ensamble,396,198,81.1
+TimesFM-2.5,396,198,83.1
+Chronos-2,396,198,82.3
+Chronos-Bolt,396,198,80.6
+N-HiTS,396,198,83.8
+Log-lineal,396,198,71.2
+ETS amortiguado,396,198,82.3
+SARIMA,396,198,73.5
+Ingenuo estacional,396,198,85.4

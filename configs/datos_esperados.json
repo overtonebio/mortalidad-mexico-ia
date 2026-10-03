@@ -1,0 +1,550 @@
+{
+ "descripcion": "Archivos de entrada esperados dentro de --data-dir (rutas relativas). SHA-256 de las copias depositadas; coinciden con el archivo científico v13 salvo catalogos_cotejados.json (rutas personales retiradas; no lo lee ningún script).",
+ "archivos": {
+  "benchmark/datos/c50_raw_2012_2024.csv.gz": {
+   "sha256": "6d471a4e7ef08b4719c9fcebc58df0e7d479b2314891d247bc184b8a8ed80e40",
+   "bytes": 670537,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/catalogos_derechohab_fuentes.json": {
+   "sha256": "4b68d28108199063b5ed9ffb1537b9065c4c4e12f91fff7cbf4b585c8503e947",
+   "bytes": 2683,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2012_dederech.csv": {
+   "sha256": "03c6537886eba8d22267c9da895de6c66e005a1e9afe580dd9c362a6cd3b8467",
+   "bytes": 158,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2013_dederech.csv": {
+   "sha256": "931e246a2d853c426616e3361e7057b5f1969b28048fc8db558b58dd55ec3d5f",
+   "bytes": 155,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2014_dederech.csv": {
+   "sha256": "931e246a2d853c426616e3361e7057b5f1969b28048fc8db558b58dd55ec3d5f",
+   "bytes": 155,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2015_dederech.csv": {
+   "sha256": "931e246a2d853c426616e3361e7057b5f1969b28048fc8db558b58dd55ec3d5f",
+   "bytes": 155,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2016_dederech.csv": {
+   "sha256": "931e246a2d853c426616e3361e7057b5f1969b28048fc8db558b58dd55ec3d5f",
+   "bytes": 155,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2017_dederech.csv": {
+   "sha256": "931e246a2d853c426616e3361e7057b5f1969b28048fc8db558b58dd55ec3d5f",
+   "bytes": 155,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2018_derechohabiencia.csv": {
+   "sha256": "caddcee8401cdd49ef1a73d51d486e42988097f0854437decc1d707f526b6419",
+   "bytes": 133,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2019_derechohabiencia.csv": {
+   "sha256": "caddcee8401cdd49ef1a73d51d486e42988097f0854437decc1d707f526b6419",
+   "bytes": 133,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2020_derechohabiencia.csv": {
+   "sha256": "caddcee8401cdd49ef1a73d51d486e42988097f0854437decc1d707f526b6419",
+   "bytes": 133,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2021_derechohabiencia.csv": {
+   "sha256": "caddcee8401cdd49ef1a73d51d486e42988097f0854437decc1d707f526b6419",
+   "bytes": 133,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2022_derechohabiencia.csv": {
+   "sha256": "caddcee8401cdd49ef1a73d51d486e42988097f0854437decc1d707f526b6419",
+   "bytes": 133,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2023_derechohabiencia.csv": {
+   "sha256": "0ee2b1db20cb4e7cd1c5c1157d4916ad7334e22f92f4d76213c8afa548b100e0",
+   "bytes": 243,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/catalogos_inegi/derechohab_2024_derechohabiencia.csv": {
+   "sha256": "b0d0d2c1b0c54c2d9c060af9661c7a4fd854b7db443cb92bb530328c270b7b54",
+   "bytes": 285,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/corpus2_mortalidad_mensual.csv.gz": {
+   "sha256": "f881a6f241cbd43651cbb205399e0e84441e539ce14c9878f33c61dbc1222031",
+   "bytes": 493947,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/covid_mujeres_edad.csv": {
+   "sha256": "6d1d99b8cb51ee2203f35516566e14b4144d06e3c92b951de46d0c62b68da69e",
+   "bytes": 363,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/series_mensuales_C50.csv": {
+   "sha256": "37e987c21b8d92e6d2108b1ee654397df2eeb12b68c6126f3af6cd5a553bb16b",
+   "bytes": 45640,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/datos/wpp_mex_female_age5.csv": {
+   "sha256": "20340aaf3f3370f4c7941c85bc73996c1ca780fb5ac5fd2bce7d76f15c63e0a2",
+   "bytes": 7952,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/adaptacion_LoRA_resumen.csv": {
+   "sha256": "bfb423b24dee1776a508dceaa8bc276f9efa5553078e2d0b4baea00f021248be",
+   "bytes": 356,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/atlas_2023_conformal_48m.csv.gz": {
+   "sha256": "bc0ec336d01280ae990a29851ceefaad6d03d74cbfb18d7d83f07568fb296f02",
+   "bytes": 1173712,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/conformal_variantes_placebo.csv": {
+   "sha256": "796c8a45d00279e3f5879556af7c80543615484b93126872befdea0c51efa0a2",
+   "bytes": 1423,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/cosecha_simulaciones.npy": {
+   "sha256": "8d1d6424d571101218ba3ae04e2b019d834489e55e3e4e53f07a9f1b6a4fca79",
+   "bytes": 160128,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/costo_computacional.json": {
+   "sha256": "0fc8cab0a81b1ffa2612fff75f740c067f545f483cd3f67c07183ed2ac3c1c49",
+   "bytes": 690,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/cqr_recalibracion_2016.csv": {
+   "sha256": "f390e898498593eb6bb19867d7af90f9c0977fbc41656b26525288bb9b912e9d",
+   "bytes": 690,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune2_resultados.csv.gz": {
+   "sha256": "b9e661b27ba9321b5b389577bdf593be5a15b3506e68cedd84240d7457ad1702",
+   "bytes": 502192,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune_contrafactual_C50.csv": {
+   "sha256": "d18db4d902110faefa128a48232006ddf02e6b890747d15307f8d655f07b57d6",
+   "bytes": 4745,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune_estricto_log.json": {
+   "sha256": "b216713ea9221f30b5e959036393f340d6b2608d4f2893c503d23e254f652760",
+   "bytes": 51,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune_estricto_resultados.csv.gz": {
+   "sha256": "90ea4de81ff43c7948078a1927a0a8b4f79aa15fe315e04b11307fad184a0b85",
+   "bytes": 74837,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune_rel_por_volumen.csv": {
+   "sha256": "3886f5e6f7bb200320389284969530003aa556d1cb7f5ca995284de32c77db30",
+   "bytes": 638,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/finetune_resultados.csv.gz": {
+   "sha256": "6149936da3886141b7e22040c27f1b9d1580f8a1df81668203d84834b5deb04d",
+   "bytes": 276501,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/fix_clasicos_log.json": {
+   "sha256": "1423a0341cf2cbf838f31be541ddcb7e34fa86b72a1197fc7d1803193ca1939d",
+   "bytes": 1077,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/grupos_CIE10_28.csv": {
+   "sha256": "55b8f7c8c40f97445ed59967cd984e61e6313a90584eaad71317d37d94a32219",
+   "bytes": 1606,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/lugar_defuncion_C50.csv": {
+   "sha256": "ada035c060e47e116e1aa5480cb59b9f0553bad2c55a1c0a2e44d6f701dc98dd",
+   "bytes": 354,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/numeros_G.json": {
+   "sha256": "ae2df5fb0efe8e0c963af4a9c20e5f9c263ab7ddbb50ffcc82cd4f4ebb3bbb8e",
+   "bytes": 858,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/numeros_v4.json": {
+   "sha256": "b37e5bfa5b224485ab951b9875a3c27c19e04e1d8cc38c45b9d09cd95b820df8",
+   "bytes": 18114,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/p5_rerun_mama_detalle.csv": {
+   "sha256": "3ce55ab34423443a8a8cd350f9f3985719662d360090c4de251b7e90e72c4934",
+   "bytes": 30952,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/placebo_conjunto_canceres_h48.csv": {
+   "sha256": "cda1fce2051b976241ffae68e16ed55c5bec2fc730f111a5a5d6622c8f16b91a",
+   "bytes": 248,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/subregistro_calibracion.csv": {
+   "sha256": "6b0da08889a7902ed9dff4f3f471b022a1936a2f93890e037a165de6e5690390",
+   "bytes": 425,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/subregistro_desempeno.csv": {
+   "sha256": "796eaa94a496acba4df3729677021f31f4d264196928e5d05881dca88964eb6a",
+   "bytes": 241,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/subregistro_resultados.csv": {
+   "sha256": "0bdd7bc1311eaa067594f4b10583d285b10b293fe37da212e6d2a78e41710b2d",
+   "bytes": 1142,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/subregistro_shap.csv": {
+   "sha256": "fd887c4c5fff56a4e2e50602fddf4aaeb0f0fc9b2a1644aed9c9c7dd9a486587",
+   "bytes": 233,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tablaS1_grupos_CIE10.csv": {
+   "sha256": "55b8f7c8c40f97445ed59967cd984e61e6313a90584eaad71317d37d94a32219",
+   "bytes": 1606,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tablaS2A_validacion48_benchmark.csv": {
+   "sha256": "5a561c42c3dacab8c638cbccceb51a5e416d58d42e003609490553524dc0c8a9",
+   "bytes": 851,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tablaS2B_validacion48_mama.csv": {
+   "sha256": "6ea1712ab482e63f8a59ffb4edd7db792c3b4fe02def5b97dea083d1db8f8665",
+   "bytes": 1543,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tablaS7_costo_computacional.csv": {
+   "sha256": "a49518693b761373065a631538f95915461a14eb0dd463f1b3eb073c848d04c4",
+   "bytes": 514,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tablaS8_conteos_mama_todos_modelos.csv": {
+   "sha256": "c6cf214f319075822c7bb67652587761470a1d4b6a3fcf9e5526281eb9a4c7bf",
+   "bytes": 37148,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_backtest_bloques.csv": {
+   "sha256": "df63ac9e2e868fc20c3abb4840f8da639986de288ef77dbb77cd6e58e1856eab",
+   "bytes": 59495,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_backtest_bloques_h48.csv": {
+   "sha256": "923723117166bd610d222434be1be8a85c599bc5915ff743aca08701d8945e92",
+   "bytes": 100849,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_backtest_mensual.csv": {
+   "sha256": "7b049cea738eebc2d6742ea744f0a7159a78dee96cd0a946d385852171305600",
+   "bytes": 31273,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_backtest_mensual_h48.csv": {
+   "sha256": "52d88e8865959b56ee5954f5b72b74ee72b0212375e4d701e7f05cf408c7e444",
+   "bytes": 29809,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_backtest_mensual_subgrupos.csv": {
+   "sha256": "799dc406340d0c4373697818af81a6bd38b91b360f6b66ee212bd0d1b3fd2266",
+   "bytes": 39489,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_contrafactual_mensual.csv": {
+   "sha256": "23cbf5ac4a7ac554f39656b12d2bccdf5bac69243694d93ab9cb0e49ebb1e347",
+   "bytes": 256078,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_exceso_anual.csv": {
+   "sha256": "0e3dde73532f062e5a6a8e75aa661675ec7ada669abb57d77d5530df0e8e0d29",
+   "bytes": 25293,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/entradas/tsfm_exceso_anual_subgrupos.csv": {
+   "sha256": "1954889e3222d32540e03c0e6065f28d39e10d53fb8190435138ebdcf83d6de4",
+   "bytes": 31917,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2012_decateml.csv": {
+   "sha256": "72b2402bee1a2e86322521777e88f0d2eb63e7263eee7eb70385f57d1b09bdd1",
+   "bytes": 1177169,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2012_desitiodefun.csv": {
+   "sha256": "796c8746df8be98c53ac21ef7634f69d4fcd0c7aae8fd9b980afad520a073bf2",
+   "bytes": 265,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2013_decateml.CSV": {
+   "sha256": "a2a7921c690dbf1890447627d5547d5479cd7d6593c08a25bb3f0faa5a920e92",
+   "bytes": 2388992,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2013_desitiodefun.csv": {
+   "sha256": "43266890dc4b75b73344b4730c8f75ae09d5413354243fa9b8bd220846d73f5c",
+   "bytes": 262,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2014_decateml.CSV": {
+   "sha256": "47af746afb8186fcde3f2e6fa36fa138509932cd3759103a4c7d3a36d8aef1c3",
+   "bytes": 1213325,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2014_desitiodefun.csv": {
+   "sha256": "43266890dc4b75b73344b4730c8f75ae09d5413354243fa9b8bd220846d73f5c",
+   "bytes": 262,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2015_decateml.csv": {
+   "sha256": "73c64bbb696289a31fb3f6828c8037e3b90baa0612e479ae3a7a2ccc034a2d74",
+   "bytes": 1253975,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2015_desitiodefun.csv": {
+   "sha256": "43266890dc4b75b73344b4730c8f75ae09d5413354243fa9b8bd220846d73f5c",
+   "bytes": 262,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2016_decateml.csv": {
+   "sha256": "91558198e431fe85799f3cc919bb5af1ccc04eacc251af242b0de7f3ecb8bf5b",
+   "bytes": 1197219,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2016_desitiodefun.csv": {
+   "sha256": "43266890dc4b75b73344b4730c8f75ae09d5413354243fa9b8bd220846d73f5c",
+   "bytes": 262,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2017_decateml.csv": {
+   "sha256": "47a45995a5ffd3c26c58142f9cc5d520b68b6c5212a04eca012847ca8afcae6a",
+   "bytes": 1217915,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2017_desitiodefun.csv": {
+   "sha256": "43266890dc4b75b73344b4730c8f75ae09d5413354243fa9b8bd220846d73f5c",
+   "bytes": 262,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2018_entidad_municipio_localidad_2018.csv": {
+   "sha256": "c46c4ef7d2ba7db74f555298b28f654d744a71a686966b7e84bf9b1ef2942d24",
+   "bytes": 1178116,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2018_sitio_ocurrencia.csv": {
+   "sha256": "597a7485287352ba1ebca105f39678f7b6d428bf315755d6db047a957b5fa481",
+   "bytes": 257,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2019_entidad_municipio_localidad_2019.CSV": {
+   "sha256": "1593c5c0332d129366e1c160686475aa50b265d870869143a6991250b7953d20",
+   "bytes": 1233673,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2019_sitio_ocurrencia.csv": {
+   "sha256": "597a7485287352ba1ebca105f39678f7b6d428bf315755d6db047a957b5fa481",
+   "bytes": 257,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2020_entidad_municipio_localidad_2020.CSV": {
+   "sha256": "cddb03c7186001d37c5a7b7f081d44d312c90158a41f98bef0728089f27c28dc",
+   "bytes": 1250707,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2020_sitio_ocurrencia.csv": {
+   "sha256": "597a7485287352ba1ebca105f39678f7b6d428bf315755d6db047a957b5fa481",
+   "bytes": 257,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2021_entidad_municipio_localidad_2021.csv": {
+   "sha256": "c7b77ad6808a35874a56d3011ca5ea1cc4fd5e81d7ab372c5fb3edcc76e9d4e5",
+   "bytes": 1332513,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2021_sitio_ocurrencia.csv": {
+   "sha256": "597a7485287352ba1ebca105f39678f7b6d428bf315755d6db047a957b5fa481",
+   "bytes": 257,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2022_entidad_municipio_localidad_2022.csv": {
+   "sha256": "f0e14145b141701490c5699c6c4a671f4f2a4e671b2c364722d66ffc6bfa58e1",
+   "bytes": 1214073,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2022_sitio_ocurrencia.csv": {
+   "sha256": "597a7485287352ba1ebca105f39678f7b6d428bf315755d6db047a957b5fa481",
+   "bytes": 257,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2023_entidad_municipio_localidad_2023.CSV": {
+   "sha256": "81845682f7494c09ef8119205e5c87f99db57f51d8f77c11065f0fa4c1022381",
+   "bytes": 928681,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2023_sitio_ocurrencia.csv": {
+   "sha256": "648c3b09b49844311c1eaf7e896af2db06906b52cd537b7abd89e306c4ed474a",
+   "bytes": 275,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2024_entidad_municipio_localidad_2024.csv": {
+   "sha256": "01814b36ff468c0e808bfcb228486777998d7a11050bf1cf12a42b68f8513b30",
+   "bytes": 1494256,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos/2024_sitio_ocurrencia.csv": {
+   "sha256": "c9b06cb03ada7f0172b3d9bde4e05a871d2439acccba99d547761a8c6840c705",
+   "bytes": 317,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos_localidad/2012_detamloc.csv": {
+   "sha256": "3ac314f801eed113583cd1d8cf50eafc0eee06a49287bbb83e42033d382e0624",
+   "bytes": 396,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos_localidad/2024_tamaño_localidad.csv": {
+   "sha256": "c50ea0e74bfbadddc0a69284ca1bef3cb02f30199d0f4dc3dd2530bd9e0990ce",
+   "bytes": 549,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/catalogos_localidad/catalogos_cotejados.json": {
+   "sha256": "e23130ae229641338fec3cce7ab98dd9df106399309ab43d9a36e900ab4a1d56",
+   "bytes": 1342,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/fuentes_catalogos.json": {
+   "sha256": "a98b4044c979d287c49e009de3711fbb0696ad5cc8be202fac226589ad0ff5b5",
+   "bytes": 8777,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/miembros_zip.json": {
+   "sha256": "9f4cfadc81dac58e02f14f29bf2fe8ce26710e470cb6b47936c3f947275be1b1",
+   "bytes": 20256,
+   "paquete_zenodo": "datos"
+  },
+  "c50/fuentes_inegi/urls_datos_abiertos_inegi.json": {
+   "sha256": "083230f462d2565997ee4278189765814f3cb1b9029151e5cead1bc2d487f620",
+   "bytes": 1808,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/editorial/datos/c50_raw_2012_2024.csv.gz": {
+   "sha256": "6d471a4e7ef08b4719c9fcebc58df0e7d479b2314891d247bc184b8a8ed80e40",
+   "bytes": 670537,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/editorial/datos/series_mensuales_C50.csv": {
+   "sha256": "37e987c21b8d92e6d2108b1ee654397df2eeb12b68c6126f3af6cd5a553bb16b",
+   "bytes": 45640,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/editorial/datos/wpp_mex_female_age5.csv": {
+   "sha256": "20340aaf3f3370f4c7941c85bc73996c1ca780fb5ac5fd2bce7d76f15c63e0a2",
+   "bytes": 7952,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/editorial/entradas/lugar_defuncion_C50.csv": {
+   "sha256": "ada035c060e47e116e1aa5480cb59b9f0553bad2c55a1c0a2e44d6f701dc98dd",
+   "bytes": 354,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/PLAN_ANTES_DEL_AJUSTE.txt": {
+   "sha256": "6e8529cac82bf55f7592e0000a39f7f15df8f0881494698b8af95e01ad490cd1",
+   "bytes": 3084,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/analisis_its.py": {
+   "sha256": "3944f2d106d662c34aece68b91df8fcfd12303bb36337cd64da3c1a736e559d9",
+   "bytes": 5971,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/estimaciones_ITS.csv": {
+   "sha256": "cf0a79d9212d5c7026c714259303e1ee5fe5b52f6f3d33faed657861882cccfa",
+   "bytes": 4553,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/resultados_ITS.json": {
+   "sha256": "4069e13b52d7223ac5b721b3c38b1f79c9857a1752ddeac492f1d92b8c3bd2a1",
+   "bytes": 12513,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/resumen_anual.csv": {
+   "sha256": "832c9f1892fa7cca055ae4fa2a40f67d9ae4ca4ee1b3378ab989e8f012f983f3",
+   "bytes": 1179,
+   "paquete_zenodo": "datos"
+  },
+  "c50/paquete_original/exploracion_previa/serie_y_ajuste_principal.csv": {
+   "sha256": "5eb3b51e1c1056d7b0d66ec95e32e4ee608697c9ed110d3c0e5300f0cb17a3e8",
+   "bytes": 18138,
+   "paquete_zenodo": "datos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_2014-12.npz": {
+   "sha256": "d6de87b0b635b42075e771ccdd4d1d2f3f9f213436fd32c3e2c266f7e2a5dd9b",
+   "bytes": 9226805,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_2015-12.npz": {
+   "sha256": "e2c659f1d87577a36fa12410c3a012eb0b7bf7e4054cbefa01f4458cb90afd3f",
+   "bytes": 9339495,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_2016-12.npz": {
+   "sha256": "2162ee6acfbf7c57913f6fdcbeace2f6b8e853fd57e608fdbc240842c0ef1058",
+   "bytes": 9356743,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_2019-12.npz": {
+   "sha256": "3c15edf899376d4761e787f4dc29fdd707d212fa8cf2eb48339f3fd9aa2414f3",
+   "bytes": 15529928,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_h48_2014-12.npz": {
+   "sha256": "97dc21ce2807a5563c658380805ec612c3dbbe7067d3f107816c7c7a4e5322f5",
+   "bytes": 11887660,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/nueva_ejecucion_semillas/fc_h48_2015-12.npz": {
+   "sha256": "9374fa8bd1371ae386f0103fba95ee61a13a8c5851d3c9ba26dc1c98c5673414",
+   "bytes": 12300162,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_2014-12.npz": {
+   "sha256": "1c0144840b618d086ae80d4149a5e8fd741146234e15ba622c948058dd8b27be",
+   "bytes": 9226826,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_2015-12.npz": {
+   "sha256": "bb6355a9b4a9335c31d4e9174095285af7fb9d4aa497aa6baa05d67b194a5421",
+   "bytes": 9339600,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_2016-12.npz": {
+   "sha256": "725b470263526c7fd604b51c7d85f0e31c2da040108675ab13e6c48db9a9c3c3",
+   "bytes": 9356747,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_2019-12.npz": {
+   "sha256": "f762dceb742896dc09560d2888f69f0b2dd5dca03634319bd9bed6284296848a",
+   "bytes": 15530249,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_h48_2014-12.npz": {
+   "sha256": "c35b9ce31971f290c8e3fc80beda33e78f9722b0432773f828cd10eeb12809da",
+   "bytes": 11887736,
+   "paquete_zenodo": "pronosticos"
+  },
+  "benchmark/pronosticos/publicados/fc_h48_2015-12.npz": {
+   "sha256": "6ab5f83b9aa8ef51b7a08c90a7c8026760c54fd7f15fdb0106588d8276a00891",
+   "bytes": 12300101,
+   "paquete_zenodo": "pronosticos"
+  }
+ }
+}

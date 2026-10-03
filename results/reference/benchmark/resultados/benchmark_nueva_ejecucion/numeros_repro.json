@@ -1,0 +1,781 @@
+{
+ "n_series": 2870,
+ "levels": {
+  "Estatal×edad": 1542,
+  "Estatal": 1127,
+  "Nacional×edad": 149,
+  "Nacional": 52
+ },
+ "n_groups": 28,
+ "median_vol": 17.8,
+ "n_eval": 8610,
+ "CD": 0.15,
+ "rank": {
+  "LightGBM global": 3.52,
+  "Ensamble (mediana)": 3.77,
+  "TimesFM-2.5": 4.38,
+  "Chronos-2": 4.63,
+  "Chronos-Bolt": 4.65,
+  "N-HiTS global": 5.07,
+  "Log-lineal": 6.42,
+  "ETS amortiguado": 6.53,
+  "SARIMA": 7.37,
+  "Ingenuo estacional": 8.66
+ },
+ "rel": {
+  "Chronos-2": {
+   "rel": 0.896,
+   "lo": 0.864,
+   "hi": 0.93
+  },
+  "Chronos-Bolt": {
+   "rel": 0.902,
+   "lo": 0.861,
+   "hi": 0.946
+  },
+  "ETS amortiguado": {
+   "rel": 0.993,
+   "lo": 0.959,
+   "hi": 1.03
+  },
+  "Ensamble (mediana)": {
+   "rel": 0.876,
+   "lo": 0.851,
+   "hi": 0.901
+  },
+  "Ingenuo estacional": {
+   "rel": 1.128,
+   "lo": 1.082,
+   "hi": 1.176
+  },
+  "LightGBM global": {
+   "rel": 0.867,
+   "lo": 0.838,
+   "hi": 0.894
+  },
+  "Log-lineal": {
+   "rel": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  },
+  "N-HiTS global": {
+   "rel": 0.921,
+   "lo": 0.886,
+   "hi": 0.954
+  },
+  "SARIMA": {
+   "rel": 1.108,
+   "lo": 1.091,
+   "hi": 1.126
+  },
+  "TimesFM-2.5": {
+   "rel": 0.891,
+   "lo": 0.853,
+   "hi": 0.931
+  }
+ },
+ "cov": {
+  "Chronos-2": 84.8,
+  "Chronos-Bolt": 84.7,
+  "ETS amortiguado": 62.2,
+  "Ensamble (mediana)": 82.0,
+  "Ingenuo estacional": 71.5,
+  "LightGBM global": 72.1,
+  "Log-lineal": 75.5,
+  "N-HiTS global": 78.6,
+  "SARIMA": 81.2,
+  "TimesFM-2.5": 79.7
+ },
+ "cov_por_origen": {
+  "Chronos-2": {
+   "2014-12": 87.1,
+   "2015-12": 83.7,
+   "2016-12": 83.6
+  },
+  "Chronos-Bolt": {
+   "2014-12": 85.7,
+   "2015-12": 84.0,
+   "2016-12": 84.4
+  },
+  "ETS amortiguado": {
+   "2014-12": 57.3,
+   "2015-12": 61.8,
+   "2016-12": 67.5
+  },
+  "Ensamble (mediana)": {
+   "2014-12": 82.9,
+   "2015-12": 80.9,
+   "2016-12": 82.3
+  },
+  "Ingenuo estacional": {
+   "2014-12": 71.0,
+   "2015-12": 71.4,
+   "2016-12": 72.0
+  },
+  "LightGBM global": {
+   "2014-12": 70.2,
+   "2015-12": 72.4,
+   "2016-12": 73.7
+  },
+  "Log-lineal": {
+   "2014-12": 75.5,
+   "2015-12": 74.7,
+   "2016-12": 76.3
+  },
+  "N-HiTS global": {
+   "2014-12": 80.2,
+   "2015-12": 78.8,
+   "2016-12": 76.7
+  },
+  "SARIMA": {
+   "2014-12": 81.8,
+   "2015-12": 80.2,
+   "2016-12": 81.5
+  },
+  "TimesFM-2.5": {
+   "2014-12": 79.6,
+   "2015-12": 78.9,
+   "2016-12": 80.7
+  }
+ },
+ "hor": {
+  "Chronos-2": {
+   "h1": 0.924,
+   "h2": 0.895,
+   "h3": 0.881
+  },
+  "Chronos-Bolt": {
+   "h1": 0.931,
+   "h2": 0.902,
+   "h3": 0.886
+  },
+  "ETS amortiguado": {
+   "h1": 1.004,
+   "h2": 0.99,
+   "h3": 0.969
+  },
+  "Ensamble (mediana)": {
+   "h1": 0.903,
+   "h2": 0.879,
+   "h3": 0.853
+  },
+  "Ingenuo estacional": {
+   "h1": 1.169,
+   "h2": 1.136,
+   "h3": 1.09
+  },
+  "LightGBM global": {
+   "h1": 0.887,
+   "h2": 0.873,
+   "h3": 0.835
+  },
+  "Log-lineal": {
+   "h1": 1.0,
+   "h2": 1.0,
+   "h3": 1.0
+  },
+  "N-HiTS global": {
+   "h1": 0.933,
+   "h2": 0.906,
+   "h3": 0.926
+  },
+  "SARIMA": {
+   "h1": 1.048,
+   "h2": 1.093,
+   "h3": 1.163
+  },
+  "TimesFM-2.5": {
+   "h1": 0.908,
+   "h2": 0.893,
+   "h3": 0.871
+  }
+ },
+ "by_level": {
+  "Chronos-2": {
+   "Nacional": 0.99,
+   "Nacional×edad": 0.943,
+   "Estatal": 0.894,
+   "Estatal×edad": 0.891
+  },
+  "Chronos-Bolt": {
+   "Nacional": 1.07,
+   "Nacional×edad": 0.978,
+   "Estatal": 0.898,
+   "Estatal×edad": 0.893
+  },
+  "ETS amortiguado": {
+   "Nacional": 1.056,
+   "Nacional×edad": 1.033,
+   "Estatal": 0.993,
+   "Estatal×edad": 0.987
+  },
+  "Ensamble (mediana)": {
+   "Nacional": 0.927,
+   "Nacional×edad": 0.91,
+   "Estatal": 0.875,
+   "Estatal×edad": 0.871
+  },
+  "Ingenuo estacional": {
+   "Nacional": 1.273,
+   "Nacional×edad": 1.211,
+   "Estatal": 1.124,
+   "Estatal×edad": 1.118
+  },
+  "LightGBM global": {
+   "Nacional": 1.044,
+   "Nacional×edad": 0.954,
+   "Estatal": 0.862,
+   "Estatal×edad": 0.856
+  },
+  "Log-lineal": {
+   "Nacional": 1.0,
+   "Nacional×edad": 1.0,
+   "Estatal": 1.0,
+   "Estatal×edad": 1.0
+  },
+  "N-HiTS global": {
+   "Nacional": 1.074,
+   "Nacional×edad": 0.99,
+   "Estatal": 0.918,
+   "Estatal×edad": 0.911
+  },
+  "SARIMA": {
+   "Nacional": 1.078,
+   "Nacional×edad": 1.078,
+   "Estatal": 1.112,
+   "Estatal×edad": 1.109
+  },
+  "TimesFM-2.5": {
+   "Nacional": 1.011,
+   "Nacional×edad": 0.951,
+   "Estatal": 0.886,
+   "Estatal×edad": 0.885
+  }
+ },
+ "by_tipo": {
+  "Chronos-2": {
+   "Cánceres": 0.836,
+   "Crónicas no transmisibles": 0.92,
+   "Infecciosas y nutricionales": 0.931,
+   "Causas externas": 0.84,
+   "Mal definidas / todas": 0.967
+  },
+  "Chronos-Bolt": {
+   "Cánceres": 0.836,
+   "Crónicas no transmisibles": 0.923,
+   "Infecciosas y nutricionales": 0.936,
+   "Causas externas": 0.832,
+   "Mal definidas / todas": 1.015
+  },
+  "ETS amortiguado": {
+   "Cánceres": 0.963,
+   "Crónicas no transmisibles": 0.996,
+   "Infecciosas y nutricionales": 1.039,
+   "Causas externas": 0.932,
+   "Mal definidas / todas": 1.062
+  },
+  "Ensamble (mediana)": {
+   "Cánceres": 0.843,
+   "Crónicas no transmisibles": 0.889,
+   "Infecciosas y nutricionales": 0.905,
+   "Causas externas": 0.83,
+   "Mal definidas / todas": 0.917
+  },
+  "Ingenuo estacional": {
+   "Cánceres": 1.101,
+   "Crónicas no transmisibles": 1.14,
+   "Infecciosas y nutricionales": 1.18,
+   "Causas externas": 1.011,
+   "Mal definidas / todas": 1.213
+  },
+  "LightGBM global": {
+   "Cánceres": 0.807,
+   "Crónicas no transmisibles": 0.886,
+   "Infecciosas y nutricionales": 0.905,
+   "Causas externas": 0.819,
+   "Mal definidas / todas": 0.937
+  },
+  "Log-lineal": {
+   "Cánceres": 1.0,
+   "Crónicas no transmisibles": 1.0,
+   "Infecciosas y nutricionales": 1.0,
+   "Causas externas": 1.0,
+   "Mal definidas / todas": 1.0
+  },
+  "N-HiTS global": {
+   "Cánceres": 0.862,
+   "Crónicas no transmisibles": 0.941,
+   "Infecciosas y nutricionales": 0.96,
+   "Causas externas": 0.859,
+   "Mal definidas / todas": 1.003
+  },
+  "SARIMA": {
+   "Cánceres": 1.131,
+   "Crónicas no transmisibles": 1.11,
+   "Infecciosas y nutricionales": 1.144,
+   "Causas externas": 1.068,
+   "Mal definidas / todas": 1.066
+  },
+  "TimesFM-2.5": {
+   "Cánceres": 0.833,
+   "Crónicas no transmisibles": 0.914,
+   "Infecciosas y nutricionales": 0.935,
+   "Causas externas": 0.827,
+   "Mal definidas / todas": 0.959
+  }
+ },
+ "meta": {
+  "Intercept": {
+   "coef": -0.1077,
+   "p": 0.0
+  },
+  "log_vol_z": {
+   "coef": 0.0169,
+   "p": 0.5236
+  },
+  "ruido_z": {
+   "coef": -0.0759,
+   "p": 0.0017
+  },
+  "tendencia_z": {
+   "coef": 0.0355,
+   "p": 0.0597
+  },
+  "estacionalidad_z": {
+   "coef": 0.0176,
+   "p": 0.0033
+  }
+ },
+ "plac_vol": {
+  "Chronos-2": {
+   "FPR": 9.0,
+   "semiancho_mediana": 34.6,
+   "FPR_nacional": 7.1,
+   "semiancho_nacional": 16.0
+  },
+  "Chronos-Bolt": {
+   "FPR": 9.6,
+   "semiancho_mediana": 33.9,
+   "FPR_nacional": 7.7,
+   "semiancho_nacional": 19.3
+  },
+  "ETS amortiguado": {
+   "FPR": 8.2,
+   "semiancho_mediana": 38.8,
+   "FPR_nacional": 9.6,
+   "semiancho_nacional": 18.9
+  },
+  "Ensamble (mediana)": {
+   "FPR": 8.6,
+   "semiancho_mediana": 34.1,
+   "FPR_nacional": 7.1,
+   "semiancho_nacional": 16.2
+  },
+  "Ingenuo estacional": {
+   "FPR": 8.5,
+   "semiancho_mediana": 35.0,
+   "FPR_nacional": 6.4,
+   "semiancho_nacional": 18.5
+  },
+  "LightGBM global": {
+   "FPR": 10.1,
+   "semiancho_mediana": 30.0,
+   "FPR_nacional": 9.0,
+   "semiancho_nacional": 14.5
+  },
+  "Log-lineal": {
+   "FPR": 6.4,
+   "semiancho_mediana": 45.2,
+   "FPR_nacional": 5.8,
+   "semiancho_nacional": 18.0
+  },
+  "N-HiTS global": {
+   "FPR": 9.0,
+   "semiancho_mediana": 30.9,
+   "FPR_nacional": 7.7,
+   "semiancho_nacional": 15.9
+  },
+  "SARIMA": {
+   "FPR": 4.8,
+   "semiancho_mediana": 52.6,
+   "FPR_nacional": 5.8,
+   "semiancho_nacional": 20.2
+  },
+  "TimesFM-2.5": {
+   "FPR": 10.0,
+   "semiancho_mediana": 36.1,
+   "FPR_nacional": 7.7,
+   "semiancho_nacional": 16.7
+  }
+ },
+ "plac_volniv": {
+  "Chronos-2": {
+   "FPR": 8.8,
+   "semiancho_mediana": 35.6,
+   "FPR_nacional": 5.8,
+   "semiancho_nacional": 15.8
+  },
+  "Chronos-Bolt": {
+   "FPR": 9.3,
+   "semiancho_mediana": 34.5,
+   "FPR_nacional": 5.1,
+   "semiancho_nacional": 17.7
+  },
+  "ETS amortiguado": {
+   "FPR": 7.9,
+   "semiancho_mediana": 40.5,
+   "FPR_nacional": 5.1,
+   "semiancho_nacional": 22.9
+  },
+  "Ensamble (mediana)": {
+   "FPR": 8.3,
+   "semiancho_mediana": 34.9,
+   "FPR_nacional": 7.1,
+   "semiancho_nacional": 13.8
+  },
+  "Ingenuo estacional": {
+   "FPR": 8.3,
+   "semiancho_mediana": 35.3,
+   "FPR_nacional": 5.1,
+   "semiancho_nacional": 19.1
+  },
+  "LightGBM global": {
+   "FPR": 9.6,
+   "semiancho_mediana": 31.2,
+   "FPR_nacional": 3.8,
+   "semiancho_nacional": 16.6
+  },
+  "Log-lineal": {
+   "FPR": 6.1,
+   "semiancho_mediana": 48.5,
+   "FPR_nacional": 5.1,
+   "semiancho_nacional": 20.4
+  },
+  "N-HiTS global": {
+   "FPR": 8.8,
+   "semiancho_mediana": 32.1,
+   "FPR_nacional": 5.1,
+   "semiancho_nacional": 14.4
+  },
+  "SARIMA": {
+   "FPR": 4.4,
+   "semiancho_mediana": 56.4,
+   "FPR_nacional": 4.5,
+   "semiancho_nacional": 21.7
+  },
+  "TimesFM-2.5": {
+   "FPR": 9.8,
+   "semiancho_mediana": 36.8,
+   "FPR_nacional": 7.1,
+   "semiancho_nacional": 17.7
+  }
+ },
+ "posctrl_2020": [
+  {
+   "grp": "Cardiopatía isquémica",
+   "sex": 1,
+   "pscore": 45.0,
+   "lo": 33.5,
+   "hi": 57.6
+  },
+  {
+   "grp": "Cardiopatía isquémica",
+   "sex": 2,
+   "pscore": 35.8,
+   "lo": 25.0,
+   "hi": 47.5
+  },
+  {
+   "grp": "Diabetes mellitus",
+   "sex": 1,
+   "pscore": 50.2,
+   "lo": 38.3,
+   "hi": 63.2
+  },
+  {
+   "grp": "Diabetes mellitus",
+   "sex": 2,
+   "pscore": 34.3,
+   "lo": 23.6,
+   "hi": 45.9
+  },
+  {
+   "grp": "Enf. hipertensivas",
+   "sex": 1,
+   "pscore": 39.3,
+   "lo": 27.3,
+   "hi": 52.5
+  },
+  {
+   "grp": "Enf. hipertensivas",
+   "sex": 2,
+   "pscore": 27.1,
+   "lo": 17.0,
+   "hi": 38.1
+  },
+  {
+   "grp": "Influenza y neumonía",
+   "sex": 1,
+   "pscore": 108.1,
+   "lo": 91.6,
+   "hi": 126.1
+  },
+  {
+   "grp": "Influenza y neumonía",
+   "sex": 2,
+   "pscore": 54.8,
+   "lo": 41.5,
+   "hi": 69.5
+  },
+  {
+   "grp": "Todas las causas",
+   "sex": 1,
+   "pscore": 49.1,
+   "lo": 37.2,
+   "hi": 61.9
+  },
+  {
+   "grp": "Todas las causas",
+   "sex": 2,
+   "pscore": 35.0,
+   "lo": 24.3,
+   "hi": 46.7
+  }
+ ],
+ "det_pos": {
+  "Chronos-2": 88.4,
+  "Chronos-Bolt": 85.6,
+  "ETS amortiguado": 86.9,
+  "Ensamble (mediana)": 88.4,
+  "Ingenuo estacional": 89.6,
+  "LightGBM global": 85.4,
+  "Log-lineal": 78.8,
+  "N-HiTS global": 85.9,
+  "SARIMA": 79.5,
+  "TimesFM-2.5": 89.1
+ },
+ "n_pos_series": 198,
+ "atlas22": [
+  {
+   "grp": "C. colorrectal",
+   "sex": 1,
+   "pscore": -4.2,
+   "lo": -24.7,
+   "hi": 21.9
+  },
+  {
+   "grp": "C. colorrectal",
+   "sex": 2,
+   "pscore": 1.8,
+   "lo": -20.0,
+   "hi": 29.5
+  },
+  {
+   "grp": "C. cérvix",
+   "sex": 2,
+   "pscore": 3.1,
+   "lo": -12.0,
+   "hi": 20.9
+  },
+  {
+   "grp": "C. estómago",
+   "sex": 1,
+   "pscore": -7.2,
+   "lo": -27.1,
+   "hi": 18.1
+  },
+  {
+   "grp": "C. estómago",
+   "sex": 2,
+   "pscore": -5.3,
+   "lo": -25.5,
+   "hi": 20.6
+  },
+  {
+   "grp": "C. hígado",
+   "sex": 1,
+   "pscore": -9.9,
+   "lo": -29.2,
+   "hi": 14.7
+  },
+  {
+   "grp": "C. hígado",
+   "sex": 2,
+   "pscore": -1.2,
+   "lo": -22.4,
+   "hi": 25.7
+  },
+  {
+   "grp": "C. mama",
+   "sex": 2,
+   "pscore": -6.7,
+   "lo": -20.4,
+   "hi": 9.4
+  },
+  {
+   "grp": "C. ovario",
+   "sex": 2,
+   "pscore": -2.8,
+   "lo": -23.6,
+   "hi": 23.7
+  },
+  {
+   "grp": "C. próstata",
+   "sex": 1,
+   "pscore": 1.8,
+   "lo": -13.2,
+   "hi": 19.3
+  },
+  {
+   "grp": "C. pulmón",
+   "sex": 1,
+   "pscore": -14.2,
+   "lo": -26.8,
+   "hi": 0.6
+  },
+  {
+   "grp": "C. pulmón",
+   "sex": 2,
+   "pscore": -6.9,
+   "lo": -26.8,
+   "hi": 18.5
+  },
+  {
+   "grp": "C. páncreas",
+   "sex": 1,
+   "pscore": -4.6,
+   "lo": -25.0,
+   "hi": 21.5
+  },
+  {
+   "grp": "C. páncreas",
+   "sex": 2,
+   "pscore": 0.7,
+   "lo": -20.9,
+   "hi": 28.1
+  },
+  {
+   "grp": "C. riñón",
+   "sex": 1,
+   "pscore": -12.6,
+   "lo": -31.3,
+   "hi": 11.2
+  },
+  {
+   "grp": "C. riñón",
+   "sex": 2,
+   "pscore": -9.1,
+   "lo": -31.5,
+   "hi": 20.7
+  },
+  {
+   "grp": "Leucemias",
+   "sex": 1,
+   "pscore": -9.1,
+   "lo": -28.6,
+   "hi": 15.6
+  },
+  {
+   "grp": "Leucemias",
+   "sex": 2,
+   "pscore": -12.4,
+   "lo": -31.2,
+   "hi": 11.5
+  },
+  {
+   "grp": "Linfomas y mieloma",
+   "sex": 1,
+   "pscore": -13.8,
+   "lo": -32.3,
+   "hi": 9.7
+  },
+  {
+   "grp": "Linfomas y mieloma",
+   "sex": 2,
+   "pscore": -15.2,
+   "lo": -33.3,
+   "hi": 8.0
+  },
+  {
+   "grp": "Tumores SNC",
+   "sex": 1,
+   "pscore": -5.5,
+   "lo": -25.8,
+   "hi": 20.2
+  },
+  {
+   "grp": "Tumores SNC",
+   "sex": 2,
+   "pscore": 1.4,
+   "lo": -23.6,
+   "hi": 34.7
+  }
+ ],
+ "atlas_neg22": 17,
+ "atlas_n": 22,
+ "joint_placebo": [
+  {
+   "origin": "2014-12",
+   "block": 1,
+   "mean_pct": 1.67
+  },
+  {
+   "origin": "2014-12",
+   "block": 2,
+   "mean_pct": 3.61
+  },
+  {
+   "origin": "2014-12",
+   "block": 3,
+   "mean_pct": 4.52
+  },
+  {
+   "origin": "2015-12",
+   "block": 1,
+   "mean_pct": 1.45
+  },
+  {
+   "origin": "2015-12",
+   "block": 2,
+   "mean_pct": 1.89
+  },
+  {
+   "origin": "2015-12",
+   "block": 3,
+   "mean_pct": 2.05
+  },
+  {
+   "origin": "2016-12",
+   "block": 1,
+   "mean_pct": 0.47
+  },
+  {
+   "origin": "2016-12",
+   "block": 2,
+   "mean_pct": -0.03
+  },
+  {
+   "origin": "2016-12",
+   "block": 3,
+   "mean_pct": 1.58
+  }
+ ],
+ "joint_real": {
+  "2020": {
+   "mean_pct": 0.1,
+   "frac_neg": 45.5
+  },
+  "2021": {
+   "mean_pct": -3.5,
+   "frac_neg": 72.7
+  },
+  "2022": {
+   "mean_pct": -6.2,
+   "frac_neg": 77.3
+  },
+  "2023": {
+   "mean_pct": -5.3,
+   "frac_neg": 86.4
+  }
+ }
+}

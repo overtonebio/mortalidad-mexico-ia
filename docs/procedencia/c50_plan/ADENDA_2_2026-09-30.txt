@@ -1,0 +1,7 @@
+ADENDA 2 (escrita 2026-09-30 13:21 CST, después de ajustar las ampliaciones de tendencia y ANTES de ajustar cualquier modelo de lugar de defunción).
+Precisiones de implementación de la sección 3:
+ - Proporciones anuales ajustadas descriptivas: modelo logístico con indicadores de año (2012-2024), mes calendario, edad y entidad; estandarización marginal sobre la misma distribución edad x entidad. Implementa la comparación "2023 frente a 2019 estandarizada" sin imponer tendencia lineal previa. Covarianza Driscoll-Kraay.
+ - Promedios de periodo: media simple de las probabilidades mensuales estandarizadas de los meses del periodo.
+ - Sensibilidad (f) 2024: la completitud de registro en el mismo año por lugar (2017-2022) fue 97.5-98.3 %; se ajusta con ponderación específica por lugar y mes (1/completitud) y, además, sin ponderación.
+ - Sensibilidad (e) multinomial: se informa razón de riesgos relativos del cambio de nivel y de pendiente (base hogar) con error estándar agrupado por mes; sin simulación de proporciones.
+ - Sensibilidad (g): se separan no especificado (99) y vía pública/otro lugar (10, 12) como desenlaces propios.

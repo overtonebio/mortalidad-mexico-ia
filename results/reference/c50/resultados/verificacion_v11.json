@@ -1,0 +1,53 @@
+{
+  "fecha": "2026-09-30",
+  "n_principal": 82859,
+  "n_conocido": 81981,
+  "n_codigo99": 878,
+  "n_codigos10_12_conservados": 3406,
+  "comprobaciones": {
+    "codigo99_sin_inferencia": true,
+    "lugar_conocido_solo_excluye99": true,
+    "tasas2024_observadas": true,
+    "pares_nivel_y_pendiente_con_Holm": true,
+    "correccion_edad144_143_preservada": true,
+    "principales_y_multinomial_guardias_validas": true
+  },
+  "tasas_observadas_max_abs": 3.552713678800501e-15,
+  "descomposicion_tasas_max_abs": 7.105427357601002e-15,
+  "sha256": {
+    "C50": "6d471a4e7ef08b4719c9fcebc58df0e7d479b2314891d247bc184b8a8ed80e40",
+    "WPP": "20340aaf3f3370f4c7941c85bc73996c1ca780fb5ac5fd2bce7d76f15c63e0a2",
+    "series": "37e987c21b8d92e6d2108b1ee654397df2eeb12b68c6126f3af6cd5a553bb16b"
+  },
+  "cotejo_v10_principales_lugar": {
+    "n_valores": 772,
+    "max_abs": 3.7324099366742303e-10,
+    "max_campo": "anios_Unidad pública/periodos/anual/2012/1"
+  },
+  "cotejo_v10_tendencia_existente": {
+    "n_valores": 261,
+    "max_abs": 3.499329714884425e-10,
+    "max_campo": "/diagnostico_principal/shapiro_p"
+  },
+  "comparacion_conocido": {
+    "Hogar": {
+      "n_v10": 78575.0,
+      "n_v11": 81981.0,
+      "dif2023_v10": 1.2678736443620386,
+      "dif2023_v11": 0.8102349912184503
+    },
+    "Unidad pública": {
+      "n_v10": 78575.0,
+      "n_v11": 81981.0,
+      "dif2023_v10": 0.1976704614549296,
+      "dif2023_v11": 0.0032412803648074195
+    },
+    "Unidad privada": {
+      "n_v10": 78575.0,
+      "n_v11": 81981.0,
+      "dif2023_v10": -1.4750561795585622,
+      "dif2023_v11": -1.440223876557132
+    }
+  },
+  "estado": "PASS"
+}

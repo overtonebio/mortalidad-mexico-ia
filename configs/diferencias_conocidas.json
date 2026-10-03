@@ -1,0 +1,31 @@
+{
+  "descripcion": "Excepciones acotadas y verificadas: ningún archivo queda exento de comparar sus cifras. Las salidas inesperadas o diferencias ajenas a estas reglas fallan.",
+  "benchmark": {
+    "documentos/tablas/tablaS11C_parametros_cosecha.csv": {
+      "nota": "Texto bibliográfico: la referencia dice «ref. 23»; referencias.py produce «ref. 26»; el Word v13 dice «ref. 27 del manuscrito». Cifras iguales.",
+      "tipo": "csv_sustitucion_texto",
+      "origen": "Zewde et al. (ref. 23)",
+      "destino": "Zewde et al. (ref. 26)"
+    },
+    "documentos/tablas/tabla1_manuscrito.csv": {
+      "nota": "Salida nueva del paso tabla1_y_S15.py; no existe en la referencia. Cotejada celda por celda con la tabla 1 del Word v13.",
+      "tipo": "salida_nueva_sha256",
+      "sha256": "53b2abbac2f44e8f765575aa8ff27a55c26c1164c027998a21f98ce7bd732b68"
+    }
+  },
+  "c50": {
+    "resultados/verificacion_v11.json": {
+      "nota": "La referencia incluye el cotejo opcional con el paquete v10 (--baseline), que no se distribuye; el resto de claves coincide.",
+      "tipo": "json_claves_opcionales",
+      "claves": [
+        "comparacion_conocido",
+        "cotejo_v10_principales_lugar",
+        "cotejo_v10_tendencia_existente"
+      ]
+    },
+    "resultados/v12_apvp_localidad/validacion.json": {
+      "nota": "Cotejo con auditorías previas; el script no lo regenera (documentado en el archivo v13).",
+      "tipo": "ausencia_documentada"
+    }
+  }
+}

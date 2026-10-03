@@ -1,0 +1,4 @@
+# Nivel 2, figuras 1-4, 6 y S1-S3 (y figuras 5 y S4-S6 si se usa este mismo entorno).
+# matplotlib 3.11.2 es la versión registrada en los metadatos de los PDF v13.
+-r benchmark-recalculo.txt
+matplotlib==3.11.2

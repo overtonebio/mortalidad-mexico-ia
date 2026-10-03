@@ -1,0 +1,36 @@
+modelo,inferencial,n_defunciones,n_evento,n_celdas,n_parametros,rango_diseno,convergencia,H_condicion,score_max_abs,estado,separacion_estructural,LB12_p
+principal_Hogar,True,82859.0,47310.0,34005,59,59,True,556647.6763846911,1.6910917111090384e-11,Válido para inferencia exploratoria condicional al modelo,[],3.0014924692515864e-05
+anual_post_Hogar,True,82859.0,47310.0,34005,61,61,True,544311.5977368128,2.034994395216927e-11,Válido para inferencia exploratoria condicional al modelo,[],4.302122706848365e-06
+anios_Hogar,True,82859.0,47310.0,34005,67,67,True,13582.521179726027,8.540723683836404e-12,Válido para inferencia exploratoria condicional al modelo,[],8.453102317055911e-07
+principal_Unidad pública,True,82859.0,26763.0,34005,59,59,True,507482.4499400165,2.0020252122776583e-10,Válido para inferencia exploratoria condicional al modelo,[],0.00046976151483988905
+anual_post_Unidad pública,True,82859.0,26763.0,34005,61,61,True,496539.25113155786,5.223341759119648e-10,Válido para inferencia exploratoria condicional al modelo,[],8.635988570550645e-05
+anios_Unidad pública,True,82859.0,26763.0,34005,67,67,True,12782.984401495116,1.8598456108520622e-12,Válido para inferencia exploratoria condicional al modelo,[],4.2055444786420763e-07
+principal_Unidad privada,True,82859.0,4502.0,34005,59,59,True,480459.6301102433,8.469669410260394e-11,Válido para inferencia exploratoria condicional al modelo,[],0.9949733529419188
+anual_post_Unidad privada,True,82859.0,4502.0,34005,61,61,True,470697.5456690047,5.995701712890877e-10,Válido para inferencia exploratoria condicional al modelo,[],0.9870906675612882
+anios_Unidad privada,True,82859.0,4502.0,34005,67,67,True,12119.469880793762,2.305355906173645e-11,Válido para inferencia exploratoria condicional al modelo,[],0.8393468604191879
+principal_Otro/NE,True,82859.0,4284.0,34005,59,59,True,742621.8123753018,6.522213880089112e-10,Válido para inferencia exploratoria condicional al modelo,[],0.0031803195871345094
+anual_post_Otro/NE,True,82859.0,4284.0,34005,61,61,True,724576.1985475887,1.2812506611226127e-10,Válido para inferencia exploratoria condicional al modelo,[],0.0007569831159330087
+anios_Otro/NE,True,82859.0,4284.0,34005,67,67,True,15977.208122541502,2.0975221559638157e-11,Válido para inferencia exploratoria condicional al modelo,[],3.651119779821128e-05
+sens_abril2020_Hogar,True,82859.0,47310.0,34005,59,59,True,555785.6585899243,5.205720299272798e-10,Válido para inferencia exploratoria condicional al modelo,[],0.06374541385557587
+sens_HAC6_Hogar,True,82859.0,47310.0,34005,59,59,True,556647.6763846911,1.6910917111090384e-11,Válido para inferencia exploratoria condicional al modelo,[],3.0014924692515864e-05
+sens_lugar_conocido_Hogar,True,81981.0,47310.0,33831,59,59,True,564820.0696002677,1.5518253349000588e-11,Válido para inferencia exploratoria condicional al modelo,[],1.4212972567065088e-05
+sens_region_Hogar,True,82859.0,47310.0,7339,31,31,True,555171.1021510011,7.349854058702476e-11,Válido para inferencia exploratoria condicional al modelo,[],1.1721335316399508e-05
+sens_no_residentes_Hogar,True,83174.0,47378.0,34261,60,60,True,558305.1094743162,9.549694368615746e-12,Válido para inferencia exploratoria condicional al modelo,[],3.45880056111322e-05
+sens_2024_sin_ponderar_Hogar,True,91037.0,51856.0,37047,59,59,True,650402.6038014949,3.001332515850663e-10,Válido para inferencia exploratoria condicional al modelo,[],0.0002963176341129253
+sens_2024_ponderado_completitud_Hogar,True,91221.0358218086,51948.457643369606,37047,59,59,True,652444.0118823336,3.056470632145647e-10,Válido para inferencia exploratoria condicional al modelo,[],0.0002510701179388065
+sens_abril2020_Unidad pública,True,82859.0,26763.0,34005,59,59,True,506814.2493841569,1.736566446197685e-11,Válido para inferencia exploratoria condicional al modelo,[],0.04851962717327655
+sens_HAC6_Unidad pública,True,82859.0,26763.0,34005,59,59,True,507482.4499400165,2.0020252122776583e-10,Válido para inferencia exploratoria condicional al modelo,[],0.00046976151483988905
+sens_lugar_conocido_Unidad pública,True,81981.0,26763.0,33831,59,59,True,514648.1671244649,1.7621459846850485e-11,Válido para inferencia exploratoria condicional al modelo,[],0.0004122797707106613
+sens_region_Unidad pública,True,82859.0,26763.0,7339,31,31,True,505879.4140047241,1.2076384336978663e-10,Válido para inferencia exploratoria condicional al modelo,[],0.00034636860921637543
+sens_no_residentes_Unidad pública,True,83174.0,26830.0,34261,60,60,True,509152.90231837274,1.318767317570746e-11,Válido para inferencia exploratoria condicional al modelo,[],0.0006608951106638392
+sens_2024_sin_ponderar_Unidad pública,True,91037.0,29448.0,37047,59,59,True,590394.8681271521,2.141860022675246e-10,Válido para inferencia exploratoria condicional al modelo,[],3.3703440008912226e-05
+sens_2024_ponderado_completitud_Unidad pública,True,91221.0358218086,29521.300060658512,37047,59,59,True,591991.4458253289,6.730260793119669e-11,Válido para inferencia exploratoria condicional al modelo,[],4.4962327953636355e-05
+sens_abril2020_Unidad privada,True,82859.0,4502.0,34005,59,59,True,479753.0044872224,2.0985240212212375e-09,Válido para inferencia exploratoria condicional al modelo,[],0.9923744458739303
+sens_HAC6_Unidad privada,True,82859.0,4502.0,34005,59,59,True,480459.6301102433,8.469669410260394e-11,Válido para inferencia exploratoria condicional al modelo,[],0.9949733529419188
+sens_lugar_conocido_Unidad privada,True,81981.0,4502.0,33831,59,59,True,481205.5575239864,1.6420642623415915e-11,Válido para inferencia exploratoria condicional al modelo,[],0.9945882081013088
+sens_region_Unidad privada,True,82859.0,4502.0,7339,31,31,True,480056.16721927613,6.423306331271306e-12,Válido para inferencia exploratoria condicional al modelo,[],0.9956233492695921
+sens_no_residentes_Unidad privada,True,83174.0,4638.0,34261,60,60,True,488117.9654123322,6.568257049366366e-11,Válido para inferencia exploratoria condicional al modelo,[],0.9752254157668506
+sens_2024_sin_ponderar_Unidad privada,True,91037.0,4908.0,37047,59,59,True,616335.8051574702,2.9808688850607723e-10,Válido para inferencia exploratoria condicional al modelo,[],0.9925016516216161
+sens_2024_ponderado_completitud_Unidad privada,True,91221.0358218086,4916.73796647278,37047,59,59,True,619449.9268335456,2.6972202249453403e-10,Válido para inferencia exploratoria condicional al modelo,[],0.9924822253610244
+sens_catalogo_alt_No especificado,False,82859.0,878.0,34005,59,59,False,,,No estimable: separación estructural o diseño sin rango completo; sin OR/IC/p.,"[{""variable"": ""ent_resid"", ""nivel"": 3, ""eventos"": 0.0, ""resto"": 559.0}]",
+sens_catalogo_alt_Vía pública/otro,True,82859.0,3406.0,34005,59,59,True,1519017.691217303,6.545519681822043e-10,Válido para inferencia exploratoria condicional al modelo,[],0.004390205604780537

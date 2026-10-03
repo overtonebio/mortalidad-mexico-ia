@@ -1,0 +1,31 @@
+# Metadatos de citación del software (formato CFF 1.2.0).
+# Versión de software PROPUESTA y no publicada; distinta de la versión v13 del manuscrito.
+# Campos omitidos a propósito hasta que existan: license, doi, repository-code, url, date-released,
+# preferred-citation (artículo no publicado). Véase LICENSING_PENDING.md de la entrega.
+cff-version: 1.2.0
+message: "Si utiliza este código, cite el artículo asociado cuando se publique y este software con los metadatos siguientes."
+type: software
+title: "mortalidad-mexico-ia: código del estudio sobre mortalidad esperada en México y cáncer de mama"
+version: "0.1.0-borrador"
+abstract: >-
+  Código de la evaluación comparativa de modelos clásicos, globales y fundacionales de pronóstico en 2 870 series
+  mensuales de mortalidad de México (INEGI, 2012-2024) y de su aplicación al cáncer de mama (CIE-10 C50) en mujeres
+  de 20 años o más, con análisis exploratorios de tendencia, lugar de defunción, años potenciales de vida perdidos y
+  tamaño de localidad. Corresponde al manuscrito v13 «SI: Inteligencia artificial para estimar la mortalidad esperada
+  en México: evaluación comparativa y aplicación al cáncer de mama».
+authors:
+  - family-names: "Zavala-Reyes"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0000-0002-4730-5149"
+    affiliation: "Centro de Investigación en Ciencias de la Salud y Biomedicina, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México"
+  - family-names: "Portales-Pérez"
+    given-names: "Diana P."
+    orcid: "https://orcid.org/0000-0001-8063-7869"
+    affiliation: "Laboratorio de Inmunología y Biología Celular y Molecular, Facultad de Ciencias Químicas, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México"
+keywords:
+  - mortalidad esperada
+  - pronóstico de series de tiempo
+  - inteligencia artificial
+  - cáncer de mama
+  - México
+  - INEGI

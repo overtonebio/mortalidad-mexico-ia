@@ -1,0 +1,67 @@
+{
+ "publicado": {
+  "N": 8610,
+  "CD": 0.14600092808852289,
+  "chi2": 23686.13526765915,
+  "p": 0.0,
+  "rangos": {
+   "LightGBM global": 3.521,
+   "Ensamble (mediana)": 3.768,
+   "TimesFM-2.5": 4.383,
+   "Chronos-2": 4.633,
+   "Chronos-Bolt": 4.647,
+   "N-HiTS global": 5.066,
+   "Log-lineal": 6.42,
+   "ETS amortiguado": 6.533,
+   "SARIMA": 7.373,
+   "Ingenuo estacional": 8.656
+  }
+ },
+ "por_serie_WQLmedio": {
+  "N": 2870,
+  "CD": 0.2528810254015316,
+  "chi2": 11083.56794425087,
+  "p": 0.0,
+  "rangos": {
+   "LightGBM global": 3.211,
+   "Ensamble (mediana)": 3.518,
+   "TimesFM-2.5": 4.014,
+   "Chronos-Bolt": 4.295,
+   "Chronos-2": 4.418,
+   "N-HiTS global": 5.17,
+   "Log-lineal": 6.617,
+   "ETS amortiguado": 6.768,
+   "SARIMA": 7.991,
+   "Ingenuo estacional": 8.998
+  },
+  "pares_no_distinguibles": [
+   [
+    "Chronos-Bolt",
+    "Chronos-2",
+    0.123
+   ],
+   [
+    "Log-lineal",
+    "ETS amortiguado",
+    0.151
+   ]
+  ]
+ },
+ "por_serie_rangomedio": {
+  "N": 2870,
+  "chi2": 10495.737863829352,
+  "p": 0.0,
+  "rangos": {
+   "LightGBM global": 3.521,
+   "Ensamble (mediana)": 3.768,
+   "TimesFM-2.5": 4.383,
+   "Chronos-2": 4.633,
+   "Chronos-Bolt": 4.647,
+   "N-HiTS global": 5.066,
+   "Log-lineal": 6.42,
+   "ETS amortiguado": 6.533,
+   "SARIMA": 7.373,
+   "Ingenuo estacional": 8.656
+  }
+ }
+}

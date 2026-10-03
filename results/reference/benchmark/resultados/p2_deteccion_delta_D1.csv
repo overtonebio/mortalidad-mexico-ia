@@ -1,0 +1,31 @@
+modelo,bloque,anio_ajuste,delta
+Chronos-2,1,2016,0.054
+Chronos-2,2,2017,0.025
+Chronos-2,3,2018,0.079
+Chronos-Bolt,1,2016,0.043
+Chronos-Bolt,2,2017,0.015
+Chronos-Bolt,3,2018,0.082
+ETS amortiguado,1,2016,0.03
+ETS amortiguado,2,2017,-0.011
+ETS amortiguado,3,2018,0.003
+Ensamble (mediana),1,2016,0.035
+Ensamble (mediana),2,2017,0.014
+Ensamble (mediana),3,2018,0.056
+Ingenuo estacional,1,2016,0.027
+Ingenuo estacional,2,2017,0.026
+Ingenuo estacional,3,2018,0.077
+LightGBM global,1,2016,0.023
+LightGBM global,2,2017,0.005
+LightGBM global,3,2018,0.037
+Log-lineal,1,2016,0.023
+Log-lineal,2,2017,-0.036
+Log-lineal,3,2018,-0.08
+N-HiTS global,1,2016,0.004
+N-HiTS global,2,2017,-0.001
+N-HiTS global,3,2018,0.095
+SARIMA,1,2016,0.001
+SARIMA,2,2017,-0.073
+SARIMA,3,2018,-0.18
+TimesFM-2.5,1,2016,0.05
+TimesFM-2.5,2,2017,0.022
+TimesFM-2.5,3,2018,0.073

@@ -1,0 +1,212 @@
+{
+ "base_por_serie": {
+  "N": 2870,
+  "chi2": 11083.981577446968,
+  "p": 0.0,
+  "CD": 0.2528810254015316,
+  "rangos": {
+   "Chronos-2": 4.416,
+   "Chronos-Bolt": 4.291,
+   "ETS amortiguado": 6.771,
+   "Ensamble (mediana)": 3.518,
+   "Ingenuo estacional": 8.998,
+   "LightGBM global": 3.214,
+   "Log-lineal": 6.611,
+   "N-HiTS global": 5.172,
+   "SARIMA": 7.992,
+   "TimesFM-2.5": 4.015
+  }
+ },
+ "conglomerado_grupo_N28_rango_de_rangos_medios": {
+  "N": 28,
+  "chi2": 206.4058441558442,
+  "p": 1.5019395465035228e-39,
+  "CD": 2.560225250506942,
+  "rangos": {
+   "Chronos-2": 4.125,
+   "Chronos-Bolt": 3.339,
+   "ETS amortiguado": 7.286,
+   "Ensamble (mediana)": 3.25,
+   "Ingenuo estacional": 9.857,
+   "LightGBM global": 1.929,
+   "Log-lineal": 7.464,
+   "N-HiTS global": 5.643,
+   "SARIMA": 8.929,
+   "TimesFM-2.5": 3.179
+  }
+ },
+ "conglomerado_grupo_N28_rango_medio_sin_rerango": {
+  "rangos": {
+   "Chronos-2": 4.179,
+   "Chronos-Bolt": 3.944,
+   "ETS amortiguado": 6.898,
+   "Ensamble (mediana)": 3.713,
+   "Ingenuo estacional": 9.016,
+   "LightGBM global": 2.972,
+   "Log-lineal": 7.061,
+   "N-HiTS global": 5.094,
+   "SARIMA": 8.375,
+   "TimesFM-2.5": 3.749
+  },
+  "N": 28
+ },
+ "conglomerado_causa_sexo": {
+  "N": 52,
+  "chi2": 378.0534965034964,
+  "p": 6.561249011037564e-76,
+  "CD": 1.8786917160893015,
+  "rangos": {
+   "Chronos-2": 4.154,
+   "Chronos-Bolt": 3.423,
+   "ETS amortiguado": 7.26,
+   "Ensamble (mediana)": 3.221,
+   "Ingenuo estacional": 9.798,
+   "LightGBM global": 2.029,
+   "Log-lineal": 7.423,
+   "N-HiTS global": 5.567,
+   "SARIMA": 9.01,
+   "TimesFM-2.5": 3.115
+  }
+ },
+ "estatal_sin_todas_las_causas": {
+  "N": 1063,
+  "chi2": 4460.586316599677,
+  "p": 0.0,
+  "CD": 0.4155186869939082,
+  "rangos": {
+   "Chronos-2": 4.351,
+   "Chronos-Bolt": 4.072,
+   "ETS amortiguado": 6.77,
+   "Ensamble (mediana)": 3.611,
+   "Ingenuo estacional": 8.97,
+   "LightGBM global": 3.082,
+   "Log-lineal": 6.84,
+   "N-HiTS global": 5.197,
+   "SARIMA": 8.237,
+   "TimesFM-2.5": 3.869
+  }
+ },
+ "nivel_Nacional": {
+  "N": 52,
+  "chi2": 119.9748251748254,
+  "p": 1.3521136159874691e-21,
+  "CD": 1.8786917160893015,
+  "rangos": {
+   "Chronos-2": 4.462,
+   "Chronos-Bolt": 5.808,
+   "ETS amortiguado": 5.827,
+   "Ensamble (mediana)": 2.615,
+   "Ingenuo estacional": 8.712,
+   "LightGBM global": 5.635,
+   "Log-lineal": 5.231,
+   "N-HiTS global": 5.519,
+   "SARIMA": 6.346,
+   "TimesFM-2.5": 4.846
+  }
+ },
+ "nivel_Nacional×edad": {
+  "N": 149,
+  "chi2": 432.27126296522266,
+  "p": 1.7637741435540997e-87,
+  "CD": 1.1098494163936616,
+  "rangos": {
+   "Chronos-2": 4.309,
+   "Chronos-Bolt": 5.04,
+   "ETS amortiguado": 6.483,
+   "Ensamble (mediana)": 3.101,
+   "Ingenuo estacional": 9.06,
+   "LightGBM global": 4.456,
+   "Log-lineal": 5.765,
+   "N-HiTS global": 5.295,
+   "SARIMA": 7.201,
+   "TimesFM-2.5": 4.289
+  }
+ },
+ "nivel_Estatal": {
+  "N": 1127,
+  "chi2": 4465.011970638066,
+  "p": 0.0,
+  "CD": 0.40354803244812587,
+  "rangos": {
+   "Chronos-2": 4.393,
+   "Chronos-Bolt": 4.236,
+   "ETS amortiguado": 6.797,
+   "Ensamble (mediana)": 3.585,
+   "Ingenuo estacional": 8.985,
+   "LightGBM global": 3.14,
+   "Log-lineal": 6.649,
+   "N-HiTS global": 5.22,
+   "SARIMA": 8.064,
+   "TimesFM-2.5": 3.932
+  }
+ },
+ "nivel_Estatal×edad": {
+  "N": 1542,
+  "chi2": 6228.271949062614,
+  "p": 0.0,
+  "CD": 0.34499675117676815,
+  "rangos": {
+   "Chronos-2": 4.442,
+   "Chronos-Bolt": 4.208,
+   "ETS amortiguado": 6.812,
+   "Ensamble (mediana)": 3.54,
+   "Ingenuo estacional": 9.012,
+   "LightGBM global": 3.067,
+   "Log-lineal": 6.713,
+   "N-HiTS global": 5.113,
+   "SARIMA": 8.072,
+   "TimesFM-2.5": 4.021
+  }
+ },
+ "pares_bootstrap_grupo": [
+  {
+   "a": "LightGBM global",
+   "b": "Ensamble (mediana)",
+   "dif": -0.3038327526132405,
+   "lo": -0.9038396958263386,
+   "hi": 0.28871101527147636
+  },
+  {
+   "a": "Ensamble (mediana)",
+   "b": "TimesFM-2.5",
+   "dif": -0.4968641114982577,
+   "lo": -1.0552351323694271,
+   "hi": 0.11439516363674453
+  },
+  {
+   "a": "TimesFM-2.5",
+   "b": "Chronos-2",
+   "dif": -0.40139372822299624,
+   "lo": -0.7567313991021939,
+   "hi": -0.011730838089451369
+  },
+  {
+   "a": "Chronos-2",
+   "b": "Chronos-Bolt",
+   "dif": 0.12543554006968627,
+   "lo": -0.18541562491833022,
+   "hi": 0.4361574971036598
+  },
+  {
+   "a": "Chronos-2",
+   "b": "N-HiTS global",
+   "dif": -0.7557491289198612,
+   "lo": -1.1187499135325683,
+   "hi": -0.42880088609347
+  },
+  {
+   "a": "N-HiTS global",
+   "b": "Log-lineal",
+   "dif": -1.4393728222996511,
+   "lo": -2.1389464542717307,
+   "hi": -0.8233238453626511
+  },
+  {
+   "a": "Log-lineal",
+   "b": "ETS amortiguado",
+   "dif": -0.15958188153310093,
+   "lo": -0.8151736463889865,
+   "hi": 0.4747239341459979
+  }
+ ]
+}

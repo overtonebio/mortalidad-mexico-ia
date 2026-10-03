@@ -1,0 +1,103 @@
+Python 3.11.16
+accelerate==1.15.0
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.3
+aiosignal==1.4.0
+alembic==1.20.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+attrs==26.1.0
+certifi==2026.7.22
+charset-normalizer==3.5.1
+chronos-forecasting==2.3.2
+click==8.5.0
+colorlog==6.12.0
+# contourpy: referencia local de compilación omitida; no se infiere versión.
+coreforecast==0.0.18
+# cycler: referencia local de compilación omitida; no se infiere versión.
+einops==0.8.2
+# filelock: referencia local de compilación omitida; no se infiere versión.
+# fonttools: referencia local de compilación omitida; no se infiere versión.
+# formulaic: referencia local de compilación omitida; no se infiere versión.
+frozenlist==1.8.0
+# fsspec: referencia local de compilación omitida; no se infiere versión.
+# gmpy2: referencia local de compilación omitida; no se infiere versión.
+h11==0.16.0
+hf-xet==1.6.0
+httpcore==1.0.9
+httpx==0.28.1
+huggingface_hub==1.33.0
+idna==3.20
+# interface_meta: referencia local de compilación omitida; no se infiere versión.
+# Jinja2: referencia local de compilación omitida; no se infiere versión.
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+# kiwisolver: referencia local de compilación omitida; no se infiere versión.
+lightgbm==4.7.0
+lightning-utilities==0.15.3
+Mako==1.4.3
+markdown-it-py==4.2.0
+# MarkupSafe: referencia local de compilación omitida; no se infiere versión.
+matplotlib==3.11.2
+mdurl==0.1.2
+# mpmath: referencia local de compilación omitida; no se infiere versión.
+msgpack==1.2.2
+multidict==6.9.1
+munkres==1.1.4
+# narwhals: referencia local de compilación omitida; no se infiere versión.
+# networkx: referencia local de compilación omitida; no se infiere versión.
+neuralforecast==3.2.2
+# numpy: referencia local de compilación omitida; no se infiere versión.
+# optree: referencia local de compilación omitida; no se infiere versión.
+optuna==5.0.0
+# packaging: referencia local de compilación omitida; no se infiere versión.
+pandas==2.3.3
+# patsy: referencia local de compilación omitida; no se infiere versión.
+peft==0.21.0
+# pillow: referencia local de compilación omitida; no se infiere versión.
+propcache==0.5.4
+protobuf==7.36.2
+psutil==7.2.2
+# pyarrow: referencia local de compilación omitida; no se infiere versión.
+# pybind11: referencia local de compilación omitida; no se infiere versión.
+# pybind11-global: referencia local de compilación omitida; no se infiere versión.
+pydantic==2.13.5
+pydantic_core==2.46.5
+Pygments==2.21.0
+# pyparsing: referencia local de compilación omitida; no se infiere versión.
+# python-dateutil: referencia local de compilación omitida; no se infiere versión.
+pytorch-lightning==2.5.6
+pytz==2026.4
+PyYAML==6.0.3
+ray==2.58.0
+referencing==0.37.0
+regex==2026.9.10
+requests==2.34.2
+rich==15.0.0
+rpds-py==2026.6.3
+safetensors==0.8.0
+# scipy: referencia local de compilación omitida; no se infiere versión.
+shellingham==1.5.4
+# six: referencia local de compilación omitida; no se infiere versión.
+socksio==1.0.0
+SQLAlchemy==2.1.1
+# statsmodels: referencia local de compilación omitida; no se infiere versión.
+# sympy: referencia local de compilación omitida; no se infiere versión.
+tensorboardX==2.6.5
+timesfm==3.0.2
+tokenizers==0.23.2
+# torch: referencia local de compilación omitida; no se infiere versión.
+torchmetrics==1.9.0
+# tornado: referencia local de compilación omitida; no se infiere versión.
+tqdm==4.70.1
+transformers==5.17.0
+typer==0.27.2
+typing-inspection==0.4.4
+# typing_extensions: referencia local de compilación omitida; no se infiere versión.
+tzdata==2026.4
+# unicodedata2: referencia local de compilación omitida; no se infiere versión.
+urllib3==2.8.0
+utilsforecast==0.2.16
+# wrapt: referencia local de compilación omitida; no se infiere versión.
+yarl==1.25.1

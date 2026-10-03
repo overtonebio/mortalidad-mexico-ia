@@ -1,0 +1,11 @@
+Modelo,Familia,Rango WQL,Rango WQL (por serie),WQL_rel,IC_lo,IC_hi,Cobertura80,FPR,Semiancho
+LightGBM global,Global (IA),3.52,3.21,0.867,0.838,0.894,72.1,10.1,30.0
+Ensamble (mediana),Ensamble,3.77,3.52,0.876,0.852,0.901,82.0,8.6,34.1
+TimesFM-2.5,Fundacional (IA),4.38,4.01,0.891,0.853,0.931,79.7,10.0,36.1
+Chronos-2,Fundacional (IA),4.63,4.42,0.896,0.864,0.93,84.8,9.0,34.6
+Chronos-Bolt,Fundacional (IA),4.64,4.29,0.902,0.861,0.946,84.7,9.6,33.9
+N-HiTS global,Global (IA),5.07,5.17,0.921,0.886,0.954,78.6,9.0,30.9
+Log-lineal,Clásico,6.42,6.61,1.0,1.0,1.0,75.5,6.4,45.2
+ETS amortiguado,Clásico,6.53,6.77,0.993,0.959,1.03,62.2,8.1,38.8
+SARIMA,Clásico,7.38,7.99,1.108,1.091,1.126,81.2,4.7,51.9
+Ingenuo estacional,Clásico,8.66,9.0,1.128,1.082,1.176,71.5,8.5,35.0

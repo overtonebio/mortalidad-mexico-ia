@@ -1,0 +1,4 @@
+# Figuras 5 y S4-S6 (figuras_c50.py). Usa Arial si está en /System/Library/Fonts/Supplemental (macOS);
+# en otros sistemas usa DejaVu Sans y el render no coincidirá píxel a píxel con los PDF v13.
+-r c50-recalculo.txt
+matplotlib==3.11.2

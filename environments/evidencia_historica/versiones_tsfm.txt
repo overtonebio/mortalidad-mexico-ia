@@ -1,0 +1,15 @@
+python 3.11.16
+torch 2.13.0
+chronos-forecasting 2.3.2
+timesfm 3.0.2
+neuralforecast 3.2.2
+lightgbm 4.7.0
+statsmodels 0.15.0
+peft 0.21.0
+numpy 2.4.6
+pandas 2.3.3
+scipy 1.17.1
+transformers 5.17.0
+pytorch-lightning 2.5.6
+scikit-learn no instalado
+shap no instalado

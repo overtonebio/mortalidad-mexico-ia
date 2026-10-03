@@ -1,0 +1,45 @@
+PLAN DE ANÁLISIS SECUNDARIO EXPLORATORIO — LUGAR DE DEFUNCIÓN Y AMPLIACIONES DE TENDENCIA
+Cáncer de mama (C50), mujeres de 20 años o más, México
+Fecha: 30 de septiembre de 2026. Escrito antes de ejecutar cualquier ajuste nuevo de este plan.
+
+ESTADO DEL CONOCIMIENTO AL ESCRIBIR ESTE PLAN (declaración de sesgo)
+- Se conocen los resultados del análisis original (P-score e intervalos de predicción de 90 % del manuscrito v9) y la ITS exploratoria previa (exploracion_previa/, plan del 30-sep-2026).
+- Se conoce la distribución anual sin ajuste del lugar de defunción (entradas/lugar_defuncion_C50.csv): hogar 54.8 % en 2019 y 64.3 % en 2020; unidades públicas 34.7 % y 23.2 %.
+- Por ello, todos los análisis siguientes son exploratorios, posteriores al análisis original y no confirmatorios. No es un preregistro.
+
+1. VALIDACIÓN DE DATOS (antes de ajustar)
+1.1 Reconstruir desde c50_raw_2012_2024.csv.gz: sexo = 2, edad válida ≥ 20 (códigos 4020-4997), mes de ocurrencia 1-12, año de ocurrencia 2012-2024. Informar exclusiones por paso.
+1.2 Distinguir año de ocurrencia, año/mes de registro y año del archivo fuente (file_year). Verificar que file_year = anio_regis.
+1.3 No eliminar filas idénticas; contarlas y reportarlas.
+1.4 Denominadores WPP 2024 (miles de mujeres, 1 de julio), interpolación lineal a mitad de mes; pesos OMS ≥ 20 años normalizados. Reconciliar conteos, población y TEE con series_mensuales_C50.csv (tolerancia numérica 1e-6 relativa).
+1.5 Registro tardío: proporción de defunciones registradas en el año de ocurrencia y en años posteriores, por año de ocurrencia; fracción histórica registrada ≥ 2 años después (residual no observado para 2023). Completitud de 2024 por lugar de defunción y por edad (2017-2022, misma definición que el factor global del manuscrito).
+1.6 Residencia: tabular ent_resid; consultar el catálogo oficial de entidades de cada archivo; sensibilidad de la serie nacional restringida a residentes en las 32 entidades.
+
+2. CATÁLOGO DE LUGAR DE DEFUNCIÓN (sitio_ocur)
+2.1 Descargar de los archivos oficiales de datos abiertos del INEGI (uno por file_year 2012-2024) el catálogo de sitio de ocurrencia; guardar copia, URL, miembro del ZIP, fecha de consulta y SHA-256.
+2.2 Tabla de correspondencia código-etiqueta por file_year. Agrupación a validar: hogar = 11; unidad privada = 9; unidad pública = 1-8; otro/no especificado = 10, 12, 99. Si una etiqueta cambia, armonizar explícitamente y hacer sensibilidad con la agrupación alternativa.
+
+3. LUGAR DE DEFUNCIÓN: MODELO
+Pregunta: ¿cambió, desde marzo de 2020, la proporción de defunciones por C50 ocurridas en el hogar (y en unidades públicas y privadas), con ajuste por edad y residencia, y volvió hacia la tendencia previa?
+Denominador: todas las defunciones por C50 del estrato (incluidos lugares desconocidos como categoría propia).
+Periodo principal: enero 2012 - diciembre 2023. Corte: marzo 2020 (referencia externa).
+Modelo principal (desenlace primario = hogar): regresión logística binomial con conteos agregados por mes × grupo quinquenal de edad (20-24 ... 85+) × entidad de residencia (32); covariables: edad (14 niveles), entidad (32 niveles), mes calendario (11 indicadores), tiempo en años, indicador desde el corte y tiempo posterior al corte. Registros con residencia fuera de 1-32 se excluyen del modelo principal (sensibilidad con categoría propia).
+Dependencia temporal: covarianza Driscoll-Kraay (suma de puntuaciones por mes, Bartlett, 12 rezagos).
+Resultados: razón de momios del cambio de nivel y del cambio de pendiente; probabilidades estandarizadas (estandarización marginal sobre la distribución conjunta edad × entidad de 2012-2023) por mes y por año, frente a la continuación de la tendencia previa; diferencias en puntos porcentuales con IC 95 % por simulación paramétrica de los coeficientes (10 000 extracciones, semilla 20260930). Se informará explícitamente 2020 (mar-dic), 2021, 2022 y 2023, y la diferencia 2023 frente a 2019 estandarizada.
+Modelo secundario prefijado (misma estructura): indicadores anuales posteriores al corte (mar-dic 2020, 2021, 2022, 2023) en lugar de nivel + pendiente, para describir la evolución sin imponer linealidad.
+Desenlaces secundarios (mismo modelo, uno frente al resto): unidad pública, unidad privada, otro/no especificado. Sin corrección por multiplicidad; se presentan como descriptivos secundarios.
+Sensibilidades prefijadas: (a) corte en abril 2020; (b) solo registros con lugar conocido; (c) HAC 6 rezagos; (d) región (4) en lugar de entidad; (e) multinomial con categoría base hogar y error estándar agrupado por mes; (f) 2024 incluido, con corrección de registro tardío específica por lugar solo si la completitud difiere; (g) agrupación alternativa del catálogo si 2.2 lo exige; (h) incluir residentes fuera de 1-32 como categoría propia.
+Tasas complementarias: TEE mensual de defunciones en el hogar y en unidades médicas (públicas + privadas) por 100 000 mujeres-año (mismos denominadores y pesos). Se describirán por año y con el mismo modelo segmentado de la ITS (HAC 12) como descriptivo secundario, para distinguir cambios del total de cambios en la distribución.
+
+4. AMPLIACIONES DE TENDENCIA
+4.1 Reproducir la ITS exploratoria previa (cuatro variantes nacionales y tres edades) con sus scripts y comparar con sus resultados guardados.
+4.2 Interacción por edad: modelo conjunto apilado de log TEE para 20-39, 40-59 y ≥ 60, con intercepto, pendiente, cambio de nivel, cambio de pendiente y mes específicos de grupo; covarianza Driscoll-Kraay (tiempo = mes, 12 rezagos) que respeta la correlación entre grupos en el mismo mes. Prueba de Wald conjunta (2 gl) de igualdad del cambio de pendiente entre grupos; si se rechaza (alfa 0.05), contrastes por pares con ajuste de Holm. Mismo procedimiento para el cambio de nivel. Los resultados por edad no reemplazan el nacional.
+4.3 Sensibilidad por residencia: serie nacional con solo residentes de las 32 entidades (denominador WPP nacional sin cambio; se declara la discrepancia menor).
+4.4 Diagnósticos: residuos, ACF y Ljung-Box (solo series continuas).
+4.5 Registro tardío residual de 2023: cuantificar a partir de 1.5; no se corrige en el análisis principal.
+
+5. INTERPRETACIÓN FIJADA
+- IC de parámetros de trayectoria no son intervalos de predicción; no se usarán para confirmar el déficit del análisis original.
+- Lugar de defunción registrado no mide acceso, calidad paliativa ni preferencias.
+- No se atribuye causalidad a la pandemia; marzo de 2020 es una referencia temporal fijada externamente.
+- Se informarán todos los modelos ejecutados, incluidos los nulos y las sensibilidades discrepantes.

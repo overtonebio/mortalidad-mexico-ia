@@ -1,0 +1,14 @@
+INTEGRACIÓN EXPLORATORIA DEL 1 DE OCTUBRE DE 2026
+Documento retrospectivo, redactado después de revisar resultados. No es preregistro.
+Se integran APVP antes de 75 años (D) y proporciones crudas por tamaño de localidad (parte descriptiva de B2).
+Se incluyen las sensibilidades APVP sin2020/con2024 y lugar sin99 añadidas durante la auditoría.
+El plan original A-D se conserva solo como procedencia; no todo su contenido forma parte del manuscrito.
+A (proyecciones) no se incorpora: exige supuestos adicionales y validación de denominadores futuros.
+B0/B1 no se incorporan: incompatibilidad de denominadores de vivienda en el índice municipal.
+B2: no se incorporan inferencias de seis modelos por grupo ni contrastes por escolaridad/quintiles. Se usan únicamente proporciones por localidad, verificadas con microdatos.
+C no se incorpora: reutilización de errores de prueba y solapamiento temporal en parte de los diseños.
+E no se incorpora: no identifica mecanismos causales individuales con agregados ecológicos.
+Los principales resultados predictivos, las seis figuras principales y las seis suplementarias se conservan.
+Los catálogos de tamaño de localidad cotejados son 2012 y 2024; no se verificaron por separado los trece catálogos anuales.
+El script codigo/c50_apvp_localidad_v12.py es independiente de los scripts adicionales de origen y opera con las fuentes conservadas del estudio.
+Se reprodujeron las 13 filas anuales de APVP, 3 regresiones y las 12 combinaciones de localidad/año; coincidencia con la auditoría previa dentro de tolerancia1e-10 para ITS y proporciones.

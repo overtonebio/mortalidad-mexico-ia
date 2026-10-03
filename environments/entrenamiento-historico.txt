@@ -1,0 +1,11 @@
+# Nivel 4 (inferencia y entrenamiento). Versiones DECLARADAS en el README fuente del benchmark.
+# NO instaladas ni ejecutadas en esta preparación. No usar para afirmar reproducción del entorno original.
+# Python 3.11.16
+torch==2.13.0
+chronos-forecasting==2.3.2
+timesfm==3.0.2
+neuralforecast==3.2.2
+lightgbm==4.7.0
+statsmodels==0.15.0
+peft==0.21.0
+transformers==5.17.0

@@ -1,0 +1,8 @@
+Versiones declaradas en el README fuente (no instaladas ni ejecutadas en esta preparación):
+Python 3.11.16; torch 2.13.0; chronos-forecasting 2.3.2; timesfm 3.0.2;
+neuralforecast 3.2.2; lightgbm 4.7.0; statsmodels 0.15.0; peft 0.21.0;
+transformers 5.17.0.
+Pesos: amazon/chronos-2, amazon/chronos-bolt-base, google/timesfm-2.5-200m-pytorch.
+Los pesos, el entorno completo y los microdatos generales necesarios para reconstruir
+el corpus desde cero no se incluyen. Los scripts modelos/, lora/ y construccion_datos/
+conservan las rutas de trabajo originales: no forman parte del ejecutor de recálculo.

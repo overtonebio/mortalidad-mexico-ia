@@ -1,0 +1,11 @@
+Modelo,Familia,Rango WQL,"Reducción de WQL vs log-lineal, % (IC 95 %)",Cobertura observada del IP 80 % (%),"Falsas alarmas, IP bilateral 90 % (%)",Semiancho IP 90 % (%),"Falsas alarmas superiores, unilateral (%)","Detección de +20 %, unilateral (%)"
+LightGBM,Global (IA),3.21,13.3 (10.6 a 16.2),72.1,10.1,30,4.1,21.6
+Ensamble,Ensamble (clásicos + fundacionales),3.52,12.4 (9.9 a 14.8),82.0,8.6,34,4.5,22.2
+TimesFM-2.5,Fundacional (IA),4.01,10.9 (6.9 a 14.7),79.7,10.0,36,5.1,23.0
+Chronos-Bolt,Fundacional (IA),4.29,9.8 (5.4 a 13.9),84.7,9.6,34,4.8,22.9
+Chronos-2,Fundacional (IA),4.42,10.4 (7.0 a 13.6),84.8,9.0,35,4.5,20.2
+N-HiTS,Global (IA),5.17,7.9 (4.6 a 11.4),78.6,9.0,31,4.2,25.7
+Log-lineal,Clásico,6.61,referencia,75.5,6.4,45,3.6,17.1
+ETS,Clásico,6.77,0.7 (−3.0 a 4.1),62.2,8.1,39,4.6,23.0
+SARIMA,Clásico,7.99,−10.8 (−12.6 a −9.1),81.2,4.7,52,3.1,15.8
+Ingenuo estacional,Clásico,9.00,−12.8 (−17.6 a −8.2),71.5,8.5,35,3.9,21.8

@@ -1,0 +1,29 @@
+{
+ "grupos_control_positivo": [
+  "Diabetes mellitus",
+  "Cardiopatía isquémica",
+  "Todas las causas"
+ ],
+ "niveles_control_positivo": [
+  "Estatal",
+  "Nacional"
+ ],
+ "n_series_control_positivo": 198,
+ "anios": {
+  "1": {
+   "2014-12": 2015,
+   "2015-12": 2016,
+   "2016-12": 2017
+  },
+  "2": {
+   "2014-12": 2016,
+   "2015-12": 2017,
+   "2016-12": 2018
+  },
+  "3": {
+   "2014-12": 2017,
+   "2015-12": 2018,
+   "2016-12": 2019
+  }
+ }
+}

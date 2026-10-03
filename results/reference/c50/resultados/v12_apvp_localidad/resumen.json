@@ -1,0 +1,121 @@
+{
+  "N_C50": 91362,
+  "N_localidad_universo": 82859,
+  "localidad_no_clasificable": 482,
+  "lugar99_todo_universo": 878,
+  "n_por_localidad_2012_2023": {
+    "< 2 500": 9920,
+    "2 500-14 999": 9106,
+    "15 000-99 999": 12866,
+    "≥ 100 000": 50485
+  },
+  "D_2023": {
+    "APVP_total": 120893.0,
+    "APVP_tasa_estandarizada": 274.0769735941652,
+    "defunciones": 7935.0,
+    "edad_media": 60.83742911153119,
+    "pct_menor_60": 48.380592312539385
+  },
+  "D_cambio_2019_2023_pct": {
+    "APVP_total": 1.9411253805094786,
+    "APVP_tasa_estandarizada": -5.825555505015201,
+    "defunciones": 5.8705803869246065,
+    "edad_media": 1.1839870741735092,
+    "pct_menor_60": -5.224114118535638
+  },
+  "APVP_edad2023_pct": {
+    "(19, 39]": 17.560156502030722,
+    "(39, 59]": 65.19111941965208,
+    "(59, 74]": 17.24872407831719
+  },
+  "ITS": {
+    "principal_2012_2023": {
+      "pre": {
+        "pct": 1.1547228897655923,
+        "lo": 0.5482541012366967,
+        "hi": 1.7648496671352427,
+        "p": 0.00018256675185362165
+      },
+      "nivel": {
+        "pct": 0.36622701285347364,
+        "lo": -3.1817972026869805,
+        "hi": 4.044273016346501,
+        "p": 0.842205198457242
+      },
+      "cambio": {
+        "pct": -3.6575253948378643,
+        "lo": -4.754325815370461,
+        "hi": -2.548094782196506,
+        "p": 1.7901694092540256e-10
+      },
+      "post": {
+        "pct": -2.5450367880054543,
+        "lo": -3.5459191570268653,
+        "hi": -1.533768487068433,
+        "p": 9.855039104061499e-07
+      }
+    },
+    "sin_2020_2012_2023": {
+      "pre": {
+        "pct": 1.1804655819368766,
+        "lo": 0.5507687959891505,
+        "hi": 1.81410582895388,
+        "p": 0.00022928719756228283
+      },
+      "nivel": {
+        "pct": -3.6850404428147674,
+        "lo": -8.583242335874827,
+        "hi": 1.4756120380612334,
+        "p": 0.1585672462954011
+      },
+      "cambio": {
+        "pct": -2.2235657090305962,
+        "lo": -3.893891620583808,
+        "hi": -0.524209502755727,
+        "p": 0.010533313034084162
+      },
+      "post": {
+        "pct": -1.0693485549805763,
+        "lo": -2.6670903161188333,
+        "hi": 0.5546204991007984,
+        "p": 0.19560462626419672
+      }
+    },
+    "con_2024_corregido": {
+      "pre": {
+        "pct": 1.1523545552759578,
+        "lo": 0.5468874109387881,
+        "hi": 1.761467664916594,
+        "p": 0.00018367616072888197
+      },
+      "nivel": {
+        "pct": -1.0607769838770562,
+        "lo": -5.163621553442141,
+        "hi": 3.2195662822614706,
+        "p": 0.621645020511605
+      },
+      "cambio": {
+        "pct": -2.6488705317910113,
+        "lo": -3.8320318457608082,
+        "hi": -1.4511527004928082,
+        "p": 1.6851290959046863e-05
+      },
+      "post": {
+        "pct": -1.5270403567515098,
+        "lo": -2.631367990006325,
+        "hi": -0.4101877501413638,
+        "p": 0.007488805122485495
+      }
+    }
+  },
+  "sensibilidad_localidad_max_pp": 1.1409381986847222,
+  "convenciones": {
+    "APVP": "max(75 - edad cumplida - 0.5, 0); mujeres de 20-74 años",
+    "tasa": "pesos OMS normalizados a 20-74; WPP2024 interpolada al día15; tasa mensual anualizada; media anual",
+    "2024": "solo APVP y tasas corregidos por registro tardío según fracciones nacionales 2017-2022 por mes; muertes y edad descriptivas sin corregir",
+    "ITS": "log tasa, tendencia en años, nivel y cambio pendiente marzo2020, indicadores mensuales; HAC Bartlett12 meses calendario n/(n-k); IC normal95",
+    "localidad": "tloc_resid1-3 rural<2500;4-6 2500-14999;7-12 15000-99999;13-17 ≥100000;excluye localidad inválida",
+    "hogar": "sitio_ocur11; denominador todos los lugares, incluido99; sensibilidad excluye99 únicamente",
+    "plan": "Análisis posteriores a resultados originales. Sensibilidades APVP sin2020/con2024 y localidad sin99 añadidas en auditoría del 1oct2026."
+  }
+}

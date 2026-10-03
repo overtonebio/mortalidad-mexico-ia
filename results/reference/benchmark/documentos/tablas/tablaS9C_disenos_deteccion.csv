@@ -1,0 +1,51 @@
+Diseño,Modelo,Falsas alarmas superiores (%),Falsas alarmas inferiores (%),Falsas alarmas bilaterales (%),Detección +10 % (%),Detección +20 % (%)
+D1 unilateral temporal (principal; estratos 2012-2014),LightGBM,4.1,0.0,4.1,9.0,21.6
+D1 unilateral temporal (principal; estratos 2012-2014),Ensamble,4.5,0.0,4.5,9.4,22.2
+D1 unilateral temporal (principal; estratos 2012-2014),TimesFM-2.5,5.1,0.0,5.1,9.9,23.0
+D1 unilateral temporal (principal; estratos 2012-2014),Chronos-2,4.5,0.0,4.5,8.7,20.2
+D1 unilateral temporal (principal; estratos 2012-2014),Chronos-Bolt,4.8,0.0,4.8,9.7,22.9
+D1 unilateral temporal (principal; estratos 2012-2014),N-HiTS,4.2,0.0,4.2,10.3,25.7
+D1 unilateral temporal (principal; estratos 2012-2014),Log-lineal,3.6,0.0,3.6,7.4,17.1
+D1 unilateral temporal (principal; estratos 2012-2014),ETS amortiguado,4.6,0.0,4.6,10.1,23.0
+D1 unilateral temporal (principal; estratos 2012-2014),SARIMA,3.1,0.0,3.1,6.8,15.8
+D1 unilateral temporal (principal; estratos 2012-2014),Ingenuo estacional,3.9,0.0,3.9,8.5,21.8
+D1 con estratos 2012-2019 (sensibilidad),LightGBM,4.0,0.0,4.0,8.8,20.9
+D1 con estratos 2012-2019 (sensibilidad),Ensamble,4.5,0.0,4.5,8.9,21.7
+D1 con estratos 2012-2019 (sensibilidad),TimesFM-2.5,5.3,0.0,5.3,9.7,22.4
+D1 con estratos 2012-2019 (sensibilidad),Chronos-2,4.5,0.0,4.5,8.4,19.8
+D1 con estratos 2012-2019 (sensibilidad),Chronos-Bolt,4.9,0.0,4.9,9.4,22.4
+D1 con estratos 2012-2019 (sensibilidad),N-HiTS,4.2,0.0,4.2,10.3,24.2
+D1 con estratos 2012-2019 (sensibilidad),Log-lineal,3.7,0.0,3.7,7.2,16.8
+D1 con estratos 2012-2019 (sensibilidad),ETS amortiguado,4.4,0.0,4.4,9.5,22.2
+D1 con estratos 2012-2019 (sensibilidad),SARIMA,3.1,0.0,3.1,6.8,15.7
+D1 con estratos 2012-2019 (sensibilidad),Ingenuo estacional,4.1,0.0,4.1,8.8,22.0
+D2 unilateral sin ajuste,LightGBM,4.4,0.0,4.4,10.3,23.7
+D2 unilateral sin ajuste,Ensamble,4.8,0.0,4.8,11.0,25.8
+D2 unilateral sin ajuste,TimesFM-2.5,5.8,0.0,5.8,12.7,27.8
+D2 unilateral sin ajuste,Chronos-2,5.2,0.0,5.2,10.8,25.3
+D2 unilateral sin ajuste,Chronos-Bolt,5.4,0.0,5.4,11.6,27.4
+D2 unilateral sin ajuste,N-HiTS,4.7,0.0,4.7,11.6,28.9
+D2 unilateral sin ajuste,Log-lineal,3.4,0.0,3.4,7.1,16.1
+D2 unilateral sin ajuste,ETS amortiguado,5.0,0.0,5.0,10.7,24.1
+D2 unilateral sin ajuste,SARIMA,2.5,0.0,2.5,5.3,13.0
+D2 unilateral sin ajuste,Ingenuo estacional,4.4,0.0,4.4,10.7,26.5
+D3 bilateral 90 %,LightGBM,6.1,4.6,10.6,14.2,32.4
+D3 bilateral 90 %,Ensamble,7.2,1.5,8.8,18.9,39.3
+D3 bilateral 90 %,TimesFM-2.5,8.7,1.4,10.1,21.5,43.1
+D3 bilateral 90 %,Chronos-2,7.5,1.7,9.2,18.2,38.8
+D3 bilateral 90 %,Chronos-Bolt,7.6,2.1,9.7,18.7,39.3
+D3 bilateral 90 %,N-HiTS,5.4,4.0,9.4,15.6,34.3
+D3 bilateral 90 %,Log-lineal,4.5,2.1,6.6,9.8,22.5
+D3 bilateral 90 %,ETS amortiguado,6.9,1.7,8.5,17.2,35.9
+D3 bilateral 90 %,SARIMA,3.4,1.3,4.7,8.7,19.0
+D3 bilateral 90 %,Ingenuo estacional,6.4,2.1,8.6,17.6,38.2
+D0 factor k común (años compartidos; no independiente),LightGBM,5.7,4.0,9.7,13.4,30.2
+D0 factor k común (años compartidos; no independiente),Ensamble,6.7,1.4,8.0,17.5,35.3
+D0 factor k común (años compartidos; no independiente),TimesFM-2.5,7.8,1.1,8.9,19.4,37.9
+D0 factor k común (años compartidos; no independiente),Chronos-2,6.8,1.3,8.1,16.3,33.3
+D0 factor k común (años compartidos; no independiente),Chronos-Bolt,6.7,1.8,8.4,16.4,33.4
+D0 factor k común (años compartidos; no independiente),N-HiTS,5.2,3.8,9.0,15.0,33.4
+D0 factor k común (años compartidos; no independiente),Log-lineal,4.9,2.6,7.5,11.5,24.6
+D0 factor k común (años compartidos; no independiente),ETS amortiguado,6.6,1.5,8.0,16.5,32.6
+D0 factor k común (años compartidos; no independiente),SARIMA,4.2,1.9,6.1,10.9,22.6
+D0 factor k común (años compartidos; no independiente),Ingenuo estacional,6.0,1.9,7.9,16.4,35.4

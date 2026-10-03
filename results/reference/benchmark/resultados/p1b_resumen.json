@@ -1,0 +1,62 @@
+{
+ "n_190": 190,
+ "composicion": [
+  {
+   "fuente": "36 meses (9 orígenes)",
+   "block": 1,
+   "series": 5,
+   "origenes": 9,
+   "errores": 45,
+   "desde": "2015-01",
+   "hasta": "2017-12"
+  },
+  {
+   "fuente": "36 meses (9 orígenes)",
+   "block": 2,
+   "series": 5,
+   "origenes": 9,
+   "errores": 45,
+   "desde": "2016-01",
+   "hasta": "2018-12"
+  },
+  {
+   "fuente": "36 meses (9 orígenes)",
+   "block": 3,
+   "series": 5,
+   "origenes": 9,
+   "errores": 45,
+   "desde": "2017-01",
+   "hasta": "2019-12"
+  },
+  {
+   "fuente": "48 meses (5 orígenes)",
+   "block": 4,
+   "series": 11,
+   "origenes": 5,
+   "errores": 55,
+   "desde": "2018-01",
+   "hasta": "2019-12"
+  }
+ ],
+ "anios_calibracion_corpus": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019
+ ],
+ "breast_in_pool": {
+  "series_c50": 66,
+  "series_todas": 264
+ },
+ "separada": {
+  "n": 26,
+  "n_fuera": 0,
+  "n_tasas": 20,
+  "n_conteos": 6,
+  "estratos": "2012-2014",
+  "razon_max": 0.6328451062421101,
+  "razon_mediana": 0.23840374011810384
+ },
+ "sens_sig_sin_c50": 0
+}

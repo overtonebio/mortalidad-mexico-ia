@@ -1,0 +1,18 @@
+variable,origen,definicion,valores_usados
+sexo,INEGI EDR (sexo),Sexo registrado,2 = mujer
+edad,INEGI EDR (edad),Edad codificada; 4000 + años,4020-4997 -> 20-997 años; ag = grupo quinquenal 20-24 ... 85+
+mes_ocurr / anio_ocur,INEGI EDR,Mes y año de ocurrencia de la defunción,mes 1-12; año 2012-2024 (principal 2012-2023)
+mes_regis / anio_regis,INEGI EDR,Mes y año de registro,anio_regis = file_year en todos los registros
+file_year,archivo de datos abiertos,Año del archivo fuente (año de registro),2012-2024; determina el catálogo aplicable
+causa_def,INEGI EDR,Causa básica CIE-10,C500-C509
+ent_resid,INEGI EDR,Entidad de residencia habitual (tabuladores eliminados),1-32; 33 EUA; 34 otros Latinoamérica; 35 otros países; 99 no especificada
+sitio_ocur,INEGI EDR,Sitio de ocurrencia de la defunción,1-8 (y 13 en catálogo 2024) = unidad pública; 9 = unidad privada; 11 = hogar; 10 vía pública; 12 otro lugar; 99 no especificado
+sitio,derivada,Grupo analítico de lugar,Hogar; Unidad pública; Unidad privada; Otro/NE (10; 12; 99)
+residente,derivada,ent_resid en 1-32,verdadero/falso
+region,derivada,Región de residencia (misma definición que el manuscrito),Norte; Centro-Occidente; Centro; Sur-Sureste
+TEE (asmr),derivada,Tasa estandarizada por edad (OMS; >= 20 años) por 100 000 mujeres-año: conteo mensual / (población WPP interpolada a mitad de mes / 12),continua
+pm,WPP 2024,Mujeres por grupo quinquenal (miles x 1000) al 1 de julio; interpolación lineal a mitad de mes,2010-2026
+factor 2024,derivada,1 / proporción registrada en el mismo año (2017-2022) por mes de ocurrencia,solo 2024
+tiempo,derivada,(mes desde enero 2012)/12,años
+post,derivada,1 desde el corte (marzo 2020; sensibilidad abril 2020),0/1
+tiempo_post,derivada,años desde el corte (0 antes),años

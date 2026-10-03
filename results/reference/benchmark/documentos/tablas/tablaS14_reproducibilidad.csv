@@ -1,0 +1,95 @@
+Cifra,Modelo,Publicada,Nueva,Diferencia
+WQL relativo al log-lineal,LightGBM global,0.867,0.867,+0.000
+Cobertura 80 % (%),LightGBM global,72.1,72.1,+0.000
+Falsos positivos placebo (%),LightGBM global,10.1,10.1,+0.000
+Semiancho mediano placebo (%),LightGBM global,30.0,30.0,+0.000
+WQL relativo al log-lineal,Ensamble (mediana),0.876,0.876,+0.000
+Cobertura 80 % (%),Ensamble (mediana),82.0,82.0,+0.000
+Falsos positivos placebo (%),Ensamble (mediana),8.6,8.6,+0.000
+Semiancho mediano placebo (%),Ensamble (mediana),34.1,34.1,+0.000
+WQL relativo al log-lineal,TimesFM-2.5,0.891,0.891,+0.000
+Cobertura 80 % (%),TimesFM-2.5,79.7,79.7,+0.000
+Falsos positivos placebo (%),TimesFM-2.5,10.0,10.0,+0.000
+Semiancho mediano placebo (%),TimesFM-2.5,36.1,36.1,+0.000
+WQL relativo al log-lineal,Chronos-2,0.896,0.896,+0.000
+Cobertura 80 % (%),Chronos-2,84.8,84.8,+0.000
+Falsos positivos placebo (%),Chronos-2,9.0,9.0,+0.000
+Semiancho mediano placebo (%),Chronos-2,34.6,34.6,+0.000
+WQL relativo al log-lineal,Chronos-Bolt,0.902,0.902,+0.000
+Cobertura 80 % (%),Chronos-Bolt,84.7,84.7,+0.000
+Falsos positivos placebo (%),Chronos-Bolt,9.6,9.6,+0.000
+Semiancho mediano placebo (%),Chronos-Bolt,33.9,33.9,+0.000
+WQL relativo al log-lineal,N-HiTS global,0.921,0.921,+0.000
+Cobertura 80 % (%),N-HiTS global,78.6,78.6,+0.000
+Falsos positivos placebo (%),N-HiTS global,9.0,9.0,+0.000
+Semiancho mediano placebo (%),N-HiTS global,30.9,30.9,+0.000
+WQL relativo al log-lineal,Log-lineal,1.000,1.000,+0.000
+Cobertura 80 % (%),Log-lineal,75.5,75.5,+0.000
+Falsos positivos placebo (%),Log-lineal,6.4,6.4,+0.000
+Semiancho mediano placebo (%),Log-lineal,45.2,45.2,+0.000
+WQL relativo al log-lineal,ETS amortiguado,0.993,0.993,+0.000
+Cobertura 80 % (%),ETS amortiguado,62.2,62.2,+0.000
+Falsos positivos placebo (%),ETS amortiguado,8.1,8.2,+0.100
+Semiancho mediano placebo (%),ETS amortiguado,38.8,38.8,+0.000
+WQL relativo al log-lineal,SARIMA,1.108,1.108,+0.000
+Cobertura 80 % (%),SARIMA,81.2,81.2,+0.000
+Falsos positivos placebo (%),SARIMA,4.7,4.8,+0.100
+Semiancho mediano placebo (%),SARIMA,51.9,52.6,+0.7
+WQL relativo al log-lineal,Ingenuo estacional,1.128,1.128,+0.000
+Cobertura 80 % (%),Ingenuo estacional,71.5,71.5,+0.000
+Falsos positivos placebo (%),Ingenuo estacional,8.5,8.5,+0.000
+Semiancho mediano placebo (%),Ingenuo estacional,35.0,35.0,+0.000
+Rango Friedman por serie,LightGBM global,3.2,3.2,−0.003
+Rango Friedman por serie,Ensamble (mediana),3.5,3.5,+0.000
+Rango Friedman por serie,TimesFM-2.5,4.0,4.0,−0.001
+Rango Friedman por serie,Chronos-2,4.4,4.4,+0.001
+Rango Friedman por serie,Chronos-Bolt,4.3,4.3,+0.004
+Rango Friedman por serie,N-HiTS global,5.2,5.2,−0.002
+Rango Friedman por serie,Log-lineal,6.6,6.6,+0.006
+Rango Friedman por serie,ETS amortiguado,6.8,6.8,−0.003
+Rango Friedman por serie,SARIMA,8.0,8.0,−0.001
+Rango Friedman por serie,Ingenuo estacional,9.0,9.0,+0.000
+Mama asmr 2020: diferencia (%),Ensamble (mediana),1.202,1.176,−0.025
+Mama asmr 2021: diferencia (%),Ensamble (mediana),−2.2,−2.2,+0.003
+Mama asmr 2022: diferencia (%),Ensamble (mediana),−6.3,−6.3,+0.019
+Mama asmr 2023: diferencia (%),Ensamble (mediana),−7.8,−7.8,+0.037
+Mama deaths_adj 2020: diferencia (%),Ensamble (mediana),1.129,1.150,+0.021
+Mama deaths_adj 2021: diferencia (%),Ensamble (mediana),−2.6,−2.6,+0.026
+Mama deaths_adj 2022: diferencia (%),Ensamble (mediana),−6.7,−6.7,+0.005
+Mama deaths_adj 2023: diferencia (%),Ensamble (mediana),−7.9,−7.9,+0.009
+Mama asmr_20-39 2020: diferencia (%),Ensamble (mediana),−4.2,−4.1,+0.052
+Mama asmr_20-39 2021: diferencia (%),Ensamble (mediana),−2.9,−2.9,+0.046
+Mama asmr_20-39 2022: diferencia (%),Ensamble (mediana),−6.0,−6.0,+0.019
+Mama asmr_20-39 2023: diferencia (%),Ensamble (mediana),−4.4,−4.4,+0.009
+Mama asmr_40-59 2020: diferencia (%),Ensamble (mediana),3.4,3.3,−0.057
+Mama asmr_40-59 2021: diferencia (%),Ensamble (mediana),−2.4,−2.5,−0.104
+Mama asmr_40-59 2022: diferencia (%),Ensamble (mediana),−7.6,−7.8,−0.133
+Mama asmr_40-59 2023: diferencia (%),Ensamble (mediana),−8.4,−8.7,−0.245
+Mama asmr_60+ 2020: diferencia (%),Ensamble (mediana),0.605,0.659,+0.054
+Mama asmr_60+ 2021: diferencia (%),Ensamble (mediana),−1.350,−1.316,+0.034
+Mama asmr_60+ 2022: diferencia (%),Ensamble (mediana),−4.9,−4.9,+0.031
+Mama asmr_60+ 2023: diferencia (%),Ensamble (mediana),−8.1,−8.1,+0.001
+Mama asmr_Norte 2020: diferencia (%),Ensamble (mediana),6.0,6.0,−0.005
+Mama asmr_Norte 2021: diferencia (%),Ensamble (mediana),−2.5,−2.6,−0.101
+Mama asmr_Norte 2022: diferencia (%),Ensamble (mediana),−4.0,−4.1,−0.099
+Mama asmr_Norte 2023: diferencia (%),Ensamble (mediana),−5.6,−5.7,−0.123
+Mama asmr_Centro-Occidente 2020: diferencia (%),Ensamble (mediana),−1.165,−1.168,−0.003
+Mama asmr_Centro-Occidente 2021: diferencia (%),Ensamble (mediana),1.358,1.366,+0.007
+Mama asmr_Centro-Occidente 2022: diferencia (%),Ensamble (mediana),−7.0,−7.0,+0.012
+Mama asmr_Centro-Occidente 2023: diferencia (%),Ensamble (mediana),−4.1,−4.1,+0.017
+Mama asmr_Centro 2020: diferencia (%),Ensamble (mediana),4.1,4.1,−0.028
+Mama asmr_Centro 2021: diferencia (%),Ensamble (mediana),−2.1,−2.1,−0.012
+Mama asmr_Centro 2022: diferencia (%),Ensamble (mediana),−0.934,−0.924,+0.010
+Mama asmr_Centro 2023: diferencia (%),Ensamble (mediana),−3.8,−3.8,+0.007
+Mama asmr_Sur-Sureste 2020: diferencia (%),Ensamble (mediana),−2.4,−2.4,+0.030
+Mama asmr_Sur-Sureste 2021: diferencia (%),Ensamble (mediana),−1.605,−1.690,−0.085
+Mama asmr_Sur-Sureste 2022: diferencia (%),Ensamble (mediana),−11.7,−11.8,−0.026
+Mama asmr_Sur-Sureste 2023: diferencia (%),Ensamble (mediana),−15.3,−15.4,−0.106
+Mama deaths_SS 2020: diferencia (%),Ensamble (mediana),6.9,6.9,+0.010
+Mama deaths_SS 2021: diferencia (%),Ensamble (mediana),1.226,1.246,+0.020
+Mama deaths_SS 2022: diferencia (%),Ensamble (mediana),0.860,0.838,−0.022
+Mama deaths_SS 2023: diferencia (%),Ensamble (mediana),−1.702,−1.681,+0.021
+Mama deaths_noSS 2020: diferencia (%),Ensamble (mediana),−5.5,−5.6,−0.020
+Mama deaths_noSS 2021: diferencia (%),Ensamble (mediana),−6.0,−6.0,−0.037
+Mama deaths_noSS 2022: diferencia (%),Ensamble (mediana),−15.3,−15.3,−0.001
+Mama deaths_noSS 2023: diferencia (%),Ensamble (mediana),−13.9,−13.9,+0.027

@@ -1,0 +1,9 @@
+Modelo,MASE medio,MASE mediano,Mínimo-máximo,Cobertura observada del IP 80 % (%),Orígenes con MASE menor que el log-lineal (de 9)
+Log-lineal,0.940,0.982,0.66-1.19,80.2,—
+Ensamble,1.049,1.074,0.80-1.34,79.9,1
+Chronos-Bolt,1.139,1.157,0.93-1.40,85.8,1
+Chronos-2,1.139,1.151,0.92-1.44,82.7,1
+Ingenuo estacional,1.175,1.236,0.92-1.41,76.2,0
+TimesFM-2.5,1.196,1.180,1.05-1.47,67.9,1
+ETS amortiguado,1.234,1.175,0.74-1.95,58.3,2
+SARIMA,1.622,1.308,1.05-3.39,80.6,2

@@ -1,0 +1,7 @@
+{
+  "resultado": "PASS",
+  "APVP_anual_max_diferencia": 0.0,
+  "ITS_tolerancia": 1e-10,
+  "localidad_12_celdas_coincidentes": true,
+  "comprobacion": "Recálculo portable desde microdatos frente a auditorías independientes previas; sin reentrenamiento de pronósticos."
+}

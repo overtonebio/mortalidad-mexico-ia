@@ -1,0 +1,23 @@
+{
+ "cambios_etiqueta_sitio": {
+  "2": [
+   "IMSS BIENESTAR",
+   "IMSS PROSPERA",
+   "IMSS oportunidades"
+  ],
+  "6": [
+   "Secretaría de la Defensa Nacional",
+   "Secretaría de la Defensa Nacional (SEDENA)",
+   "Secretaría de la defensa nacional"
+  ],
+  "7": [
+   "Secretaría de Marina",
+   "Secretaría de Marina (SEMAR)",
+   "Secretaría de marina"
+  ],
+  "13": [
+   "OPD Servicios de Salud IMSS BIENESTAR"
+  ]
+ },
+ "n_filas_entidades_no_estandar": 59
+}

@@ -1,0 +1,60 @@
+PLAN DE ANÁLISIS EXPLORATORIOS ADICIONALES DE CÁNCER DE MAMA (A-D)
+Escrito: 2026-10-01 09:13 CST, antes de ajustar cualquier modelo de este plan.
+Conocido al escribirlo: resultados del manuscrito v10 (diferencias observado/esperado e IP 90 %; tendencia +1.5 %/año antes y
+−2.2 %/año después de marzo de 2020; mayor descenso en 40-59 años; cambios en el lugar de defunción). No se conocen los
+resultados de A-D. Todos son exploratorios y posteriores al análisis original; se informarán completos, sean o no nulos.
+
+A. ¿VA MÉXICO HACIA LA META DE LA OMS (Global Breast Cancer Initiative, −2.5 % anual de la mortalidad)?
+ A1. Trayectoria meta T(y) = B × 0.975^(y − año base). Base principal: TEE anual observada de 2020 (inicio de la iniciativa);
+     sensibilidades: 2019 observada y 2020 esperada (ensamble, origen dic-2019, ya publicada).
+ A2. Cambio porcentual anual observado 2020-2023 (MCO de log TEE mensual con mes; HAC 12) nacional, por edad (20-39, 40-59, ≥ 60)
+     y región (4); sensibilidad 2020-2024 con 2024 corregido.
+ A3. Proyección 2024-2030 con los mismos 6 modelos del ensamble y su mediana (pipeline_tsfm.py; sin reentrenar ni ajustar
+     hiperparámetros): origen dic-2023, h = 84 (principal); origen dic-2024 con 2024 corregido, h = 72 (sensibilidad).
+     Series: TEE nacional, 3 edades y 4 regiones. Incertidumbre anual: errores de bloques de 12 meses de la evaluación
+     comparativa (2 870 series, mismo estrato de volumen, años 1-4, Mondrian); solo hasta el año 4 (2027) del origen principal;
+     2028-2030 se informan como proyecciones puntuales con el intervalo entre modelos, sin intervalo de predicción validado.
+ A4. Cambio anual requerido desde el nivel de 2023 (y 2024) para alcanzar T(2030); probabilidad nominal de estar por debajo de
+     T(2027) en 2027 con la distribución de errores del año 4.
+ A5. Defunciones esperadas 2024-2030 con población WPP 2024 (variante media) por edad: (i) tasas de 2023 constantes (efecto
+     demográfico), (ii) proyección del ensamble, (iii) trayectoria meta; diferencia (ii) − (iii) = defunciones evitables si se
+     cumpliera la meta. Distribución por edad de las tasas de 2023 constante (supuesto declarado).
+
+B. EQUIDAD
+ B0. Índice municipal de rezago 2020 construido con el Censo 2020 (ITER) con los indicadores del índice de marginación de CONAPO
+     disponibles en ITER (analfabetismo 15+, sin educación básica 15+, viviendas sin drenaje ni excusado, sin electricidad, sin
+     agua entubada, piso de tierra, ocupantes por cuarto, población en localidades < 5 000 habitantes; sin el indicador de
+     ingreso). Primer componente principal de indicadores estandarizados; quintiles ponderados por mujeres ≥ 18 años
+     (Q1 menor rezago). Motivo: el sitio de CONAPO no respondió el 1-oct-2026. Sensibilidad: quintiles de escolaridad media
+     municipal (GRAPROES). Tamaño de localidad de residencia (catálogo oficial INEGI): < 2 500; 2 500-14 999; 15 000-99 999;
+     ≥ 100 000. Escolaridad de la fallecida (catálogo oficial): ninguna o primaria incompleta; primaria; secundaria;
+     media superior; superior; no especificada como categoría.
+ B1. TEE anual y mensual por quintil y por tamaño de localidad, 2012-2023 (2024 sensibilidad); denominadores: WPP nacional ×
+     proporción del grupo en el Censo 2020 (quintil: 3 bandas de edad 18-49, 50-59, ≥ 60 de ITER, con pesos OMS agregados;
+     tamaño de localidad: 14 grupos quinquenales, tabulado 02). Supuesto: proporciones constantes 2012-2024.
+     Modelo: ITS apilado por grupo (log TEE, tiempo, nivel, pendiente posterior, mes por grupo), Driscoll-Kraay 12; Wald de
+     heterogeneidad del cambio de pendiente y de nivel. Razón y diferencia de tasas Q5/Q1 por año.
+ B2. Lugar de defunción (hogar, unidad pública): modelo logístico segmentado de v10 con interacción grupo × (nivel, pendiente
+     posterior), ajustado por edad quinquenal, entidad y mes; diferencias estandarizadas frente a la tendencia previa por grupo
+     en mar-dic 2020 y 2023; Wald de heterogeneidad. Grupos: quintil, tamaño de localidad, escolaridad.
+ No se usa derechohabiencia (cambios de codificación, sin denominadores).
+
+C. DETECTABILIDAD
+ C1. Con los errores anuales firmados e = log((obs+1)/(pred+1)) de la evaluación comparativa (2 870 series, orígenes 2014-2016,
+     años 1-3, 10 modelos) y el diseño D1 del manuscrito (umbral con origen 2014, ajuste a 5 % de falsas alarmas con 2015,
+     prueba con 2016), probabilidad de detectar un cambio sostenido d (−60 % a +100 %, paso 1 %) por modelo y estrato de
+     volumen; excesos con la cola superior y déficits con la inferior (diseño espejo). Efecto mínimo detectable con 50 % y
+     80 % de probabilidad (EMD50, EMD80); IC 95 % por bootstrap de grupos de causa (1 000 réplicas).
+ C2. Acumulación: estadístico = media de e en los años 1..k (k = 1, 2, 3), mismo diseño D1; EMD por k.
+ C3. Ubicación de las series de cáncer de mama (nacional, por edad y estatales) y comparación con las diferencias observadas
+     (−6.3 % y −7.8 % en 2022-2023).
+
+D. MORTALIDAD PREMATURA
+ D1. Años potenciales de vida perdidos antes de los 75 años (APVP<75, definición OCDE: 75 − edad − 0.5 por defunción a 20-74
+     años); tasa estandarizada por 100 000 mujeres de 20-74 años (pesos OMS 20-74 normalizados), anual 2012-2024 y mensual
+     para ITS (mismo modelo); edad media al morir; % de defunciones < 60 años; distribución por edad.
+ D2. Sensibilidad, si se puede descargar: años de vida perdidos con la esperanza de vida femenina de México por edad (WPP 2024).
+
+INTERPRETACIÓN FIJADA: IC de parámetros ≠ IP; proyecciones más allá del año 4 no validadas; marzo de 2020 es referencia temporal;
+la meta OMS se evalúa con la TEE ≥ 20 años (la iniciativa usa mortalidad estandarizada; la definición exacta de la población
+puede diferir). Sin selección por significación; todas las salidas se guardan.
