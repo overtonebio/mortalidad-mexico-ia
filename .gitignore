@@ -1,5 +1,6 @@
-# Datos y pronósticos externos (se obtienen de Zenodo o de una carpeta local; véase docs/DATOS.md)
+# Datos y pronósticos externos (entrega privada; véase docs/DESCARGA_Y_EJECUCION.md)
 data/external/
+descargas/
 *.npz
 # Ejecuciones (cada una en un --output-dir nuevo)
 ejecuciones/

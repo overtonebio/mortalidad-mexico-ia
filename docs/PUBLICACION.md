@@ -1,7 +1,10 @@
 # Estrategia de publicación en GitHub y archivo en Zenodo (propuesta)
 
-Nada de lo descrito aquí se ha ejecutado: no hay repositorio remoto, release, depósito ni DOI. Los pasos quedan
-para después de la revisión de los autores.
+## Distribución privada para revisión
+
+El repositorio privado `overtonebio/mortalidad-mexico-ia` se creó el 3 de octubre de 2026. El 14 de octubre se añadió la [entrega privada `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014) con los dos ZIP originales v13, sus hashes e instrucciones para los colaboradores. La [guía de descarga y ejecución](DESCARGA_Y_EJECUCION.md) describe su uso.
+
+Esta distribución mantiene el acceso privado del repositorio. La publicación pública del software y de los datos, el depósito en Zenodo y los DOI siguen pendientes. Las propuestas de los apartados siguientes se refieren a esa publicación futura; la etiqueta de distribución privada de datos no es una versión pública del software.
 
 ## Fuentes consultadas (1 de octubre de 2026)
 
@@ -33,8 +36,7 @@ y valide los campos contra el esquema de la interfaz elegida. No son archivos di
 
 ## Estrategia propuesta
 
-1. **Código (GitHub → Zenodo).** Crear el repositorio `mortalidad-mexico-ia` con el contenido de `github/`,
-   activar la integración GitHub-Zenodo para ese repositorio y publicar un release etiquetado (por ejemplo
+1. **Código (GitHub → Zenodo).** Para la futura publicación, usar el repositorio `mortalidad-mexico-ia` ya creado y, tras decidir su publicación pública, activar la integración GitHub-Zenodo para ese repositorio y publicar un release etiquetado (por ejemplo
    `v0.1.0`). Zenodo archiva el código fuente de esa etiqueta y le asigna un DOI de versión. No asuma que la
    integración incorpora los paquetes de datos, los NPZ ni otros archivos externos al repositorio: no están en git
    y deben depositarse aparte.
@@ -55,7 +57,7 @@ y valide los campos contra el esquema de la interfaz elegida. No son archivos di
    las versiones bajo un DOI de concepto que remite a la más reciente. Para reproducibilidad, cite en el artículo
    el DOI de versión; use el de concepto solo para referirse al proyecto en general. (Comportamiento descrito en
    la ayuda de Zenodo sobre versiones; verificar en https://help.zenodo.org/docs/deposit/manage-versions/.)
-6. **Antes de la etiqueta.** Elegir licencias (`LICENSING_PENDING.md`), actualizar `version` en `CITATION.cff`,
+6. **Antes de una versión pública.** Elegir licencias (`LICENSING_PENDING.md`), actualizar `version` en `CITATION.cff`,
    ejecutar `python -m unittest discover -s tests`, `gmm.py verificar` y revisar que no haya rutas personales ni
    secretos.
 
@@ -64,7 +66,8 @@ y valide los campos contra el esquema de la interfaz elegida. No son archivos di
 - [ ] Licencia del código, documentación y derivados decidida y añadida (`LICENSE`, SPDX en metadatos).
 - [ ] Condiciones de WPP 2024 confirmadas.
 - [ ] Decisión sobre la redistribución de figuras finales según la revista.
-- [ ] Repositorio creado y release etiquetado; DOI de versión del software recibido.
+- [x] Repositorio privado creado; paquetes v13 distribuidos en una entrega privada para revisión.
+- [ ] Versión pública del software publicada y DOI de versión recibido.
 - [ ] Depósitos de datos y pronósticos publicados; DOI recibidos.
 - [ ] `CITATION.cff` (y, si se usa, `.zenodo.json`) actualizados con DOI, URL y fecha reales.
 - [ ] Enlaces cruzados entre software, datos y artículo.

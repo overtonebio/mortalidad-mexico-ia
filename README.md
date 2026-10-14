@@ -21,8 +21,10 @@ México*, número especial de inteligencia artificial; **no publicado** a la fec
 | `docs/` | Documentación técnica, de datos, modelos, publicación, trazabilidad y procedencia |
 | `tests/` | Pruebas ligeras con datos sintéticos; sin descargas ni GPU |
 
-Los datos procesados de entrada y los 12 archivos de pronósticos NPZ no están en el repositorio: se distribuyen
-como paquetes separados para depósito (véase [docs/DATOS.md](docs/DATOS.md)).
+Los datos procesados de entrada y los 12 archivos de pronósticos NPZ se descargan de la
+[entrega privada `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), en **Assets**.
+La [guía de descarga y ejecución](docs/DESCARGA_Y_EJECUCION.md) explica cómo extraer ambos ZIP en
+`data/external/`, verificar sus hashes y ejecutar el benchmark, C50 y las figuras.
 
 ## Resumen para investigadores médicos
 
@@ -48,8 +50,8 @@ python3.12 -m venv .venv-c50
 .venv-c50/bin/python -m pip install -r environments/c50-figuras.txt
 ```
 
-Descomprima los dos paquetes de datos en una carpeta (por ejemplo `data/external/`; véase
-[data/README.md](data/README.md)).
+Descargue los dos ZIP de la [entrega privada](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014) y siga
+[docs/DESCARGA_Y_EJECUCION.md](docs/DESCARGA_Y_EJECUCION.md) para extraerlos en `data/external/`.
 
 ## Niveles de reproducción y comandos
 
@@ -131,5 +133,6 @@ locality-size analyses. `scripts/gmm.py` runs four levels: (1) integrity and for
 of the 12 manuscript figures from stored results; (3) recalculation of benchmark metrics from stored forecasts
 and of the C50 analyses from the public microdata extract; (4) model inference and training, documented but
 not executed in this preparation. Every run writes to a new `--output-dir`; reference results are never
-modified. Data and forecast files are distributed as separate deposit packages. The software version is a
-proposal; licence, DOI and repository URL are pending author decisions.
+modified. Data and forecast packages are available as assets of the private `datos-v13-20261014` release.
+See [download and execution instructions](docs/DESCARGA_Y_EJECUCION.md). A GitHub account with access to
+this repository is required. Public software publication, licensing and DOI remain pending.

@@ -2,18 +2,19 @@
 
 ## Distribución
 
-Los datos no se versionan en git. Se preparan dos paquetes para depósito separado (véase `PUBLICACION.md`):
+Los datos se distribuyen como dos archivos adjuntos de la [entrega privada `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), accesible con la misma cuenta autorizada para el repositorio. Los contenidos descomprimidos se mantienen fuera del árbol Git en `data/external/`.
 
-| Paquete | Contenido | Tamaño aprox. |
-|---|---|---|
-| Datos y entradas | `benchmark/datos`, `benchmark/entradas`, `c50/paquete_original`, `c50/fuentes_inegi` | 21 MB sin comprimir |
-| Pronósticos NPZ | `benchmark/pronosticos/publicados` (6) y `benchmark/pronosticos/nueva_ejecucion_semillas` (6), con su manifiesto original | 129 MB |
+| Paquete | Contenido | Tamaño ZIP |
+|---|---|---:|
+| `GMM_v13_datos_y_entradas.zip` | `benchmark/datos`, `benchmark/entradas`, `c50/paquete_original`, `c50/fuentes_inegi` | 7.96 MB |
+| `GMM_v13_pronosticos_NPZ.zip` | `benchmark/pronosticos/publicados` (6) y `benchmark/pronosticos/nueva_ejecucion_semillas` (6), con su manifiesto original | 135.29 MB |
 
-Antes de que existan DOI, ambos paquetes se usan como archivos locales: descomprímalos en la misma carpeta y
-pásela con `--data-dir`. No hay rutas fijas ni descargas automáticas.
+La [guía de descarga y ejecución](DESCARGA_Y_EJECUCION.md) contiene los enlaces, la comprobación SHA-256, los comandos de extracción y los pasos para ejecutar los análisis. La distribución privada no asigna DOI ni sustituye el depósito futuro descrito en `PUBLICACION.md`.
+
+Después de extraer ambos paquetes en la misma carpeta, el comando
 
 ```sh
-python scripts/gmm.py verificar --data-dir /ruta/a/datos
+python scripts/gmm.py verificar --data-dir data/external
 ```
 
 comprueba 109 archivos contra `configs/datos_esperados.json` (SHA-256 y tamaño), las 108 matrices NPZ
