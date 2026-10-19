@@ -131,7 +131,7 @@ Lo efectivamente comprobado y sus límites: [docs/REPRODUCCION.md](docs/REPRODUC
 
 Cite el software mediante [CITATION.cff](CITATION.cff) y su DOI de versión:
 
-Zavala-Reyes D, Portales-Pérez DP. mortalidad-mexico-ia: código del estudio sobre mortalidad esperada en México
+Zavala-Reyes D, Urbina-Rodríguez RO, Milan Ortega HA, Portales-Pérez DP. mortalidad-mexico-ia: código del estudio sobre mortalidad esperada en México
 y cáncer de mama (versión 0.2.0). 2026. https://doi.org/10.5281/zenodo.23480162
 
 El DOI de datos/pronósticos es https://doi.org/10.5281/zenodo.23480195.
@@ -139,12 +139,10 @@ Estos identificadores corresponden a software y datos; el artículo sigue prepar
 
 ## Autores
 
-- Daniel Zavala-Reyes — ORCID [0000-0002-4730-5149](https://orcid.org/0000-0002-4730-5149). Centro de
-  Investigación en Ciencias de la Salud y Biomedicina, Universidad Autónoma de San Luis Potosí. Diseño, análisis
-  y redacción.
-- Diana P. Portales-Pérez — ORCID [0000-0001-8063-7869](https://orcid.org/0000-0001-8063-7869). Laboratorio de
-  Inmunología y Biología Celular y Molecular, Facultad de Ciencias Químicas, Universidad Autónoma de San Luis
-  Potosí. Revisión y correspondencia.
+- Daniel Zavala-Reyes — ORCID [0000-0002-4730-5149](https://orcid.org/0000-0002-4730-5149). Centro de Investigación en Ciencias de la Salud y Biomedicina, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
+- Rubén Omar Urbina-Rodríguez — ORCID [0009-0002-6427-6615](https://orcid.org/0009-0002-6427-6615). Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
+- Héctor Alessandro Milan Ortega — Facultad de Ingeniería, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
+- Diana P. Portales-Pérez — ORCID [0000-0001-8063-7869](https://orcid.org/0000-0001-8063-7869). Laboratorio de Inmunología y Biología Celular y Molecular, Facultad de Ciencias Químicas, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
 
 Sin financiamiento ni conflictos de intereses, según declaración de los autores. Herramientas de IA usadas en la
 preparación del código y del texto se declaran en el manuscrito; no son autoras. Reconocimientos y licencias de
@@ -163,5 +161,6 @@ of the 12 manuscript figures from stored results; (3) recalculation of benchmark
 and of the C50 analyses from the public microdata extract; (4) model inference and training, documented but
 not executed in this preparation. Every run writes to a new `--output-dir`; reference results are never
 modified. Data and forecast packages are available as assets of the `datos-v13-20261014` release.
-See [download and execution instructions](docs/DESCARGA_Y_EJECUCION.md). A GitHub account with access to
-this repository is required. Public software publication, licensing and DOI remain pending.
+See [download and execution instructions](docs/DESCARGA_Y_EJECUCION.md). Software DOI: https://doi.org/10.5281/zenodo.23480162;
+data DOI: https://doi.org/10.5281/zenodo.23480195. Code: MIT; own documentation and results: CC BY 4.0.
+Third-party data retain their source terms. The WPP extract was reconstructed byte for byte from its official source.

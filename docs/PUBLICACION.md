@@ -20,12 +20,15 @@ No se reentrenaron los modelos ni se recuperaron todas las etapas históricas (v
 El depósito manual del software contiene la instantánea de la versión indicada en CITATION.cff.
 Los archivos externos se archivan en el registro de datos, separado del código. El uso de una integración
 GitHub–Zenodo no garantiza que se archiven los assets externos de las entregas de GitHub.
-Para futuras versiones, se debe comprobar cada ZIP antes de publicar; los archivos publicados se conservan
-como referencia y las modificaciones se realizan mediante una nueva versión.
+Para futuras versiones, se debe comprobar cada ZIP antes de publicar. Los cambios sustanciales requieren
+una nueva versión. Zenodo permite corregir metadatos y, dentro de los primeros 30 días, errores menores en
+archivos mediante «Edit published files», manteniendo el DOI (véase manage-files). La corrección de autoría
+del 19 de octubre incorpora la lista de cuatro autores confirmada expresamente, sin modificar resultados.
 
 Fuentes oficiales consultadas el 19 de octubre de 2026:
 - https://help.zenodo.org/docs/github/archive-software/github-upload/
 - https://help.zenodo.org/docs/deposit/manage-records/
+- https://help.zenodo.org/docs/deposit/manage-files/#modify
 - https://help.zenodo.org/docs/deposit/manage-versions/
 - https://opensource.org/license/mit
 - https://creativecommons.org/licenses/by/4.0/
