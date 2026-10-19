@@ -139,10 +139,12 @@ Estos identificadores corresponden a software y datos; el artículo sigue prepar
 
 ## Autores
 
-- Daniel Zavala-Reyes — ORCID [0000-0002-4730-5149](https://orcid.org/0000-0002-4730-5149). Centro de Investigación en Ciencias de la Salud y Biomedicina, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
-- Rubén Omar Urbina-Rodríguez — ORCID [0009-0002-6427-6615](https://orcid.org/0009-0002-6427-6615). Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
-- Héctor Alessandro Milan Ortega — Facultad de Ingeniería, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
-- Diana P. Portales-Pérez — ORCID [0000-0001-8063-7869](https://orcid.org/0000-0001-8063-7869). Laboratorio de Inmunología y Biología Celular y Molecular, Facultad de Ciencias Químicas, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México.
+1. Daniel Zavala-Reyes — ORCID [0000-0002-4730-5149](https://orcid.org/0000-0002-4730-5149). Centro de Investigación en Ciencias de la Salud y Biomedicina, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México. CRediT: Conceptualización; Análisis formal; Redacción: borrador original.
+2. Rubén Omar Urbina-Rodríguez — ORCID [0009-0002-6427-6615](https://orcid.org/0009-0002-6427-6615). Universidad Autónoma de San Luis Potosí, San Luis Potosí, México. CRediT: Redacción: revisión y edición (revisión del manuscrito).
+3. Héctor Alessandro Milan Ortega — Facultad de Ingeniería, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México. CRediT: Software (revisión del código). Sin ORCID declarado.
+4. Diana P. Portales-Pérez — ORCID [0000-0001-8063-7869](https://orcid.org/0000-0001-8063-7869). Laboratorio de Inmunología y Biología Celular y Molecular, Facultad de Ciencias Químicas, Universidad Autónoma de San Luis Potosí, San Luis Potosí, México. CRediT: Redacción: revisión y edición. Correspondencia.
+
+Las contribuciones describen las tareas confirmadas por los autores. Taxonomía [CRediT](https://credit.niso.org/): [Software](https://credit.niso.org/contributor-roles/software/) y [Writing – review & editing](https://credit.niso.org/contributor-roles/writing-review-editing/).
 
 Sin financiamiento ni conflictos de intereses, según declaración de los autores. Herramientas de IA usadas en la
 preparación del código y del texto se declaran en el manuscrito; no son autoras. Reconocimientos y licencias de
