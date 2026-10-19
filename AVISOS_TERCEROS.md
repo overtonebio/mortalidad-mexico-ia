@@ -7,12 +7,12 @@ redistribuir; esta lista no sustituye esos términos.
 
 ## Datos
 
-| Fuente | Uso | Condiciones (verificar) |
+| Fuente | Uso | Condiciones |
 |---|---|---|
 | INEGI. Estadísticas de defunciones registradas (EDR), datos abiertos 2012-2024. https://www.inegi.org.mx/programas/edr/ | Corpus de 2 870 series y extracto C50 | Términos de libre uso del INEGI (https://www.inegi.org.mx/inegi/terminos.html): permiten copiar, distribuir y adaptar con crédito «Fuente: INEGI, …», aviso de las transformaciones y sin sugerir aval del INEGI. |
 | INEGI. Catálogos de los datos abiertos de defunciones (sitio de ocurrencia, entidad, derechohabiencia, escolaridad, tamaño de localidad) | Validación de códigos | Ídem. |
 | INEGI. Censo de Población y Vivienda 2020, tabulados del cuestionario básico | Proporciones regionales por edad | Ídem. |
-| Naciones Unidas, DESA, División de Población. World Population Prospects 2024. https://population.un.org/wpp/ | Denominadores por edad | Condiciones de uso de WPP: **pendiente de confirmar** antes del depósito. |
+| Naciones Unidas, DESA, División de Población. World Population Prospects 2024. https://population.un.org/wpp/ | Denominadores por edad | © 2024 United Nations, CC BY 3.0 IGO (https://creativecommons.org/licenses/by/3.0/igo/). Extracto reconstruido byte por byte; fuente y procedimiento en docs/WPP.md. |
 
 Las transformaciones aplicadas por los autores (agregación, filtros, estandarización, modelos) no son del INEGI
 ni de Naciones Unidas y no representan una postura de esas instituciones.

@@ -1,6 +1,6 @@
 # Descargar los datos y ejecutar los análisis
 
-Actualizado el 14 de octubre de 2026. Los dos paquetes originales v13 están disponibles como archivos adjuntos de la [entrega privada `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014). Se necesita una sesión de GitHub con acceso a este repositorio. El acceso a la entrega es el mismo que el del repositorio.
+Actualizado el 19 de octubre de 2026. Los dos paquetes originales v13 están disponibles como archivos adjuntos de la [entrega de datos `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014). Los mismos ZIP se archivan en el [depósito de datos](https://doi.org/10.5281/zenodo.23480195).
 
 Esta entrega corresponde al código y los resultados de referencia v13 conservados aquí. Las versiones editoriales posteriores del manuscrito pueden cambiar numeración y redacción; esta carga no reemplaza los análisis ni afirma una reproducción integral de esas versiones.
 
@@ -10,7 +10,7 @@ de abajo siguen disponibles para la base v13.
 
 ## 1. Descargar los dos paquetes
 
-Abra la [entrega privada](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), despliegue **Assets** y descargue:
+Abra la [entrega de datos](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), despliegue **Assets** y descargue:
 
 | Archivo | Tamaño | Contenido |
 |---|---:|---|
@@ -38,7 +38,7 @@ Alternativa con GitHub CLI, si ya está instalada y autenticada (`gh auth login`
 gh release download datos-v13-20261014 --repo overtonebio/mortalidad-mexico-ia --pattern 'GMM_v13_*.zip' --pattern SHA256SUMS.txt --dir descargas
 ```
 
-Los enlaces requieren autenticación por tratarse de un repositorio privado.
+Los archivos están disponibles en la entrega de datos de GitHub y en Zenodo.
 
 ## 2. Comprobar y descomprimir
 
@@ -117,21 +117,21 @@ Use una carpeta de salida nueva o vacía para cada ejecución.
 Benchmark desde pronósticos guardados:
 
 ```sh
-.venv-benchmark/bin/python scripts/gmm.py benchmark --data-dir data/external --output-dir ejecuciones/benchmark_revision
-.venv-benchmark/bin/python scripts/gmm.py comparar --output-dir ejecuciones/benchmark_revision
+.venv-benchmark/bin/python scripts/gmm.py benchmark --data-dir data/external --output-dir ../ejecuciones/benchmark_revision
+.venv-benchmark/bin/python scripts/gmm.py comparar --output-dir ../ejecuciones/benchmark_revision
 ```
 
 Análisis de cáncer de mama y sus figuras:
 
 ```sh
-.venv-c50/bin/python scripts/gmm.py c50 --data-dir data/external --output-dir ejecuciones/c50_revision --figuras
-.venv-c50/bin/python scripts/gmm.py comparar --output-dir ejecuciones/c50_revision
+.venv-c50/bin/python scripts/gmm.py c50 --data-dir data/external --output-dir ../ejecuciones/c50_revision --figuras
+.venv-c50/bin/python scripts/gmm.py comparar --output-dir ../ejecuciones/c50_revision
 ```
 
 Las 12 figuras desde resultados de referencia guardados:
 
 ```sh
-.venv-c50/bin/python scripts/gmm.py figuras --data-dir data/external --output-dir ejecuciones/figuras_revision
+.venv-c50/bin/python scripts/gmm.py figuras --data-dir data/external --output-dir ../ejecuciones/figuras_revision
 ```
 
 El benchmark recalcula métricas desde los NPZ. C50 repite los análisis exploratorios con las entradas distribuidas. El reentrenamiento y la generación original de pronósticos se describen por separado en [ENTRENAMIENTO.md](ENTRENAMIENTO.md). Alcance y limitaciones: [REPRODUCCION.md](REPRODUCCION.md).
@@ -143,4 +143,4 @@ El benchmark recalcula métricas desde los NPZ. C50 repite los análisis explora
 - **`verificar-archivo` pide `--archivo`**: ese subcomando verifica la carpeta descomprimida `Analisis_y_pronosticos` del archivo científico completo. Para la entrega de dos ZIP siga el paso 4.
 - **`--output-dir ya contiene archivos`**: elija otro nombre para la ejecución; los resultados de referencia se conservan.
 - **`ModuleNotFoundError`**: instale los requisitos y use el ejecutable del entorno indicado para ese análisis.
-- **Página 404 al abrir la entrega**: inicie sesión con la cuenta que tiene acceso al repositorio privado.
+- **Página 404 al abrir la entrega**: utilice el DOI de datos indicado arriba y compruebe el nombre del archivo.

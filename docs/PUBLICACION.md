@@ -1,44 +1,32 @@
-# Estado de GitHub y preparación de Zenodo
+# Registros, licencias y versiones
 
-Comprobado el 19 de octubre de 2026. Repositorio existente:
-https://github.com/overtonebio/mortalidad-mexico-ia
+Software del manuscrito v20, versión **0.2.0**, 19 de octubre de 2026.
+El identificador de software es distinto de la versión del manuscrito.
 
-## Estado real
+- Código: https://github.com/overtonebio/mortalidad-mexico-ia
+- Actualización de reproducibilidad: https://github.com/overtonebio/mortalidad-mexico-ia/pull/1
+- Archivo de software: https://doi.org/10.5281/zenodo.23480162
+- Datos, pronósticos y procedencia WPP: https://doi.org/10.5281/zenodo.23480195
+- Código: MIT. Documentación y resultados propios: CC BY 4.0. [Alcance](../LICENCIAS.md).
+- INEGI conserva sus términos de libre uso; WPP conserva CC BY 3.0 IGO.
+  La reconstrucción WPP coincide en 357/357 filas y byte por byte con el extracto histórico ([comprobación](WPP.md)).
 
-GitHub está privado. Su rama principal conserva la base v13 y la entrega privada de datos del 14 de octubre.
-La actualización candidata 0.2.0-rc.1 incorpora el manuscrito v20, localidad ajustada, numeración y rótulos.
-El paquete local para Zenodo contiene código, los dos archivos de datos/pronósticos inalterados y la adenda
-histórica. La ausencia de un DOI en esta preparación no descarta que existan borradores en otra cuenta.
-No se pudo inspeccionar una cuenta de Zenodo porque la sesión disponible solicita iniciar sesión.
+Los DOI anteriores corresponden a software y datos, no al artículo, que se encuentra preparado para envío.
+Los dos paquetes v13 se conservan con sus nombres y hashes originales. La adenda histórica se deposita como
+antecedente; los comandos v20 incorporan el código y las referencias que necesitan sin requerir esa adenda.
+El software permite regenerar figuras y recalcular análisis desde las entradas/pronósticos guardados.
+No se reentrenaron los modelos ni se recuperaron todas las etapas históricas (véase REPRODUCCION.md).
 
-## Publicación por completar
-
-1. Revisar e integrar la actualización del repositorio privado.
-2. Elegir las licencias del material propio. Propuesta para decisión de los autores: MIT para código y CC BY 4.0
-   para documentación y resultados propios. No se han concedido esas licencias. Los datos de terceros conservan
-   sus condiciones, sin relicenciarse; la trazabilidad pendiente del extracto WPP está en DATOS.md.
-3. Entrar a la cuenta de Zenodo y crear un depósito de software y otro de datos/pronósticos, con los archivos
-   y los metadatos preparados. Cotejar sus licencias y reservar los DOI en los borradores si se van a citar antes
-   de publicar. Un DOI reservado no implica publicación ni que sus archivos sean accesibles.
-4. Publicar solo después de la aprobación de los autores. Para acceso abierto mediante GitHub-Zenodo,
-   decidir además si el repositorio se hace público. El depósito manual de software permite tratar esta decisión
-   por separado y debe contener la instantánea exacta del código aprobado.
-5. Comprobar los DOI de versión y el acceso a los archivos, enlazar ambos registros y actualizar CITATION.cff
-   y la declaración de disponibilidad del manuscrito. No usar DOI de ejemplo ni afirmar disponibilidad pública
-   mediante enlaces privados.
-
-## Consideraciones verificadas
-
-La integración GitHub-Zenodo archiva una versión del código; no se debe asumir que incorpora los assets
-externos de las entregas. Los datos y los pronósticos se preparan por separado. Las modificaciones de archivos
-tras publicar están restringidas; comprobar los ZIP antes y crear una nueva versión cuando corresponda.
-Si coexisten CITATION.cff y .zenodo.json, Zenodo da prioridad al segundo: por eso aquí se conserva un solo
-CITATION.cff activo y los JSON de depósito se mantienen fuera del repositorio operativo.
+El depósito manual del software contiene la instantánea de la versión indicada en CITATION.cff.
+Los archivos externos se archivan en el registro de datos, separado del código. El uso de una integración
+GitHub–Zenodo no garantiza que se archiven los assets externos de las entregas de GitHub.
+Para futuras versiones, se debe comprobar cada ZIP antes de publicar; los archivos publicados se conservan
+como referencia y las modificaciones se realizan mediante una nueva versión.
 
 Fuentes oficiales consultadas el 19 de octubre de 2026:
 - https://help.zenodo.org/docs/github/archive-software/github-upload/
 - https://help.zenodo.org/docs/deposit/manage-records/
 - https://help.zenodo.org/docs/deposit/manage-versions/
-- https://help.zenodo.org/docs/github/describe-software/
 - https://opensource.org/license/mit
 - https://creativecommons.org/licenses/by/4.0/
+- https://creativecommons.org/licenses/by/3.0/igo/

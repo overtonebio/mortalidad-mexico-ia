@@ -1,12 +1,12 @@
 # Reproducción del manuscrito v20
 
 Actualización preparada el 19 de octubre de 2026. El manuscrito de referencia es el paquete de envío v20,
-del 17 de octubre. La versión candidata del software es 0.2.0-rc.1; no es una publicación del artículo.
+del 17 de octubre. La versión candidata del software es 0.2.0; no es una publicación del artículo.
 
 ## Entradas y entorno
 
 Se usan sin alteraciones `GMM_v13_datos_y_entradas.zip` y `GMM_v13_pronosticos_NPZ.zip`, disponibles en
-la [entrega privada existente](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014).
+la [entrega de datos existente](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014).
 Siga [la extracción de esos ZIP](DESCARGA_Y_EJECUCION.md), dejando `benchmark/` y `c50/` bajo `data/external/`.
 El extracto C50 que necesita localidad ya está en `c50/paquete_original/editorial/datos/`.
 
@@ -23,7 +23,7 @@ Arial y las versiones indicadas; en otra plataforma pueden cambiar las fuentes s
 ## Doce figuras vigentes
 
 ```sh
-.venv-c50/bin/python scripts/gmm_v20.py figuras --data-dir data/external --output-dir ejecuciones/figuras_v20
+.venv-c50/bin/python scripts/gmm_v20.py figuras --data-dir data/external --output-dir ../ejecuciones/figuras_v20
 ```
 
 La salida `figuras/` contiene Figura_1–Figura_6 y Figura_S1–Figura_S6 en PDF. Primero se reconstruye la base
@@ -39,7 +39,7 @@ no entrenamiento ni recálculo integral de todos los análisis.
 ## Ampliación ajustada por localidad
 
 ```sh
-.venv-c50/bin/python scripts/gmm_v20.py localidad --data-dir data/external --output-dir ejecuciones/localidad_v20
+.venv-c50/bin/python scripts/gmm_v20.py localidad --data-dir data/external --output-dir ../ejecuciones/localidad_v20
 ```
 
 La ejecución copia los scripts y las entradas en un directorio nuevo; conserva el plan del 5 de octubre y todas

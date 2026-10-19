@@ -1,0 +1,21 @@
+{
+  "fuente_url": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20%28Standard%29/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+  "fuente_archivo": "WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+  "fuente_sha256": "a04d7d1486a5eb2832cc812d599448f0a71e8ac9e1e7e6fa4066673d6a2487cd",
+  "fuente_bytes": 29948947,
+  "licencia_fuente": "CC-BY-3.0-IGO",
+  "cita": "United Nations, DESA, Population Division (2024). World Population Prospects 2024, Online Edition.",
+  "filtro": "ISO3_code=MEX; LocID=484; VarID=2 (Medium); Time=2010..2026",
+  "transformacion": "Seleccionar Time, AgeGrp, AgeGrpStart y PopFemale; ordenar por año y edad. Sin redondeo ni cambio de unidades.",
+  "unidad": "Miles de mujeres, población de facto al 1 de julio; grupo 100+ abierto.",
+  "grano": "Año × grupo quinquenal de edad; México, mujeres, variante media.",
+  "filas": 357,
+  "claves_unicas": 357,
+  "comparacion_numerica_exacta": true,
+  "diferencias": [],
+  "extracto_historico_sha256": "20340aaf3f3370f4c7941c85bc73996c1ca780fb5ac5fd2bce7d76f15c63e0a2",
+  "reconstruccion_sha256": "20340aaf3f3370f4c7941c85bc73996c1ca780fb5ac5fd2bce7d76f15c63e0a2",
+  "bytes_identicos": true,
+  "alcance": "Reconstrucción independiente; no identifica la descarga histórica original, cuyo registro no se conservó.",
+  "fecha_comprobacion": "2026-10-19"
+}
