@@ -1,0 +1,17 @@
+{
+  "catalogo_url": "https://population.un.org/wpp/assets/downloads.json",
+  "catalogo_sha256": "5a088f7691f39ad5f1a7e11dccd149b481f88adf77705ffc907a31cada07df1a",
+  "entrada_csv": [
+    {
+      "type": "gz",
+      "Path": "assets/Excel Files/1_Indicator (Standard)/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz",
+      "Title": "1950-2100, medium"
+    }
+  ],
+  "licencia": "CC-BY-3.0-IGO",
+  "licencia_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "evidencia_licencia": "Copyright © 2024 by United Nations, made available under a Creative Commons license CC BY 3.0 IGO; pie del catálogo oficial y fila 13 del Excel oficial POP/F02-3.",
+  "excel_correspondiente": "WPP2024_POP_F02_3_POPULATION_5-YEAR_AGE_GROUPS_FEMALE.xlsx",
+  "excel_sha256": "5c7d015f2431a07cbedf3ec9d196ae9071401e906c8392fe3019bfe4cfba4977",
+  "fecha_consulta": "2026-10-19"
+}

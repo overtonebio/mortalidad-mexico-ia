@@ -1,0 +1,67 @@
+﻿Tipo,Identificador_historico_v15,Identificador_editorial_v16,Titulo
+Método,S1,S1,Evaluación comparativa frente a aplicación.
+Método,S10,S2,"Diseño, registros y unidades."
+Método,S4,S3,Detección de exceso con umbrales temporales.
+Método,S3,S4,Intervalos de predicción del cáncer de mama.
+Método,S9,S5,Validación específica de la serie de mama.
+Método,S5,S6,Escenarios exploratorios de riesgo competitivo y causas mal definidas.
+Método,S13,S7,Entrenamiento local y denominación de los modelos.
+Método,S11,S8,Análisis secundarios exploratorios de cáncer de mama.
+Método,S12,S9,Mortalidad prematura y lugar de defunción por tamaño de localidad.
+Método,S14,S10,Interacción entre localidad y periodo.
+Método,S2,S11,Semillas y fallos.
+Método,S6,S12,Registro tardío de 2024.
+Método,S7,S13,Derechohabiencia.
+Método,S8,S14,Denominadores regionales.
+Tabla,S1,S1,Grupos de causa básica de defunción (CIE-10) y número de series incluidas por nivel.
+Tabla,S13,S2,Diferencias de implementación entre la evaluación comparativa y la aplicación al cáncer de mama.
+Tabla,S10,S3,Sensibilidad de Friedman/Nemenyi a la dependencia entre series (rango promedio de la WQL; 1 = mejor).
+Tabla,S9,S4,"Falsas alarmas y detección de exceso con el detector unilateral temporal por horizonte (D1; umbral con el origen 2014, ajuste con 2015, prueba con 2016; años 2017-2019; 2 870 series × 3 años)."
+Tabla,S12A,S5,Defunciones por cáncer de mama (mujeres ≥ 20 años) por código de derechohabiencia y año de ocurrencia.
+Tabla,S12B,S6,Distribución porcentual por grupo armonizado de derechohabiencia y año.
+Tabla,S12C,S7,Catálogos oficiales de derechohabiencia del INEGI por periodo (datos abiertos de defunciones registradas).
+Tabla,S5,S8,"Desempeño del clasificador de causa C50 (LightGBM; mujeres ≥ 20 años; entrenamiento 2012-2018, validación 2019)."
+Tabla,S4,S9,"Ajuste fino de Chronos-2 (origen de diciembre de 2016, un solo origen, 2 870 series, horizonte de 36 meses)."
+Tabla,S25A,S10,Años potenciales de vida perdidos antes de los 75 años por cáncer de mama
+Tabla,S25B,S11,Tendencia de la tasa de APVP y sensibilidades temporales
+Tabla,S25C,S12,Defunciones en el hogar por tamaño de localidad de residencia
+Tabla,S26A,S13,Probabilidades ajustadas de defunción en el hogar
+Tabla,S26B,S14,Brecha rural frente a localidades de al menos 100 000 habitantes
+Tabla,S26C,S15,Sensibilidades de la interacción y del cambio de brecha
+Tabla,S16,S16,"Matriz adaptada de TRIPOD+AI (Collins et al., 2024; 27 ítems, 52 subítems) para este estudio ecológico de pronóstico de series de tiempo."
+Tabla,S6,S17,"Recalibración de los intervalos mensuales de 80 % con regresión cuantílica conformal (CQR), origen de diciembre de 2016, 2 870 series."
+Tabla,S2A,S18,Validación a 48 meses de la evaluación comparativa (orígenes de diciembre de 2014 y 2015; 2 870 series; periodos de prueba hasta 2018 y 2019).
+Tabla,S9B,S19,"Controles positivos: series-año de 2020-2021 con exceso detectado (diabetes, cardiopatía isquémica y todas las causas; nacionales y estatales, todas las edades)."
+Tabla,S2H,S20,"Validación específica de la TEE nacional de cáncer de mama: MASE por modelo (nueve orígenes trimestrales, 2014-2016, 36 meses)."
+Tabla,S2G,S21,"Sensibilidad de los intervalos de predicción de mama a excluir de la calibración las series de cáncer de mama y de todas las causas, 2020-2023."
+Tabla,S19,S22,Tendencia de la tasa estandarizada por edad (TEE) de cáncer de mama en mujeres ≥ 20 años: estimaciones con IC 95 % en todas las variantes ejecutadas.
+Tabla,S21A,S23,"Proporción estandarizada de defunciones según lugar, continuación de la tendencia previa y diferencia en puntos porcentuales (pp), 2019-2023."
+Tabla,S21B,S24,"Diferencia entre la proporción ajustada en 2023 y en 2019, según modelo de lugar de defunción (pp, IC 95 %)."
+Tabla,S11B,S25,Escenarios exploratorios de riesgo competitivo: cantidad hipotética de mujeres con cáncer de mama entre las defunciones femeninas por COVID-19 de 2020-2022 (H) y magnitud agregada A para la comparación con 2021-2023.
+Tabla,S15,S26,"Versión completa de la tabla 1: desempeño de los diez modelos en 2 870 series (orígenes de diciembre de 2014, 2015 y 2016; 36 meses)."
+Tabla,S2B,S27,"Cáncer de mama: diferencia entre mortalidad observada y esperada (ensamble) con tres enfoques de incertidumbre, 2020-2024."
+Tabla,S2C,S28,"Condiciones de validez de los rangos por serie (TEE nacional, ensamble)."
+Tabla,S2D,S29,"Placebo de conteos con separación temporal por horizonte para la calibración entre series (ensamble; bilateral, nominal 10 %; estratos de volumen de 2012-2014)."
+Tabla,S2E,S30,Errores de calibración entre series por estrato de volumen que provienen de series de cáncer de mama o de todas las causas.
+Tabla,S2F,S31,Comprobación con separación temporal: errores de validación de las series de mama frente a umbrales calculados con años previos y sin series de mama ni de todas las causas.
+Tabla,S3,S32,"Variantes de predicción conformal entre series en el placebo 2017-2019 (nominal, 90 %)."
+Tabla,S7,S33,"Costo computacional por origen (2 870 series, horizonte de 36 meses, 3 cuantiles)."
+Tabla,S8,S34,"Diferencia entre defunciones observadas y esperadas por cáncer de mama en mujeres (conteos; % e intervalo de predicción conformal de 90 %), por modelo y grupo de edad, 2020-2023."
+Tabla,S9C,S35,"Diseños de detección de exceso: principal (D1) y sensibilidades (D0, D2, D3)."
+Tabla,S9D,S36,Desplazamiento aditivo δ (escala logarítmica) del umbral superior por modelo y año del horizonte (D1).
+Tabla,S10B,S37,Diferencias de rango promedio entre pares de modelos consecutivos con IC 95 % por bootstrap de grupos de causa (2 000 réplicas).
+Tabla,S11,S38,"Déficit puntual de cáncer de mama, escenarios exploratorios de riesgo competitivo y causas mal definidas: comparación principal 2021-2023 y sensibilidad 2021-2024."
+Tabla,S11C,S39,"Parámetros de los escenarios exploratorios de riesgo competitivo: fuente, población, medida, transformación, valores y justificación."
+Tabla,S14,S40,Cifras publicadas (pronósticos guardados) frente a una nueva ejecución completa con semillas fijas.
+Tabla,S17,S41,Catálogo oficial del INEGI de sitio de ocurrencia de la defunción por archivo anual y agrupación analítica.
+Tabla,S18,S42,Flujo de registros y rezago de registro de las defunciones por cáncer de mama en mujeres ≥ 20 años.
+Tabla,S20,S43,"Lugar de defunción por cáncer de mama: razones de momios (RM) del modelo logístico segmentado, análisis principal y sensibilidades."
+Tabla,S22,S44,Diferencia ajustada frente a la continuación de la tendencia previa: análisis de sensibilidad de lugar de defunción.
+Tabla,S23,S45,"Proporción anual ajustada de defunciones por cáncer de mama según lugar y tasa estandarizada por edad (TEE) de defunciones por lugar, 2012-2024."
+Tabla,S24,S46,"Diagnóstico de residuos de los modelos de serie temporal interrumpida de las TEE por lugar, 2012-2023."
+Figura,S1,S1,Sin cambio de numeración
+Figura,S2,S2,Sin cambio de numeración
+Figura,S3,S3,Sin cambio de numeración
+Figura,S4,S4,Sin cambio de numeración
+Figura,S5,S5,Sin cambio de numeración
+Figura,S6,S6,Sin cambio de numeración

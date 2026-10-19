@@ -1,0 +1,6 @@
+Modelo,N,p interacción global,gl,"Cambio de brecha, pp (IC95%)",p cambio de brecha
+principal,82377,0.046,6,-0.7 (-3.0 a 1.6),0.553
+sens_HAC6,82377,0.182,6,-0.7 (-3.5 a 2.1),0.622
+sens_HAC18,82377,0.015,6,-0.7 (-2.7 a 1.3),0.498
+sens_sin99,81510,0.066,6,-1.1 (-3.5 a 1.2),0.347
+sens_desvios_anuales,82377,<0.001,12,-1.2 (-3.2 a 0.8),0.241

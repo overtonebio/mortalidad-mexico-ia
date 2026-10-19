@@ -1,11 +1,37 @@
 # mortalidad-mexico-ia
 
 Código del estudio **«SI: Inteligencia artificial para estimar la mortalidad esperada en México: evaluación
-comparativa y aplicación al cáncer de mama»** (manuscrito v13, 1 de octubre de 2026; preparado para envío a *Gaceta Médica de
+comparativa y aplicación al cáncer de mama»** (manuscrito v20, 17 de octubre de 2026; preparado para envío a *Gaceta Médica de
 México*, número especial de inteligencia artificial; **no publicado** a la fecha de esta preparación).
 
-> Estado: versión de software **propuesta y no publicada** (borrador para revisión). Sin licencia definitiva:
-> véase [LICENSING_PENDING.md](LICENSING_PENDING.md). No existe todavía DOI ni repositorio público.
+> Software **0.2.0**: código bajo [MIT](LICENSE); documentación y resultados propios bajo
+> [CC BY 4.0](LICENCIAS.md). Datos de terceros bajo sus condiciones originales.
+> Archivo de software: [10.5281/zenodo.23480162](https://doi.org/10.5281/zenodo.23480162).
+> Datos y pronósticos: [10.5281/zenodo.23480195](https://doi.org/10.5281/zenodo.23480195).
+
+## Versión vigente del manuscrito
+
+La actualización **0.2.0**, preparada el 19 de octubre de 2026, corresponde al **manuscrito v20**.
+Incluye la ampliación ajustada por localidad, las tablas suplementarias renumeradas y los rótulos finales de
+las doce figuras. El análisis base v13, sus entradas y sus pronósticos se conservan íntegros.
+
+Desde una copia nueva del repositorio, descargue los mismos dos paquetes de datos indicados abajo y prepare
+el entorno C50. Después ejecute:
+
+```sh
+.venv-c50/bin/python scripts/gmm_v20.py verificar --data-dir data/external
+.venv-c50/bin/python scripts/gmm_v20.py figuras --data-dir data/external --output-dir ../ejecuciones/figuras_v20
+.venv-c50/bin/python scripts/gmm_v20.py localidad --data-dir data/external --output-dir ../ejecuciones/localidad_v20
+```
+
+Use directorios de salida nuevos y separados del código y los datos. No hace falta descargar una adenda
+adicional: todos los insumos necesarios ya están en los dos ZIP v13; el código y las referencias nuevos están
+en `src/v20/` y `results/reference/v20/`. La adenda original se conserva aparte como antecedente de depósito.
+La verificación del 19 de octubre reprodujo 12/12 figuras con texto y render idénticos a los PDF del envío,
+y 20/20 CSV de localidad idénticos byte a byte. Véase [Reproducción v20](docs/REPRODUCCION_V20.md).
+
+La procedencia WPP se comprobó con reconstrucción exacta de 357 filas: [fuente, licencia y procedimiento](docs/WPP.md).
+[Registros y versiones](docs/PUBLICACION.md).
 
 ## Qué contiene
 
@@ -13,7 +39,8 @@ México*, número especial de inteligencia artificial; **no publicado** a la fec
 |---|---|
 | `src/benchmark/` | Evaluación comparativa de 10 métodos en 2 870 series mensuales de mortalidad (métricas, intervalos, detección, cosecha, Friedman, LoRA, derechohabiencia) y scripts de generación de pronósticos y entrenamiento (nivel 4) |
 | `src/c50/` | Análisis exploratorios de cáncer de mama (C50): tendencia segmentada, lugar de defunción, APVP y tamaño de localidad |
-| `src/figuras/` | Generadores de las 12 figuras del manuscrito v13 |
+| `src/figuras/` | Generadores históricos de la base v13 |
+| `src/v20/`, `scripts/gmm_v20.py` | Localidad ajustada y las doce figuras del manuscrito vigente |
 | `scripts/gmm.py` | Ejecutor por niveles con `--help`, verificación de entradas y directorios de salida separados |
 | `configs/` | Pasos, correspondencia de figuras, hashes de entradas esperadas y manifiestos originales |
 | `environments/` | Requisitos por entorno (benchmark y C50 por separado) y versiones históricas declaradas |
@@ -22,7 +49,7 @@ México*, número especial de inteligencia artificial; **no publicado** a la fec
 | `tests/` | Pruebas ligeras con datos sintéticos; sin descargas ni GPU |
 
 Los datos procesados de entrada y los 12 archivos de pronósticos NPZ se descargan de la
-[entrega privada `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), en **Assets**.
+[entrega de datos `datos-v13-20261014`](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), en **Assets**.
 La [guía de descarga y ejecución](docs/DESCARGA_Y_EJECUCION.md) explica cómo extraer ambos ZIP en
 `data/external/`, verificar sus hashes y ejecutar el benchmark, C50 y las figuras.
 
@@ -50,24 +77,24 @@ python3.12 -m venv .venv-c50
 .venv-c50/bin/python -m pip install -r environments/c50-figuras.txt
 ```
 
-Descargue los dos ZIP de la [entrega privada](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014) y siga
+Descargue los dos ZIP de la [entrega de datos](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014) y siga
 [docs/DESCARGA_Y_EJECUCION.md](docs/DESCARGA_Y_EJECUCION.md) para extraerlos en `data/external/`.
 
-## Niveles de reproducción y comandos
+## Comandos de la base histórica v13
 
 | Nivel | Qué hace | Comando | Tiempo medido* |
 |---|---|---|---|
 | 1 | Integridad SHA-256, formatos, dimensiones y finitud | `python scripts/gmm.py verificar --data-dir data/external` | ≈ 1 s |
-| 2 | Regenera las 12 figuras desde resultados guardados | `.venv-c50/bin/python scripts/gmm.py figuras --data-dir data/external --output-dir ejecuciones/figuras` | ≈ 7 s |
-| 3 | Recalcula el benchmark desde los NPZ | `.venv-benchmark/bin/python scripts/gmm.py benchmark --data-dir data/external --output-dir ejecuciones/benchmark` | ≈ 50 s (48 y 53 s en dos ejecuciones) |
-| 3 | Recalcula los análisis C50 (10 000 simulaciones, 2 hilos) | `.venv-c50/bin/python scripts/gmm.py c50 --data-dir data/external --output-dir ejecuciones/c50 --figuras` | ≈ 4 min (236-241 s; 227-231 s en `lugar_defuncion`) |
-| — | Compara una ejecución con `results/reference` | `python scripts/gmm.py comparar --output-dir ejecuciones/benchmark` | segundos |
+| 2 | Regenera las 12 figuras desde resultados guardados | `.venv-c50/bin/python scripts/gmm.py figuras --data-dir data/external --output-dir ../ejecuciones/figuras` | ≈ 7 s |
+| 3 | Recalcula el benchmark desde los NPZ | `.venv-benchmark/bin/python scripts/gmm.py benchmark --data-dir data/external --output-dir ../ejecuciones/benchmark` | ≈ 50 s (48 y 53 s en dos ejecuciones) |
+| 3 | Recalcula los análisis C50 (10 000 simulaciones, 2 hilos) | `.venv-c50/bin/python scripts/gmm.py c50 --data-dir data/external --output-dir ../ejecuciones/c50 --figuras` | ≈ 4 min (236-241 s; 227-231 s en `lugar_defuncion`) |
+| — | Compara una ejecución con `results/reference` | `python scripts/gmm.py comparar --output-dir ../ejecuciones/benchmark` | segundos |
 | 4 | Inferencia y entrenamiento: solo documentación | `python scripts/gmm.py entrenamiento` | no ejecutado |
 
 \* Medido el 1 de octubre de 2026 en macOS arm64 con 11 núcleos lógicos y 18 GB de RAM, sin GPU.
 
 Las figuras pueden regenerarse también desde salidas de nivel 3:
-`... figuras --resultados-benchmark ejecuciones/benchmark --resultados-c50 ejecuciones/c50`.
+`... figuras --resultados-benchmark ../ejecuciones/benchmark --resultados-c50 ../ejecuciones/c50`.
 Para comparar por render con los PDF del envío v13 instale `environments/comparacion-figuras.txt` y añada
 `--figuras-v13 <carpeta con Figura_*.pdf>` a `comparar`.
 
@@ -102,11 +129,13 @@ Lo efectivamente comprobado y sus límites: [docs/REPRODUCCION.md](docs/REPRODUC
 
 ## Cómo citar
 
-Mientras no exista una versión publicada, cite el artículo cuando se publique y este código como software no
-publicado (metadatos en [CITATION.cff](CITATION.cff)):
+Cite el software mediante [CITATION.cff](CITATION.cff) y su DOI de versión:
 
-> Zavala-Reyes D, Portales-Pérez DP. mortalidad-mexico-ia: código del estudio sobre mortalidad esperada en
-> México y cáncer de mama (versión propuesta, no publicada). 2026.
+Zavala-Reyes D, Portales-Pérez DP. mortalidad-mexico-ia: código del estudio sobre mortalidad esperada en México
+y cáncer de mama (versión 0.2.0). 2026. https://doi.org/10.5281/zenodo.23480162
+
+El DOI de datos/pronósticos es https://doi.org/10.5281/zenodo.23480195.
+Estos identificadores corresponden a software y datos; el artículo sigue preparado para envío.
 
 ## Autores
 
@@ -125,7 +154,7 @@ terceros: [AVISOS_TERCEROS.md](AVISOS_TERCEROS.md).
 ## English summary
 
 Code for the study *"SI: Artificial intelligence for estimating expected mortality in Mexico: comparative
-evaluation and application to breast cancer"* (manuscript v13, prepared for submission, not yet published). The repository
+evaluation and application to breast cancer"* (manuscript v20, prepared for submission, not yet published). The repository
 compares classical, global machine-learning and pretrained foundation forecasting models on 2 870 monthly
 Mexican mortality series (INEGI, 2012-2024) and applies the forecasts to breast cancer (ICD-10 C50) in women
 aged ≥ 20 years, together with exploratory trend, place-of-death, premature-mortality (YPLL) and
@@ -133,6 +162,6 @@ locality-size analyses. `scripts/gmm.py` runs four levels: (1) integrity and for
 of the 12 manuscript figures from stored results; (3) recalculation of benchmark metrics from stored forecasts
 and of the C50 analyses from the public microdata extract; (4) model inference and training, documented but
 not executed in this preparation. Every run writes to a new `--output-dir`; reference results are never
-modified. Data and forecast packages are available as assets of the private `datos-v13-20261014` release.
+modified. Data and forecast packages are available as assets of the `datos-v13-20261014` release.
 See [download and execution instructions](docs/DESCARGA_Y_EJECUCION.md). A GitHub account with access to
 this repository is required. Public software publication, licensing and DOI remain pending.
