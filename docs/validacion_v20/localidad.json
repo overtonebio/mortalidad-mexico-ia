@@ -1,0 +1,82 @@
+[
+  {
+    "archivo": "ajuste_mensual_principal.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "contrastes_principal.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "contrastes_sens_HAC18.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "contrastes_sens_HAC6.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "contrastes_sens_desvios_anuales.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "contrastes_sens_sin99.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "descriptivos_anuales.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "faltantes_por_anio.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "flujo_muestra.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "pesos_estandarizacion.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "probabilidades_principal.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "probabilidades_sens_HAC18.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "probabilidades_sens_HAC6.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "probabilidades_sens_desvios_anuales.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "probabilidades_sens_sin99.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "residuos_mensuales_localidad.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "soporte_estandarizacion.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "tabla_S26A_probabilidades.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "tabla_S26B_contrastes.csv",
+    "estado": "identico_bytes"
+  },
+  {
+    "archivo": "tabla_S26C_sensibilidades.csv",
+    "estado": "identico_bytes"
+  }
+]

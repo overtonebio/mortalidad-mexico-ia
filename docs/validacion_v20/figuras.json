@@ -1,0 +1,254 @@
+[
+  {
+    "figura": "Figura_1",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        486.73,
+        335.18
+      ],
+      [
+        486.73,
+        335.18
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_2",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        478.69,
+        390.6
+      ],
+      [
+        478.69,
+        390.6
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_3",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        485.44,
+        420.14
+      ],
+      [
+        485.44,
+        420.14
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_4",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        520.91,
+        392.43
+      ],
+      [
+        520.91,
+        392.43
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_5",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        455.72,
+        355.56
+      ],
+      [
+        455.72,
+        355.56
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_6",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        550.55,
+        260.27
+      ],
+      [
+        550.55,
+        260.27
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S1",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        453.91,
+        355.57
+      ],
+      [
+        453.91,
+        355.57
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S2",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        458.75,
+        221.94
+      ],
+      [
+        458.75,
+        221.94
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S3",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        494.61,
+        234.21
+      ],
+      [
+        494.61,
+        234.21
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S4",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        512.75,
+        236.28
+      ],
+      [
+        512.75,
+        236.28
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S5",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        447.52,
+        271.2
+      ],
+      [
+        447.52,
+        271.2
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  },
+  {
+    "figura": "Figura_S6",
+    "sha_igual": false,
+    "paginas": [
+      1,
+      1
+    ],
+    "tam_pt": [
+      [
+        438.16,
+        184.37
+      ],
+      [
+        438.16,
+        184.37
+      ]
+    ],
+    "texto_igual": true,
+    "pix_dif_frac": 0.0,
+    "pix_dif_max": 0
+  }
+]

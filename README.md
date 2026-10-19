@@ -1,11 +1,35 @@
 # mortalidad-mexico-ia
 
 Código del estudio **«SI: Inteligencia artificial para estimar la mortalidad esperada en México: evaluación
-comparativa y aplicación al cáncer de mama»** (manuscrito v13, 1 de octubre de 2026; preparado para envío a *Gaceta Médica de
+comparativa y aplicación al cáncer de mama»** (manuscrito v20, 17 de octubre de 2026; preparado para envío a *Gaceta Médica de
 México*, número especial de inteligencia artificial; **no publicado** a la fecha de esta preparación).
 
 > Estado: versión de software **propuesta y no publicada** (borrador para revisión). Sin licencia definitiva:
 > véase [LICENSING_PENDING.md](LICENSING_PENDING.md). No existe todavía DOI ni repositorio público.
+
+## Versión vigente del manuscrito
+
+La actualización **0.2.0-rc.1**, preparada el 19 de octubre de 2026, corresponde al **manuscrito v20**.
+Incluye la ampliación ajustada por localidad, las tablas suplementarias renumeradas y los rótulos finales de
+las doce figuras. El análisis base v13, sus entradas y sus pronósticos se conservan íntegros.
+
+Desde una copia nueva del repositorio, descargue los mismos dos paquetes de datos indicados abajo y prepare
+el entorno C50. Después ejecute:
+
+```sh
+.venv-c50/bin/python scripts/gmm_v20.py verificar --data-dir data/external
+.venv-c50/bin/python scripts/gmm_v20.py figuras --data-dir data/external --output-dir ejecuciones/figuras_v20
+.venv-c50/bin/python scripts/gmm_v20.py localidad --data-dir data/external --output-dir ejecuciones/localidad_v20
+```
+
+Use directorios de salida nuevos y separados del código y los datos. No hace falta descargar una adenda
+adicional: todos los insumos necesarios ya están en los dos ZIP v13; el código y las referencias nuevos están
+en `src/v20/` y `results/reference/v20/`. La adenda original se conserva aparte como antecedente de depósito.
+La verificación del 19 de octubre reprodujo 12/12 figuras con texto y render idénticos a los PDF del envío,
+y 20/20 CSV de localidad idénticos byte a byte. Véase [Reproducción v20](docs/REPRODUCCION_V20.md).
+
+El repositorio sigue **privado**. La publicación abierta, las licencias y el DOI siguen pendientes; un enlace
+privado no da acceso a revisores que no tengan permiso. [Estado de publicación](docs/PUBLICACION.md).
 
 ## Qué contiene
 
@@ -13,7 +37,8 @@ México*, número especial de inteligencia artificial; **no publicado** a la fec
 |---|---|
 | `src/benchmark/` | Evaluación comparativa de 10 métodos en 2 870 series mensuales de mortalidad (métricas, intervalos, detección, cosecha, Friedman, LoRA, derechohabiencia) y scripts de generación de pronósticos y entrenamiento (nivel 4) |
 | `src/c50/` | Análisis exploratorios de cáncer de mama (C50): tendencia segmentada, lugar de defunción, APVP y tamaño de localidad |
-| `src/figuras/` | Generadores de las 12 figuras del manuscrito v13 |
+| `src/figuras/` | Generadores históricos de la base v13 |
+| `src/v20/`, `scripts/gmm_v20.py` | Localidad ajustada y las doce figuras del manuscrito vigente |
 | `scripts/gmm.py` | Ejecutor por niveles con `--help`, verificación de entradas y directorios de salida separados |
 | `configs/` | Pasos, correspondencia de figuras, hashes de entradas esperadas y manifiestos originales |
 | `environments/` | Requisitos por entorno (benchmark y C50 por separado) y versiones históricas declaradas |
@@ -53,7 +78,7 @@ python3.12 -m venv .venv-c50
 Descargue los dos ZIP de la [entrega privada](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014) y siga
 [docs/DESCARGA_Y_EJECUCION.md](docs/DESCARGA_Y_EJECUCION.md) para extraerlos en `data/external/`.
 
-## Niveles de reproducción y comandos
+## Comandos de la base histórica v13
 
 | Nivel | Qué hace | Comando | Tiempo medido* |
 |---|---|---|---|
@@ -125,7 +150,7 @@ terceros: [AVISOS_TERCEROS.md](AVISOS_TERCEROS.md).
 ## English summary
 
 Code for the study *"SI: Artificial intelligence for estimating expected mortality in Mexico: comparative
-evaluation and application to breast cancer"* (manuscript v13, prepared for submission, not yet published). The repository
+evaluation and application to breast cancer"* (manuscript v20, prepared for submission, not yet published). The repository
 compares classical, global machine-learning and pretrained foundation forecasting models on 2 870 monthly
 Mexican mortality series (INEGI, 2012-2024) and applies the forecasts to breast cancer (ICD-10 C50) in women
 aged ≥ 20 years, together with exploratory trend, place-of-death, premature-mortality (YPLL) and

@@ -1,0 +1,47 @@
+{
+  "manuscrito": "v20, 17-oct-2026",
+  "figuras": {
+    "Figura_1": {
+      "sha256_pdf_envio": "70d7882841c1d57f9f14f00813583f0ffcaf7d03fb41b61d1dc37c84a04f9ce1"
+    },
+    "Figura_2": {
+      "sha256_pdf_envio": "3749d40b5e42c6f05bb3520d60b72ee1f15b3f9bd3575db75dedf80b5846255e"
+    },
+    "Figura_3": {
+      "sha256_pdf_envio": "7731b3b8c04dc4a6a8392162a95d3cb1e15506ea3997bb11e09840adfbdbf4f9",
+      "sha256_png_envio": "dfb45d03dc2c2b92115bc90dbe0be29a383200de0b324f64a9466620f76bf8b7"
+    },
+    "Figura_4": {
+      "sha256_pdf_envio": "028079245744e4829dc6dc1c32252bd5afd0bd064cc288d6290fdc5de5365825"
+    },
+    "Figura_5": {
+      "sha256_pdf_envio": "3308f50836232d1681ed26c909f0631ca652a77f664dd20017c497bd73bb3bfd",
+      "sha256_png_envio": "b4ba87882a0f9ec9237134f40017834ad8a3fd75a75c63ea4f8586960ce089c2"
+    },
+    "Figura_6": {
+      "sha256_pdf_envio": "a50162ae6367c36da83ca6c2118b59a7f0351b4b7b3f6985ce0a351c747c4ce0",
+      "sha256_png_envio": "880001e52376a0166498b92e3ad22649cfe94e0c0af3d1eb1e2d92712002a749"
+    },
+    "Figura_S1": {
+      "sha256_pdf_envio": "1d1fd2fde7bf5350ba6dae8cb8fc5cf87b183849509dbb19dc94eeb23898a947"
+    },
+    "Figura_S2": {
+      "sha256_pdf_envio": "d1ca2d48b0a58e85c3dceff7060cb8153d203ace7add8a6f732e738e0e55fa15",
+      "sha256_png_envio": "ff8a1e5cb75cbc37f9e5d2fe341101478f6b39bfaa30c6e7345c1b84da084e40"
+    },
+    "Figura_S3": {
+      "sha256_pdf_envio": "8d3f544607395fecda3b710213b5794f919075ca0bb60f2d71b3cdda8f838a02"
+    },
+    "Figura_S4": {
+      "sha256_pdf_envio": "d3e5ad5e215ebdf6cb9aa23b9d447952c638f652595b135f59fcaec0d409f1e6"
+    },
+    "Figura_S5": {
+      "sha256_pdf_envio": "175a1ffd4bdcc198f473415112f1a3c020c0829081ce29ff63c3cd0e480ad76c",
+      "sha256_png_envio": "64bb4de421f3b39083d4b68909706b770fd7c15175224b36b0e270d2a0857254"
+    },
+    "Figura_S6": {
+      "sha256_pdf_envio": "9540c503609ddf0e92d1de31bfee45cca24d153205bb9f6094c0c4b0073f8cb5"
+    }
+  },
+  "nota": "Los PDF contienen fechas de generación. La igualdad se comprueba por render y texto; los hashes identifican los archivos de envío."
+}

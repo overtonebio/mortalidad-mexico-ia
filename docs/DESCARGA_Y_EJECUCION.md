@@ -4,6 +4,10 @@ Actualizado el 14 de octubre de 2026. Los dos paquetes originales v13 están dis
 
 Esta entrega corresponde al código y los resultados de referencia v13 conservados aquí. Las versiones editoriales posteriores del manuscrito pueden cambiar numeración y redacción; esta carga no reemplaza los análisis ni afirma una reproducción integral de esas versiones.
 
+La actualización v20 usa estos mismos archivos sin cambios. Para generar las figuras vigentes y recalcular
+localidad después de extraerlos, siga [REPRODUCCION_V20.md](REPRODUCCION_V20.md); los comandos históricos
+de abajo siguen disponibles para la base v13.
+
 ## 1. Descargar los dos paquetes
 
 Abra la [entrega privada](https://github.com/overtonebio/mortalidad-mexico-ia/releases/tag/datos-v13-20261014), despliegue **Assets** y descargue:

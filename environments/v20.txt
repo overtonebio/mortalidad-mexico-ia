@@ -1,0 +1,2 @@
+-r c50-figuras.txt
+# La interacción localidad-periodo usa el mismo entorno C50.
