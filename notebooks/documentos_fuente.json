@@ -1,0 +1,869 @@
+{
+  "figuras": {
+    "1": {
+      "titulo": "Diseño del estudio. a: periodos de entrenamiento y prueba; cada pronóstico utiliza datos del estudio anteriores a su inicio. La validación termina antes de 2020; el tramo rayado indica el cuarto año, evaluado desde 2014 y 2015. La mortalidad esperada se pronosticó desde diciembre de 2019; el quinto año (2024) no tiene validación. b: flujo del análisis, incluidos los estudios exploratorios de tendencia y lugar de defunción realizados después del análisis principal. WQL: pérdida de cuantiles ponderada, medida del error del pronóstico.",
+      "fuentes": [
+        "ninguno (diagrama)"
+      ],
+      "codigo": "src/figuras/figura_diseno_v11.py",
+      "pie": "**Figura 1.** Diseño del estudio. a: periodos de entrenamiento y prueba; cada pronóstico utiliza datos del estudio anteriores a su inicio. La validación termina antes de 2020; el tramo rayado indica el cuarto año, evaluado desde 2014 y 2015. La mortalidad esperada se pronosticó desde diciembre de 2019; el quinto año (2024) no tiene validación. b: flujo del análisis, incluidos los estudios exploratorios de tendencia y lugar de defunción realizados después del análisis principal. WQL: pérdida de cuantiles ponderada, medida del error del pronóstico.",
+      "alcance": "Diagrama del diseño: no representa una nueva estimación estadística."
+    },
+    "2": {
+      "titulo": "Exactitud de diez modelos en 2 870 series mensuales de mortalidad (tres fechas de inicio, con pruebas anteriores a 2020, 36 meses). a: rango promedio de la WQL en cada serie (1 = mejor) y diferencia crítica (DC) de Nemenyi; con 28 conglomerados de causa, DC = 2.56 (tabla S10). b: Error (WQL) relativo al log-lineal por plazo del pronóstico (negativo = menor error). c: Error (WQL) relativo por nivel geográfico y grupo de edad. d: exactitud y proporción de observaciones dentro del intervalo de predicción de 80 % (línea: 80 %). LightGBM y N-HiTS se entrenaron conjuntamente con las series del estudio; Chronos-2 se evaluó sin adaptación local.",
+      "fuentes": [
+        "results/reference/benchmark/resultados/benchmark/numeros_repro.json; friedman_por_serie.json"
+      ],
+      "codigo": "src/figuras/exportar_figuras_v13.py → figuras_base_v9.fig1_desde_numeros",
+      "pie": "**Figura 2.** Exactitud de diez modelos en 2 870 series mensuales de mortalidad (tres fechas de inicio, con pruebas anteriores a 2020, 36 meses). a: rango promedio de la WQL en cada serie (1 = mejor) y diferencia crítica (DC) de Nemenyi; con 28 conglomerados de causa, DC = 2.56 (tabla S10). b: Error (WQL) relativo al log-lineal por plazo del pronóstico (negativo = menor error). c: Error (WQL) relativo por nivel geográfico y grupo de edad. d: exactitud y proporción de observaciones dentro del intervalo de predicción de 80 % (línea: 80 %). LightGBM y N-HiTS se entrenaron conjuntamente con las series del estudio; Chronos-2 se evaluó sin adaptación local.",
+      "alcance": "Métricas recalculadas desde los NPZ guardados; no se vuelven a entrenar los modelos."
+    },
+    "3": {
+      "titulo": "Falsas alarmas y detección de exceso en 2017-2019, años sin pandemia, con un umbral superior calibrado en años previos para cada año del plazo del pronóstico (objetivo común, 5 %). a: proporción de evaluaciones anuales de las series señaladas como exceso (IC 95 %). b: proporción en que se detectó un exceso simulado de 20 % (símbolos llenos, IC 95 %) o de 10 % (vacíos). c: diferencia entre mortalidad observada y esperada en 2022 en las series nacionales de cáncer (combinación de seis modelos; barras: intervalo de predicción de 90 %). LightGBM y N-HiTS se entrenaron conjuntamente con las series del estudio; Chronos-2 se evaluó sin adaptación local.",
+      "fuentes": [
+        "results/reference/benchmark/resultados/benchmark/numeros_repro.json; atlas_repro.csv.gz; p2_*"
+      ],
+      "codigo": "src/figuras/exportar_figuras_v13.py → fig2b",
+      "pie": "**Figura 3.** Falsas alarmas y detección de exceso en 2017-2019, años sin pandemia, con un umbral superior calibrado en años previos para cada año del plazo del pronóstico (objetivo común, 5 %). a: proporción de evaluaciones anuales de las series señaladas como exceso (IC 95 %). b: proporción en que se detectó un exceso simulado de 20 % (símbolos llenos, IC 95 %) o de 10 % (vacíos). c: diferencia entre mortalidad observada y esperada en 2022 en las series nacionales de cáncer (combinación de seis modelos; barras: intervalo de predicción de 90 %). LightGBM y N-HiTS se entrenaron conjuntamente con las series del estudio; Chronos-2 se evaluó sin adaptación local.",
+      "alcance": "Detector y atlas recalculados desde los NPZ guardados, conservando la separación temporal."
+    },
+    "4": {
+      "titulo": "Cáncer de mama en mujeres de 20 años o más, 2012-2024. a: tasa estandarizada por edad (TEE) mensual, anualizada por 100 000 mujeres-año, observada y esperada sin pandemia (combinación de seis modelos; banda: intervalo de predicción mensual de 80 %, 2020-2023; discontinua: 2024, solo estimación puntual). b: error de validación en la serie nacional en nueve fechas de inicio trimestrales (puntos) y su media (barra). MASE: error absoluto medio del pronóstico dividido entre el del pronóstico ingenuo estacional dentro del periodo de entrenamiento; < 1 indica menor error que ese ingenuo, no una comparación con el ingenuo en el periodo de prueba. c: diferencia anual entre TEE observada y esperada por modelo; combinación con intervalo de predicción de 90 % de nivel nominal. d: diferencia por edad (combinación). Sombreado: 2024, sin validación del quinto año y con registro tardío corregido.",
+      "fuentes": [
+        "results/reference/benchmark/resultados/p1_*; data: entradas/tsfm_*"
+      ],
+      "codigo": "src/figuras/exportar_figuras_v13.py → fig4b",
+      "pie": "**Figura 4.** Cáncer de mama en mujeres de 20 años o más, 2012-2024. a: tasa estandarizada por edad (TEE) mensual, anualizada por 100 000 mujeres-año, observada y esperada sin pandemia (combinación de seis modelos; banda: intervalo de predicción mensual de 80 %, 2020-2023; discontinua: 2024, solo estimación puntual). b: error de validación en la serie nacional en nueve fechas de inicio trimestrales (puntos) y su media (barra). MASE: error absoluto medio del pronóstico dividido entre el del pronóstico ingenuo estacional dentro del periodo de entrenamiento; < 1 indica menor error que ese ingenuo, no una comparación con el ingenuo en el periodo de prueba. c: diferencia anual entre TEE observada y esperada por modelo; combinación con intervalo de predicción de 90 % de nivel nominal. d: diferencia por edad (combinación). Sombreado: 2024, sin validación del quinto año y con registro tardío corregido.",
+      "alcance": "Intervalos y resúmenes recalculados; los pronósticos y backtests tsfm_* son insumos originales guardados."
+    },
+    "5": {
+      "titulo": "Análisis exploratorios de cáncer de mama en mujeres de 20 años o más. a: tasa estandarizada por edad (TEE), tendencia segmentada y continuación de la tendencia previa a marzo de 2020 (discontinua); banda: IC 95 % de la tendencia. b: media anual de las tasas mensuales por lugar; unidades médicas: públicas y privadas; 2024 (símbolo vacío), observado sin corrección. c: proporciones ajustadas por edad, entidad y mes (bandas: IC 95 %), continuación previa y valores observados (puntos). d: diferencias ajustadas frente a la continuación previa, en puntos porcentuales; IC 95 % por 10 000 simulaciones. Ajustes: 2012-2023; covarianza temporal robusta con 12 rezagos. Las líneas discontinuas son continuaciones descriptivas de modelos ajustados a toda la serie. Los IC no son intervalos de predicción; las diferencias no identifican causas.",
+      "fuentes": [
+        "results/reference/c50/resultados/; results/reference/c50/tablas/; data: c50/paquete_original"
+      ],
+      "codigo": "src/c50/figuras_c50.py",
+      "pie": "**Figura 5.** Análisis exploratorios de cáncer de mama en mujeres de 20 años o más. a: tasa estandarizada por edad (TEE), tendencia segmentada y continuación de la tendencia previa a marzo de 2020 (discontinua); banda: IC 95 % de la tendencia. b: media anual de las tasas mensuales por lugar; unidades médicas: públicas y privadas; 2024 (símbolo vacío), observado sin corrección. c: proporciones ajustadas por edad, entidad y mes (bandas: IC 95 %), continuación previa y valores observados (puntos). d: diferencias ajustadas frente a la continuación previa, en puntos porcentuales; IC 95 % por 10 000 simulaciones. Ajustes: 2012-2023; covarianza temporal robusta con 12 rezagos. Las líneas discontinuas son continuaciones descriptivas de modelos ajustados a toda la serie. Los IC no son intervalos de predicción; las diferencias no identifican causas.",
+      "alcance": "Resultados C50 recalculados desde el extracto distribuido. IC de parámetros y medias ajustadas; análisis exploratorio."
+    },
+    "6": {
+      "titulo": "Ajuste fino de Chronos-2 (inicio en diciembre de 2016, 36 meses). Chronos-2-LoRA: adaptación mediante LoRA; ajuste completo: actualización de todos los parámetros. a: error (WQL) relativo a Chronos-2 sin adaptación (media geométrica por serie); barras con semilla 0 y puntos con semillas 0, 1 y 2 para LoRA de 1 000 pasos. b: proporción de series que mejoran con semilla 0. c: Chronos-2 sin adaptación y LoRA con todas las series, sin series de mama y con exclusión estricta (sin mama ni todas las causas). LightGBM se entrenó con datos del estudio; las líneas de referencia corresponden al mismo origen y horizonte.",
+      "fuentes": [
+        "data: entradas/numeros_G.json, finetune2_resultados.csv.gz, finetune_estricto_resultados.csv.gz; results/reference/benchmark/resultados/p4b_lora_armonizado.csv"
+      ],
+      "codigo": "src/figuras/actualizar_figuras.py → fig3b + rótulos v13",
+      "pie": "**Figura 6.** Ajuste fino de Chronos-2 (inicio en diciembre de 2016, 36 meses). Chronos-2-LoRA: adaptación mediante LoRA; ajuste completo: actualización de todos los parámetros. a: error (WQL) relativo a Chronos-2 sin adaptación (media geométrica por serie); barras con semilla 0 y puntos con semillas 0, 1 y 2 para LoRA de 1 000 pasos. b: proporción de series que mejoran con semilla 0. c: Chronos-2 sin adaptación y LoRA con todas las series, sin series de mama y con exclusión estricta (sin mama ni todas las causas). LightGBM se entrenó con datos del estudio; las líneas de referencia corresponden al mismo origen y horizonte.",
+      "alcance": "Figura desde resultados originales guardados de entrenamiento y adaptación; la tabla S4 recalcula su agregación. No se vuelve a entrenar."
+    },
+    "S1": {
+      "titulo": "Aplicación al cáncer de mama. a: región (TEE). b: derechohabiencia (conteos). Barras: intervalo de predicción de 90 % de nivel nominal calibrado con errores de conteos del conjunto de series (2020-2023); 2024 (sombreado) solo estimación puntual. c: escenarios deterministas de defunciones por cáncer de mama adelantadas a 2021-2023 por muertes por COVID-19 (barras: escenario de referencia por riesgo relativo supuesto y fracción f; líneas de error: mínimo y máximo con las variantes de la tabla S11B), frente al déficit puntual en conteos (línea continua) y al derivado de la TEE (discontinua), cuyos intervalos anuales incluyen el cero. Son supuestos, no estimaciones. d: lugar de defunción.",
+      "fuentes": [
+        "results/reference/benchmark/resultados/p1_intervalos_mama_entre_series.csv, p3_*; data: entradas/lugar_defuncion_C50.csv"
+      ],
+      "codigo": "src/figuras/exportar_figuras_v13.py → figS1b",
+      "pie": "**Figura S1.** Aplicación al cáncer de mama. a: región (TEE). b: derechohabiencia (conteos). Barras: intervalo de predicción de 90 % de nivel nominal calibrado con errores de conteos del conjunto de series (2020-2023); 2024 (sombreado) solo estimación puntual. c: escenarios deterministas de defunciones por cáncer de mama adelantadas a 2021-2023 por muertes por COVID-19 (barras: escenario de referencia por riesgo relativo supuesto y fracción f; líneas de error: mínimo y máximo con las variantes de la tabla S11B), frente al déficit puntual en conteos (línea continua) y al derivado de la TEE (discontinua), cuyos intervalos anuales incluyen el cero. Son supuestos, no estimaciones. d: lugar de defunción.",
+      "alcance": "Intervalos y escenarios recalculados; los pronósticos y la distribución por lugar del panel d se conservan como entradas originales guardadas."
+    },
+    "S2": {
+      "titulo": "Clasificador de causa C50 aplicado a defunciones con causa mal definida. a: calibración en 2019 (defunciones con causa conocida). b: importancia de variables (SHAP). c: defunciones C50 estimadas en causas mal definidas por encima del promedio de 2017-2019 (2024 en tono claro: sensibilidad).",
+      "fuentes": [
+        "data: entradas/subregistro_*"
+      ],
+      "codigo": "src/figuras/exportar_figuras_v13.py → figS2b",
+      "pie": "**Figura S2.** Clasificador de causa C50 aplicado a defunciones con causa mal definida. a: calibración en 2019 (defunciones con causa conocida). b: importancia de variables (SHAP). c: defunciones C50 estimadas en causas mal definidas por encima del promedio de 2017-2019 (2024 en tono claro: sensibilidad).",
+      "alcance": "Resultados guardados del clasificador C50 y de SHAP; no se vuelve a entrenar ni a inferir sobre microdatos nacionales completos."
+    },
+    "S3": {
+      "titulo": "Piloto histórico de adaptación de Chronos-2: 1 328 series con media ≥ 5 defunciones/mes en 2012-2019 (estrato 5-10), con orígenes en diciembre de 2015 y diciembre de 2016. Sin adaptación: modelo original; LoRA: versión Chronos-2-LoRA del piloto; contexto: información entre series. Los resultados no se actualizaron y no son directamente comparables con la figura 6 y la tabla S4. c: solo estimaciones puntuales; 2024 (sombreado) sin validación.",
+      "fuentes": [
+        "data: entradas/finetune_resultados.csv.gz, finetune_rel_por_volumen.csv"
+      ],
+      "codigo": "src/figuras/actualizar_figuras.py → figS3b + rótulos v13",
+      "pie": "**Figura S3.** Piloto histórico de adaptación de Chronos-2: 1 328 series con media ≥ 5 defunciones/mes en 2012-2019 (estrato 5-10), con orígenes en diciembre de 2015 y diciembre de 2016. Sin adaptación: modelo original; LoRA: versión Chronos-2-LoRA del piloto; contexto: información entre series. Los resultados no se actualizaron y no son directamente comparables con la figura 6 y la tabla S4. c: solo estimaciones puntuales; 2024 (sombreado) sin validación.",
+      "alcance": "Piloto histórico desde archivos guardados; no se vuelve a ajustar y no es comparable directamente con el análisis principal."
+    },
+    "S4": {
+      "titulo": "Variantes del análisis de tendencia de la TEE de cáncer de mama (IC 95 % de parámetros de la trayectoria, no intervalos de predicción). a: pendiente anual previa a marzo de 2020. b: pendiente anual posterior. c: cambio de nivel en el corte. Círculos: serie nacional; cuadrados: grupos de edad en el modelo conjunto con covarianza de Driscoll-Kraay. La tabla S19 reúne todas las variantes ejecutadas.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_tendencia_ampliaciones.csv"
+      ],
+      "codigo": "src/c50/figuras_c50.py",
+      "pie": "**Figura S4.** Variantes del análisis de tendencia de la TEE de cáncer de mama (IC 95 % de parámetros de la trayectoria, no intervalos de predicción). a: pendiente anual previa a marzo de 2020. b: pendiente anual posterior. c: cambio de nivel en el corte. Círculos: serie nacional; cuadrados: grupos de edad en el modelo conjunto con covarianza de Driscoll-Kraay. La tabla S19 reúne todas las variantes ejecutadas.",
+      "alcance": "Variantes C50 recalculadas; los parámetros e IC describen trayectorias, no incertidumbre predictiva."
+    },
+    "S5": {
+      "titulo": "Lugar de defunción por cáncer de mama. a: proporción anual ajustada por edad quinquenal, entidad y mes (IC 95 %), 2012-2023. b: diferencia en 2023 frente a la continuación de la tendencia previa en las sensibilidades prefijadas (puntos porcentuales, IC 95 %; tabla S22).",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_lugar_proporcion_ajustada_anual.csv"
+      ],
+      "codigo": "src/c50/figuras_c50.py",
+      "pie": "**Figura S5.** Lugar de defunción por cáncer de mama. a: proporción anual ajustada por edad quinquenal, entidad y mes (IC 95 %), 2012-2023. b: diferencia en 2023 frente a la continuación de la tendencia previa en las sensibilidades prefijadas (puntos porcentuales, IC 95 %; tabla S22).",
+      "alcance": "Modelos de lugar recalculados con 10 000 simulaciones; diferencias en puntos porcentuales."
+    },
+    "S6": {
+      "titulo": "Diagnóstico del modelo principal de tendencia. a: residuos mensuales en escala logarítmica (línea punteada: marzo de 2020). b: autocorrelación de los residuos (banda: ± 1.96/√144).",
+      "fuentes": [
+        "results/reference/c50/resultados/residuos_ITS_principal.csv"
+      ],
+      "codigo": "src/c50/figuras_c50.py",
+      "pie": "**Figura S6.** Diagnóstico del modelo principal de tendencia. a: residuos mensuales en escala logarítmica (línea punteada: marzo de 2020). b: autocorrelación de los residuos (banda: ± 1.96/√144).",
+      "alcance": "Residuos y diagnósticos del ajuste de tendencia recalculado; las bandas ACF son aproximadas."
+    }
+  },
+  "tablas": {
+    "1": {
+      "titulo": "Exactitud y detección de exceso de los diez modelos en 2 870 series mensuales de mortalidad, 2015-2019",
+      "fuentes": [
+        "data: benchmark/pronosticos/publicados/*.npz; datos/corpus2"
+      ],
+      "codigo": "src/benchmark/auditoria/reproducir_benchmark.py; analisis/p2_deteccion_temporal.py; numeros_v9.py; analisis/tabla1_y_S15.py",
+      "nota": "WQL: pérdida de cuantiles ponderada; menor es mejor. IC 95 % por bootstrap de 28 conglomerados de causa. El intervalo mensual nominal es de 80 %; el detector D1 es unilateral."
+    },
+    "2": {
+      "titulo": "Mortalidad por cáncer de mama observada y esperada sin pandemia (combinación de seis modelos) en mujeres de 20 años o más, y diferencia porcentual con intervalo de predicción de 90 %, 2020-2024",
+      "fuentes": [
+        "NPZ publicados; data: entradas/tsfm_exceso_anual*.csv"
+      ],
+      "codigo": "src/benchmark/analisis/p1_intervalos_mama.py; tablas_v9.py",
+      "nota": "TEE por 100 000 mujeres-año, media de 12 tasas mensuales anualizadas. IP 90 % de nivel nominal calibrado con errores de conteos entre series; no es IC de parámetros. 2024†: observación corregida por registro tardío, sin validación del quinto año; solo estimación puntual."
+    },
+    "S1": {
+      "titulo": "Grupos de causa básica de defunción (CIE-10) y número de series incluidas por nivel.",
+      "fuentes": [
+        "data:benchmark/entradas/tablaS1_grupos_CIE10.csv"
+      ],
+      "codigo": "src/benchmark/analisis/reconstruir_S1_S2A.py",
+      "nota": "Tipo y CIE10 conservados como definiciones de la entrada. No reproduce el corpus desde microdatos ni recupera el generador histórico."
+    },
+    "S2A": {
+      "titulo": "Validación a 48 meses de la evaluación comparativa (orígenes de diciembre de 2014 y 2015; 2 870 series; periodos de prueba hasta 2018 y 2019).",
+      "fuentes": [
+        "data:benchmark/entradas/tablaS2A_validacion48_benchmark.csv"
+      ],
+      "codigo": "src/benchmark/analisis/reconstruir_S1_S2A.py",
+      "nota": "Código nuevo de Codex; generador histórico no recuperado. Reproduce desde los NPZ h48 guardados, no los regenera."
+    },
+    "S2B": {
+      "titulo": "Cáncer de mama: diferencia entre mortalidad observada y esperada (ensamble) con tres enfoques de incertidumbre, 2020-2024.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2B_v9.csv"
+      ],
+      "codigo": "analisis/p1_intervalos_mama.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S2C": {
+      "titulo": "Condiciones de validez de los rangos por serie (TEE nacional, ensamble).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2C_diagnostico_por_serie.csv"
+      ],
+      "codigo": "p1_intervalos_mama.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S2D": {
+      "titulo": "Placebo de conteos con separación temporal por horizonte para la calibración entre series (ensamble; bilateral, nominal 10 %; estratos de volumen de 2012-2014).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2D_placebo_entre_series.csv"
+      ],
+      "codigo": "p1_intervalos_mama.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S2E": {
+      "titulo": "Errores de calibración entre series por estrato de volumen que provienen de series de cáncer de mama o de todas las causas.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2F_pool_calibracion.csv"
+      ],
+      "codigo": "p1b_auditoria_intervalos.py; tablas_v9.py",
+      "nota": "El CSV interno se llama S2F; la tabla del artículo es S2E."
+    },
+    "S2F": {
+      "titulo": "Comprobación con separación temporal: errores de validación de las series de mama frente a umbrales calculados con años previos y sin series de mama ni de todas las causas.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2G_comprobacion_separada.csv"
+      ],
+      "codigo": "p1b_auditoria_intervalos.py; tablas_v9.py",
+      "nota": "El CSV interno se llama S2G; la tabla del artículo es S2F."
+    },
+    "S2G": {
+      "titulo": "Sensibilidad de los intervalos de predicción de mama a excluir de la calibración las series de cáncer de mama y de todas las causas, 2020-2023.",
+      "fuentes": [
+        "results/reference/benchmark/resultados/p1b_sensibilidad_sin_C50.csv"
+      ],
+      "codigo": "p1b_auditoria_intervalos.py",
+      "nota": "Configuración de exclusión de calibración (C50 y todas las causas). Las dos cifras no encontradas son rótulos de edad (40, 60)."
+    },
+    "S2H": {
+      "titulo": "Validación específica de la TEE nacional de cáncer de mama: MASE por modelo (nueve orígenes trimestrales, 2014-2016, 36 meses).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS2H_mase_mama.csv"
+      ],
+      "codigo": "tablas_v9.py",
+      "nota": ""
+    },
+    "S3": {
+      "titulo": "Variantes de predicción conformal entre series en el placebo 2017-2019 (nominal, 90 %).",
+      "fuentes": [
+        "data:benchmark/entradas/conformal_variantes_placebo.csv"
+      ],
+      "codigo": "(generador no localizado)",
+      "nota": ""
+    },
+    "S4": {
+      "titulo": "Ajuste fino de Chronos-2 (origen de diciembre de 2016, un solo origen, 2 870 series, horizonte de 36 meses).",
+      "fuentes": [
+        "results/reference/benchmark/resultados/p4b_lora_armonizado.csv; data:benchmark/entradas/finetune2_resultados.csv.gz, finetune_estricto_resultados.csv.gz"
+      ],
+      "codigo": "analisis/p4b_lora.py (agregación); lora/finetune2.py y finetune_estricto.py (nivel 4, no ejecutado)",
+      "nota": "Se recalculó la agregación; el ajuste fino no se reejecutó. Exclusiones verificadas en código y corpus: 66 series C. mama; estricta 66 + 264 «Todas las causas» = 330 excluidas, 2 540 de entrenamiento (finetune_estricto_log.json)."
+    },
+    "S5": {
+      "titulo": "Desempeño del clasificador de causa C50 (LightGBM; mujeres ≥ 20 años; entrenamiento 2012-2018, validación 2019).",
+      "fuentes": [
+        "data:benchmark/entradas/subregistro_desempeno.csv"
+      ],
+      "codigo": "construccion_datos/subregistro.py (no escribe este CSV)",
+      "nota": ""
+    },
+    "S6": {
+      "titulo": "Recalibración de los intervalos mensuales de 80 % con regresión cuantílica conformal (CQR), origen de diciembre de 2016, 2 870 series.",
+      "fuentes": [
+        "data:benchmark/entradas/cqr_recalibracion_2016.csv"
+      ],
+      "codigo": "(generador no localizado)",
+      "nota": ""
+    },
+    "S7": {
+      "titulo": "Costo computacional por origen (2 870 series, horizonte de 36 meses, 3 cuantiles).",
+      "fuentes": [
+        "data:benchmark/entradas/tablaS7_costo_computacional.csv; costo_computacional.json"
+      ],
+      "codigo": "(medición de la ejecución original)",
+      "nota": ""
+    },
+    "S8": {
+      "titulo": "Diferencia entre defunciones observadas y esperadas por cáncer de mama en mujeres (conteos; % e intervalo de predicción conformal de 90 %), por modelo y grupo de edad, 2020-2023.",
+      "fuentes": [
+        "data:benchmark/entradas/tablaS8_conteos_mama_todos_modelos.csv"
+      ],
+      "codigo": "(generador no localizado)",
+      "nota": ""
+    },
+    "S9": {
+      "titulo": "Falsas alarmas y detección de exceso con el detector unilateral temporal por horizonte (D1; umbral con el origen 2014, ajuste con 2015, prueba con 2016; años 2017-2019; 2 870 series × 3 años).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS9_deteccion_v9.csv"
+      ],
+      "codigo": "p2_deteccion_temporal.py; tablas_v9.py",
+      "nota": "Umbral con origen 2014, ajuste 2015, prueba 2016 (2017-2019)."
+    },
+    "S9B": {
+      "titulo": "Controles positivos: series-año de 2020-2021 con exceso detectado (diabetes, cardiopatía isquémica y todas las causas; nacionales y estatales, todas las edades).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS9B_control_positivo_v9.csv"
+      ],
+      "codigo": "p2_deteccion_temporal.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S9C": {
+      "titulo": "Diseños de detección de exceso: principal (D1) y sensibilidades (D0, D2, D3).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS9C_disenos_deteccion.csv"
+      ],
+      "codigo": "p2_deteccion_temporal.py (ESTRATOS=2012-2019); tablas_v9.py",
+      "nota": ""
+    },
+    "S9D": {
+      "titulo": "Desplazamiento aditivo δ (escala logarítmica) del umbral superior por modelo y año del horizonte (D1).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS9D_delta.csv"
+      ],
+      "codigo": "p2_deteccion_temporal.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S10": {
+      "titulo": "Sensibilidad de Friedman/Nemenyi a la dependencia entre series (rango promedio de la WQL; 1 = mejor).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS10_friedman_sensibilidad.csv"
+      ],
+      "codigo": "p4_friedman_sensibilidad.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S10B": {
+      "titulo": "Diferencias de rango promedio entre pares de modelos consecutivos con IC 95 % por bootstrap de grupos de causa (2 000 réplicas).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS10B_pares_bootstrap.csv"
+      ],
+      "codigo": "p4_friedman_sensibilidad.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S11": {
+      "titulo": "Déficit puntual de cáncer de mama, escenarios de desplazamiento temporal (cosecha) y causas mal definidas: ventana principal 2021-2023 y sensibilidad 2021-2024.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS11_cosecha.csv"
+      ],
+      "codigo": "p3_cosecha_2021_2023.py; tablas_v9.py",
+      "nota": "p3 verifica además que reproduce entradas/cosecha_simulaciones.npy (configuración retirada; solo trazabilidad)."
+    },
+    "S11B": {
+      "titulo": "Escenarios deterministas: mujeres con cáncer de mama entre las defunciones femeninas por COVID-19 de 2020-2022 (H) y defunciones por cáncer de mama adelantadas a 2021-2023 (A).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS11B_escenarios_cosecha.csv"
+      ],
+      "codigo": "p3_cosecha_2021_2023.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S11C": {
+      "titulo": "Parámetros de los escenarios de desplazamiento temporal: fuente, población, medida, transformación, valores y justificación.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS11C_parametros_cosecha.csv"
+      ],
+      "codigo": "tablas_v9.py (importa codigo/documentos/referencias.py)",
+      "nota": "Numeración bibliográfica editorial; no afecta resultados. Ver PENDIENTES."
+    },
+    "S12A": {
+      "titulo": "Defunciones por cáncer de mama (mujeres ≥ 20 años) por código de derechohabiencia y año de ocurrencia.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS12A_derechohab_codigos.csv"
+      ],
+      "codigo": "p5_derechohab.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S12B": {
+      "titulo": "Distribución porcentual por grupo armonizado de derechohabiencia y año.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS12B_derechohab_grupos.csv"
+      ],
+      "codigo": "p5_derechohab.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S12C": {
+      "titulo": "Catálogos oficiales de derechohabiencia del INEGI por periodo (datos abiertos de defunciones registradas).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS12C_catalogos_inegi.csv"
+      ],
+      "codigo": "p5_derechohab.py; tablas_v9.py",
+      "nota": ""
+    },
+    "S13": {
+      "titulo": "Diferencias de implementación entre la evaluación comparativa y la aplicación al cáncer de mama.",
+      "fuentes": [
+        ""
+      ],
+      "codigo": "(sin generador de datos)",
+      "nota": "Ver métodos S1 y S2 del suplemento. Los métodos clásicos corresponden a la referencia 15 del manuscrito; Chronos-Bolt y TimesFM-2.5 a las referencias 16 y 17. Estas versiones documentan la implementación original; no son dependencias de recálculo del notebook."
+    },
+    "S14": {
+      "titulo": "Cifras publicadas (pronósticos guardados) frente a una nueva ejecución completa con semillas fijas.",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS14_reproducibilidad.csv"
+      ],
+      "codigo": "p5_comparar_rerun.py (procesa los dos conjuntos de NPZ)",
+      "nota": "No reentrena: compara pronósticos guardados de dos ejecuciones."
+    },
+    "S15": {
+      "titulo": "Versión completa de la tabla 1: desempeño de los diez modelos en 2 870 series (orígenes de diciembre de 2014, 2015 y 2016; 36 meses).",
+      "fuentes": [
+        "results/reference/benchmark/documentos/tablas/tablaS15_desempeno_completo.csv"
+      ],
+      "codigo": "analisis/tabla1_y_S15.py (paso añadido, extraído de generar_manuscrito.py)",
+      "nota": "El ejecutor original no lo regeneraba."
+    },
+    "S16": {
+      "titulo": "Matriz adaptada de TRIPOD+AI (Collins et al., 2024; 27 ítems, 52 subítems) para este estudio ecológico de pronóstico de series de tiempo.",
+      "fuentes": [
+        ""
+      ],
+      "codigo": "(no incorporado: tripod_ai_aplicabilidad.csv pertenece a la edición del documento)",
+      "nota": "Matriz adaptada por los autores a partir de la tabla 2 de TRIPOD+AI (referencia 26 del manuscrito); no es la lista oficial íntegra. Aplica (adaptado): equivalente para series agregadas. No aplica: presupone individuos o intervenciones ausentes en este diseño. No informado: información no proporcionada. APVP y localidad: S12 y tabla S25."
+    },
+    "S17": {
+      "titulo": "Catálogo oficial del INEGI de sitio de ocurrencia de la defunción por archivo anual y agrupación analítica.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_catalogo_sitio_ocurrencia.csv; tablaS_sitio_codigo_por_archivo.csv"
+      ],
+      "codigo": "c50: tabla_catalogos.py; validacion_datos.py",
+      "nota": "Conteos del Word = sumas por código de tablaS_sitio_codigo_por_archivo.csv (verificado)."
+    },
+    "S18": {
+      "titulo": "Flujo de registros y rezago de registro de las defunciones por cáncer de mama en mujeres ≥ 20 años.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_flujo_registros.csv; tablaS_rezago_registro.csv"
+      ],
+      "codigo": "c50: validacion_datos.py",
+      "nota": "Flujo: registros C50 92 218; mujeres 91 582; edad válida ≥ 20 años 91 551; mes válido 91 544; ocurrencia 2012-2024: 91 362. Rezago = año de registro − año de ocurrencia, con archivos hasta 2024. Rezago ≥ 2 años truncado para 2021 y 2022; no observable para 2023 y 2024. Fuente del flujo: tablaS_flujo_registros.csv de esta ejecución."
+    },
+    "S19": {
+      "titulo": "Tendencia de la tasa estandarizada por edad (TEE) de cáncer de mama en mujeres ≥ 20 años: estimaciones con IC 95 % en todas las variantes ejecutadas.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_tendencia_ampliaciones.csv; results/reference/c50/resultados/tendencia_ampliaciones.json; data: c50/paquete_original/exploracion_previa"
+      ],
+      "codigo": "c50: reproducir_its_previa.py; tendencia_ampliaciones.py",
+      "nota": "Pendientes en % anual; nivel en % instantáneo. IC 95 % de parámetros, no intervalos de predicción. Ajustes nacionales y separados: HAC con corrección n/(n−k). Modelo conjunto de edades: Driscoll-Kraay 12, corrección 144/143. Se conservan todas las variantes y los modelos por edad; no se seleccionan por significación."
+    },
+    "S20": {
+      "titulo": "Lugar de defunción por cáncer de mama: razones de momios (RM) del modelo logístico segmentado, análisis principal y sensibilidades.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_lugar_razones_momios.csv"
+      ],
+      "codigo": "c50: lugar_defuncion.py (NSIM=10000, semilla 20260930); tablas_lugar.py",
+      "nota": ""
+    },
+    "S21A": {
+      "titulo": "Proporción estandarizada de defunciones según lugar, continuación de la tendencia previa y diferencia en puntos porcentuales (pp), 2019-2023.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_lugar_proporciones_estandarizadas.csv"
+      ],
+      "codigo": "c50: lugar_defuncion.py; tablas_lugar.py",
+      "nota": ""
+    },
+    "S21B": {
+      "titulo": "Diferencia entre la proporción ajustada en 2023 y en 2019, según modelo de lugar de defunción (pp, IC 95 %).",
+      "fuentes": [
+        "results/reference/c50/resultados/numeros_v11.json"
+      ],
+      "codigo": "c50: lugar_defuncion.py; numeros_v11.py",
+      "nota": "Diferencia entre probabilidades estandarizadas de 2023 y 2019, en puntos porcentuales; IC 95 % por simulación. No compara tasas poblacionales."
+    },
+    "S22": {
+      "titulo": "Diferencia ajustada frente a la continuación de la tendencia previa: análisis de sensibilidad de lugar de defunción.",
+      "fuentes": [
+        "results/reference/c50/resultados/numeros_v11.json"
+      ],
+      "codigo": "c50: lugar_defuncion.py; numeros_v11.py",
+      "nota": "Diferencias en puntos porcentuales frente a la continuación de la tendencia previa; IC 95 %. Se conservan las variantes inferenciales; los ajustes no estimables están documentados en el registro de modelos y sus diagnósticos."
+    },
+    "S23": {
+      "titulo": "Proporción anual ajustada de defunciones por cáncer de mama según lugar y tasa estandarizada por edad (TEE) de defunciones por lugar, 2012-2024.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_lugar_proporcion_ajustada_anual.csv; tablaS_tasas_por_lugar_anuales.csv"
+      ],
+      "codigo": "c50: lugar_defuncion.py; tablas_lugar.py",
+      "nota": "Proporciones ajustadas: edad quinquenal, entidad y mes, 2012-2023. TEE por 100 000 mujeres-año; todas las residencias. 2024: observado sin corrección por registro tardío. Las tasas por lugar suman el total antes de redondear; los modelos binomiales independientes no necesariamente suman 100 %."
+    },
+    "S24": {
+      "titulo": "Diagnóstico de residuos de los modelos de serie temporal interrumpida de las TEE por lugar, 2012-2023.",
+      "fuentes": [
+        "results/reference/c50/tablas/tablaS_tasas_por_lugar_diagnosticos.csv"
+      ],
+      "codigo": "c50: tablas_lugar.py",
+      "nota": "Ljung-Box a 6, 12 y 24 meses: diagnóstico exploratorio sin corrección por multiplicidad. La covarianza HAC modifica los IC; no elimina autocorrelación ni corrige la forma del modelo."
+    },
+    "S25A": {
+      "titulo": "Años potenciales de vida perdidos antes de los 75 años por cáncer de mama",
+      "fuentes": [
+        "results/reference/c50/resultados/v12_apvp_localidad/APVP_anual.csv"
+      ],
+      "codigo": "c50: c50_apvp_localidad_v12.py",
+      "nota": "APVP: mujeres de 20-74 años, suma de 75 − edad cumplida − 0.5. Tasa por 100 000 mujeres de 20-74 años, pesos OMS normalizados e interpolación WPP al día 15. 2024† corregido por registro tardío; sensibilidad fuera del periodo principal."
+    },
+    "S25B": {
+      "titulo": "Tendencia de la tasa de APVP y sensibilidades temporales",
+      "fuentes": [
+        "results/reference/c50/resultados/v12_apvp_localidad/resumen.json"
+      ],
+      "codigo": "c50: c50_apvp_localidad_v12.py",
+      "nota": "Corte en marzo de 2020; HAC Bartlett a 12 meses calendario, corrección n/(n−k). Pendientes en % anual. Cambio de pendiente: 100 × [exp(β posterior − β previa) − 1]. IC normales de parámetros sin ajuste por multiplicidad. 2024† corregido por registro tardío."
+    },
+    "S25C": {
+      "titulo": "Defunciones en el hogar por tamaño de localidad de residencia",
+      "fuentes": [
+        "results/reference/c50/resultados/v12_apvp_localidad/localidad_hogar.csv"
+      ],
+      "codigo": "c50: c50_apvp_localidad_v12.py",
+      "nota": "Mujeres ≥ 20 años fallecidas por C50, residentes en México. Denominador: todas las defunciones de cada tamaño de localidad, incluido sitio 99; sin 99: hogar/(total−sitio 99). Proporciones crudas, sin ajuste por edad, entidad o mes; no son tasas de mortalidad."
+    }
+  },
+  "tablas_documentales": {
+    "S13": {
+      "columnas": [
+        "Aspecto",
+        "Evaluación comparativa",
+        "Aplicación al cáncer de mama"
+      ],
+      "filas": [
+        [
+          "Series",
+          "Conteos mensuales (2 870)",
+          "TEE mensual y conteos de cáncer de mama (11 series)"
+        ],
+        [
+          "Transformación (clásicos)",
+          "log(y + 1); ingenuo en escala original (truncado en 0)",
+          "log(y); ingenuo en escala original"
+        ],
+        [
+          "Trayectorias simuladas",
+          "500",
+          "2 000"
+        ],
+        [
+          "Pronóstico puntual",
+          "Cuantil 0.5 de cada modelo",
+          "Clásicos: media retransformada; fundacionales: mediana; ensamble: mediana de los puntos"
+        ],
+        [
+          "Semillas (publicado)",
+          "Por serie; SARIMA y ETS sin semilla",
+          "default_rng(2026); SARIMA y ETS sin semilla"
+        ],
+        [
+          "Semillas (nueva ejecución, tabla S14)",
+          "SARIMA: default_rng(i); ETS: default_rng(i + 1)",
+          "SARIMA y ETS: default_rng(entero extraído de default_rng(2026))"
+        ],
+        [
+          "Versiones",
+          "amazon/chronos-2 y amazon/chronos-bolt-base (chronos-forecasting 2.3.2); google/timesfm-2.5-200m-pytorch (timesfm 3.0.2); LightGBM 4.7.0; neuralforecast 3.2.2; statsmodels 0.15.0",
+          "Mismos modelos fundacionales y statsmodels"
+        ],
+        [
+          "Edad",
+          "0-39, 40-64 y ≥ 65 años (todas las edades)",
+          "Mujeres ≥ 20 años; 20-39, 40-59 y ≥ 60 años"
+        ],
+        [
+          "Fallos",
+          "Sustitución por log-lineal (0 casos)",
+          "Sin sustitución (0 fallos)"
+        ],
+        [
+          "Orígenes de validación",
+          "3 anuales (36 meses) + 2 (48 meses)",
+          "9 trimestrales (36 meses) + 5 (48 meses)"
+        ],
+        [
+          "Intervalos anuales",
+          "Conformal Mondrian por volumen, entre series",
+          "Conformal entre series con errores de conteos del conjunto de series (principal, nivel nominal); rango por serie (descriptivo)"
+        ],
+        [
+          "Modelos",
+          "10",
+          "8: 4 clásicos, 3 fundacionales y ensamble; los globales solo en conteos del conjunto de series"
+        ]
+      ],
+      "procedencia": "Contenido descriptivo de las implementaciones del estudio, conservado en este inventario."
+    },
+    "S16": {
+      "columnas": [
+        "Sección (TRIPOD+AI)",
+        "Ítem",
+        "Aplicabilidad",
+        "Dónde se informa / justificación"
+      ],
+      "filas": [
+        [
+          "Título",
+          "1",
+          "Aplica",
+          "Título: IA, mortalidad esperada, evaluación comparativa y aplicación al cáncer de mama."
+        ],
+        [
+          "Resumen",
+          "2",
+          "Aplica (adaptado)",
+          "Resumen estructurado según GMM; la lista TRIPOD+AI para resúmenes no se aplicó ítem por ítem."
+        ],
+        [
+          "Antecedentes",
+          "3a",
+          "Aplica",
+          "Introducción: contexto y modelos clásicos habituales."
+        ],
+        [
+          "Antecedentes",
+          "3b",
+          "Aplica (adaptado)",
+          "Propósito: vigilancia poblacional de la mortalidad; usuarios: analistas de salud pública; no hay uso clínico individual."
+        ],
+        [
+          "Antecedentes",
+          "3c",
+          "Aplica (adaptado)",
+          "Diferencias por región y derechohabiencia descritas (resultados; tabla S12); sin análisis formal de desigualdades."
+        ],
+        [
+          "Objetivos",
+          "4",
+          "Aplica",
+          "Introducción, último párrafo (evaluación de modelos y aplicación)."
+        ],
+        [
+          "Datos",
+          "5a",
+          "Aplica",
+          "INEGI, WPP 2024 y Censo 2020 (métodos; S10). S11a: microdatos C50 y reconstrucción de las series."
+        ],
+        [
+          "Datos",
+          "5b",
+          "Aplica",
+          "2012-2024; orígenes de validación de 2014 a 2016 y de aplicación en 2019 (figura 1). S11: lugar 2012-2023; 2024 solo sensibilidad y tasas observadas."
+        ],
+        [
+          "Participantes",
+          "6a",
+          "Aplica (adaptado)",
+          "Ámbito nacional y 32 entidades; unidades: series agregadas, no centros ni individuos."
+        ],
+        [
+          "Participantes",
+          "6b",
+          "Aplica (adaptado)",
+          "Criterios de inclusión de series y de registros (métodos; tabla S1; S10). S11a-b: mujeres ≥ 20 años, mes válido y residencia según análisis."
+        ],
+        [
+          "Participantes",
+          "6c",
+          "No aplica",
+          "Datos agregados de defunciones sin información de tratamientos."
+        ],
+        [
+          "Preparación de datos",
+          "7",
+          "Aplica",
+          "Exclusiones de registros, registro tardío de 2024 (S6) y redistribución de derechohabiencia no especificada (S7). S11a y S18: escenarios de registro tardío, sin imputación de faltantes conocidos."
+        ],
+        [
+          "Resultado",
+          "8a",
+          "Aplica",
+          "Defunciones o TEE mensuales; horizonte de 36- 48 meses. S11d: lugar de defunción y TEE por lugar como desenlaces exploratorios."
+        ],
+        [
+          "Resultado",
+          "8b",
+          "Aplica (adaptado)",
+          "Causa básica certificada y codificada (CIE-10) por el sistema de registro; el estudio no tuvo evaluadores."
+        ],
+        [
+          "Resultado",
+          "8c",
+          "No aplica",
+          "Registros administrativos generados antes del estudio."
+        ],
+        [
+          "Predictores",
+          "9a",
+          "Aplica (adaptado)",
+          "Historia de la propia serie; en modelos globales, también el conjunto de series (S1; S13)."
+        ],
+        [
+          "Predictores",
+          "9b",
+          "Aplica (adaptado)",
+          "Definición de entradas por modelo (S1; S13)."
+        ],
+        [
+          "Predictores",
+          "9c",
+          "No aplica",
+          "Sin medición subjetiva de predictores."
+        ],
+        [
+          "Tamaño de muestra",
+          "10",
+          "Aplica (adaptado)",
+          "2 870 series y 8 610 evaluaciones serie × origen; sin cálculo formal de tamaño. S11a y S18: selección por disponibilidad de registros; sin nuevo cálculo de tamaño."
+        ],
+        [
+          "Datos faltantes",
+          "11",
+          "Aplica",
+          "Registros sin sexo, mes o edad válidos excluidos; no especificados de derechohabiencia redistribuidos (S7). S11a-b: exclusiones documentadas y conservación de filas idénticas sin identificador."
+        ],
+        [
+          "Métodos analíticos",
+          "12a",
+          "Aplica",
+          "Orígenes móviles con entrenamiento y prueba separados en el tiempo (figura 1)."
+        ],
+        [
+          "Métodos analíticos",
+          "12b",
+          "Aplica",
+          "Transformación logarítmica y escalas (S1). S11c: modelos de tendencia en logaritmo de la TEE."
+        ],
+        [
+          "Métodos analíticos",
+          "12c",
+          "Aplica",
+          "Modelos, versiones y parámetros (métodos; S1; S13; código). S11c-d: modelos exploratorios, covarianzas, simulación y versiones en código."
+        ],
+        [
+          "Métodos analíticos",
+          "12d",
+          "Aplica",
+          "Sensibilidad con 28 conglomerados de causa y por nivel (tabla S10). S11c-d y S19-S23: variantes de tendencia y lugar, sin selección por significación."
+        ],
+        [
+          "Métodos analíticos",
+          "12e",
+          "Aplica",
+          "WQL, cobertura, MASE, falsas alarmas y detección. S11c-d: parámetros e IC exploratorios, distintos de métricas predictivas."
+        ],
+        [
+          "Métodos analíticos",
+          "12f",
+          "Aplica",
+          "Recalibración conformal (tabla S6) y adaptación LoRA (tabla S4)."
+        ],
+        [
+          "Métodos analíticos",
+          "12g",
+          "Aplica",
+          "Código y pronósticos guardados en el paquete de recálculo. Código y resultados de C50 incluidos en el paquete v11."
+        ],
+        [
+          "Desbalance de clases",
+          "13",
+          "Aplica",
+          "Solo el clasificador C50: objetivo binario sin reequilibrio; AUPRC y Brier en la tabla S5."
+        ],
+        [
+          "Equidad",
+          "14",
+          "Aplica (adaptado)",
+          "Resultados descriptivos por edad, región y derechohabiencia; no se aplicaron métodos de equidad."
+        ],
+        [
+          "Salida del modelo",
+          "15",
+          "Aplica",
+          "Cuantiles 0.1, 0.5 y 0.9; umbral de detección calibrado (S4)."
+        ],
+        [
+          "Desarrollo frente a evaluación",
+          "16",
+          "Aplica",
+          "Diferencias entre evaluación comparativa y aplicación (tabla S13; cortes de edad)."
+        ],
+        [
+          "Aprobación ética",
+          "17",
+          "Aplica (adaptado)",
+          "No requerida: análisis de datos públicos anonimizados (Declaraciones)."
+        ],
+        [
+          "Ciencia abierta: financiamiento",
+          "18a",
+          "Aplica",
+          "Sin financiamiento."
+        ],
+        [
+          "Ciencia abierta: conflictos",
+          "18b",
+          "Aplica",
+          "Sin conflictos de intereses."
+        ],
+        [
+          "Ciencia abierta: protocolo",
+          "18c",
+          "No informado",
+          "Protocolo previo no informado. Plan exploratorio y adendas en S11; no fue preregistro."
+        ],
+        [
+          "Ciencia abierta: registro",
+          "18d",
+          "No informado",
+          "Registro previo no informado. S11 no tuvo registro prospectivo independiente."
+        ],
+        [
+          "Ciencia abierta: datos",
+          "18e",
+          "Aplica",
+          "Datos públicos (INEGI, WPP, Censo)."
+        ],
+        [
+          "Ciencia abierta: código",
+          "18f",
+          "Aplica (adaptado)",
+          "Código, datos derivados, resultados y pronósticos: Analisis_y_pronosticos.zip, con manifiestos SHA-256."
+        ],
+        [
+          "Participación de pacientes y público",
+          "19",
+          "No informado",
+          "Participación de pacientes o público no informada."
+        ],
+        [
+          "Resultados: participantes",
+          "20a",
+          "Aplica (adaptado)",
+          "Flujo de series (figura 1b; tabla S1). S18: flujo de registros C50."
+        ],
+        [
+          "Resultados: participantes",
+          "20b",
+          "Aplica (adaptado)",
+          "Series por nivel y defunciones observadas (tabla S1; tabla 2). S17-S18: catálogo, conteos y rezago de registro."
+        ],
+        [
+          "Resultados: participantes",
+          "20c",
+          "Aplica (adaptado)",
+          "Diferencias de volumen y de implementación entre conjuntos (S13; estratos de volumen)."
+        ],
+        [
+          "Desarrollo del modelo",
+          "21",
+          "Aplica",
+          "Número de series y evaluaciones por análisis; 9 orígenes en la serie de mama. S11a y S20: periodos y denominadores de los análisis exploratorios."
+        ],
+        [
+          "Especificación del modelo",
+          "22",
+          "Aplica (adaptado)",
+          "Modelos públicos con versión (S13) y código; no hay fórmula para individuos. S11c-d y código C50: especificación reproducible de los modelos exploratorios."
+        ],
+        [
+          "Desempeño del modelo",
+          "23a",
+          "Aplica",
+          "IC por bootstrap de conglomerados; resultados por nivel y subgrupo. S19- S23: IC marginales; Holm solo en familias de comparaciones por edad."
+        ],
+        [
+          "Desempeño del modelo",
+          "23b",
+          "Aplica",
+          "Tablas S10 y S10B. S11 y S19-S23: se documentan también diagnósticos y ajustes no válidos."
+        ],
+        [
+          "Actualización del modelo",
+          "24",
+          "Aplica",
+          "Tablas S4 y S6."
+        ],
+        [
+          "Interpretación",
+          "25",
+          "Aplica",
+          "Discusión. S11e: alcance exploratorio y ausencia de interpretación causal."
+        ],
+        [
+          "Limitaciones",
+          "26",
+          "Aplica",
+          "Discusión, párrafo de limitaciones. S11e: límites de registros, temporalidad e inferencia."
+        ],
+        [
+          "Uso en la práctica",
+          "27a",
+          "Aplica (adaptado)",
+          "Registro tardío y cambios de codificación (discusión; S6- S7). S11b-d: catálogos, registro tardío y separación del código 99."
+        ],
+        [
+          "Uso en la práctica",
+          "27b",
+          "No aplica",
+          "No se ofrece una herramienta para usuarios finales."
+        ],
+        [
+          "Uso en la práctica",
+          "27c",
+          "Aplica (adaptado)",
+          "Recomendaciones de uso en la discusión; sin agenda formal de investigación."
+        ]
+      ],
+      "procedencia": "Matriz TRIPOD+AI adaptada por los autores y conservada en este inventario; no es la lista oficial íntegra."
+    }
+  }
+}

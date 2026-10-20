@@ -9,6 +9,12 @@ México*, número especial de inteligencia artificial; **no publicado** a la fec
 > Archivo de software: [10.5281/zenodo.23480162](https://doi.org/10.5281/zenodo.23480162).
 > Datos y pronósticos: [10.5281/zenodo.23480195](https://doi.org/10.5281/zenodo.23480195).
 
+## Notebook de reproducibilidad
+
+Consulta el [README del notebook](notebooks/README.md) para recorrer el contexto del estudio,
+el código reproducible, las doce figuras y 45 tablas con sus resultados visibles.
+Incluye las instrucciones de preparación y ejecución, y el enlace al notebook interactivo.
+
 ## Versión vigente del manuscrito
 
 La actualización **0.2.0**, preparada el 19 de octubre de 2026, corresponde al **manuscrito v20**.

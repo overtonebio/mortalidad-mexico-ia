@@ -8,6 +8,7 @@ Se mantienen separados porque el benchmark y C50 se reprodujeron con versiones i
 | `benchmark-figuras.txt` | Figuras con el entorno del benchmark | Probado: render idéntico; la huella de datos de la figura 6 difiere |
 | `c50-recalculo.txt` | Nivel 3, C50 (Python 3.12) | Reconstruido con las versiones de la reproducción previa; **probado** (Python 3.12.14, macOS arm64) |
 | `c50-figuras.txt` | Nivel 2 (recomendado para las 12 figuras) | Probado: render y huella de datos idénticos a la referencia |
+| `notebook.txt` | Kernel Python 3.12, JupyterLab y visualización del notebook de reproducibilidad | Incluye `c50-figuras.txt`; el benchmark se ejecuta en su entorno Python 3.11 separado |
 | `comparacion-figuras.txt` | Comparación por render | Probado con pypdfium2 5.9.0 |
 | `entrenamiento-historico.txt` | Nivel 4 | **Histórico declarado**: versiones existentes en PyPI, no instaladas ni probadas |
 | `historico/` | Archivos originales del archivo científico v13 | Sin cambios |
